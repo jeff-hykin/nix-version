@@ -43,8 +43,9 @@ function getAllPackagesIn(hash) {
         // --attr-path is the unqie name for nix-env install
         output = run('nix-env', "-aq", "--attr-path", "--available").stdout
     } else {
-        // --description --meta --json
         // nix-env -I nixpkgs=https://github.com/NixOS/nixpkgs/archive/${COMMIT_HASH}.tar.gz -aq --attr-path --available
+        // TODO: get name and metadata of package using --description --meta --json
+        // right now (on a particular package, not sure which) those options cause an error on mac
         output = run('nix-env', "-I", `nixpkgs=https://github.com/NixOS/nixpkgs/archive/${hash}.tar.gz`, "-aq", "--attr-path", "--available").stdout
     }
     // extract the names and versions
