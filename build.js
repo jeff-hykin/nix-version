@@ -66,7 +66,10 @@ function getAllPackagesIn(hash) {
 let commits = allCommitsInCwd()
 
 let packages = {}
+let index = 0
 for (let each of commits.reverse()) {
+    index++
+    console.log(`on commit ${index} of ${commits.length}`)
     packages = {...packages, ...getAllPackagesIn(each)}
     writeFileSync("./packages.json", JSON.stringify(packages,0,4))
 }
