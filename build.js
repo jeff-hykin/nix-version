@@ -51,7 +51,6 @@ function getAllPackagesIn(hash) {
     // extract the names and versions
     let packages = findAll(/nixpkgs\.(\S+)\s+(.+)/, output)
     packages = packages.map(each=>({ evalName: each[1], version: each[2] }))
-    writeFileSync("./packages.json", JSON.stringify(packages))
 
     // reformat them by name
     let versionIndex = {}
@@ -60,12 +59,14 @@ function getAllPackagesIn(hash) {
         versionIndex[each.evalName][each.version] || (versionIndex[each.evalName][each.version] = {})
         versionIndex[each.evalName][each.version].hash = hash
     }
-    writeFileSync("./version-index.json", JSON.stringify(versionIndex,0,4))
     return versionIndex
 }
 
 
 let commits = allCommitsInCwd()
 
-// TODO: change this to iterate
-let packages = getAllPackagesIn(commits[0])
+let packages = {}
+for (let each of commits.reverse()) {
+    packages = {...packages, ...getAllPackagesIn(each)}
+    writeFileSync("./packages.json", JSON.stringify(packages,0,4))
+}
