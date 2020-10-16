@@ -68,4 +68,4 @@ function getAllPackagesIn(hash) {
 let commits = allCommitsInCwd()
 
 // TODO: change this to iterate
-getAllPackagesIn(commits[0])
+let packages = getAllPackagesIn(commits[0])
