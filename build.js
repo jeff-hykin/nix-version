@@ -37,7 +37,7 @@ function allCommitsInCwd() {
     return cleanListOfCommitHashes
 }
 
-function getAllPackagesIn(hash) {
+function getAllPackagesIn(hash, existingPackageInfo={}) {
     let output
     if (hash == null) {
         // --attr-path is the unqie name for nix-env install
@@ -50,26 +50,40 @@ function getAllPackagesIn(hash) {
     }
     // extract the names and versions
     let packages = findAll(/nixpkgs\.(\S+)\s+(.+)/, output)
-    packages = packages.map(each=>({ evalName: each[1], version: each[2] }))
 
     // reformat them by name
-    let versionIndex = {}
-    for (let each of packages) {
-        versionIndex[each.evalName] || (versionIndex[each.evalName] = {})
-        versionIndex[each.evalName][each.version] || (versionIndex[each.evalName][each.version] = {})
-        versionIndex[each.evalName][each.version].hash = hash
+    for (let [ _, name, version ] of packages) {
+        // create package if it doesn't exist
+        if (!(existingPackageInfo[name] instanceof Object)) {
+            existingPackageInfo[name] = {}
+        }
+        // add version if it didn't exist before
+        if (!(existingPackageInfo[name][version] instanceof Object)) {
+            existingPackageInfo[name][version] = {}
+        }
+        // add hash sources
+        if (!(existingPackageInfo[name][version].commits instanceof Array)) {
+            existingPackageInfo[name][version].commits = []
+        }
+        // add this commit
+        existingPackageInfo[name][version].commits.push(hash)
     }
-    return versionIndex
+    return existingPackageInfo
 }
 
+let commits = allCommitsInCwd().reverse()
+let [start, end] = [ (process.argv[2]||0)-0, (process.argv[3]||commits.length)-0]
+commits = commits.slice(start, end)
 
-let commits = allCommitsInCwd()
-
+// took 1d 21h 31m 40s to run this though 24392 commits
 let packages = {}
 let index = 0
-for (let each of commits.reverse()) {
+for (let each of commits) {
     index++
-    console.log(`on commit ${index} of ${commits.length}`)
-    packages = {...packages, ...getAllPackagesIn(each)}
-    writeFileSync("./packages.json", JSON.stringify(packages,0,4))
+    console.log(`on commit ${index+start}/${commits.length+start}`)
+    packages = getAllPackagesIn(each, packages)
+    // every 100 commits, write to disk encase there is an error
+    if (index % 1 == 0) {
+        writeFileSync("./packages.json", JSON.stringify(packages,0,4))
+    }
 }
