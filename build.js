@@ -49,7 +49,7 @@ function getAllPackagesIn(hash, existingPackageInfo={}, hashIndex) {
         // nix-env -I nixpkgs=https://github.com/NixOS/nixpkgs/archive/${COMMIT_HASH}.tar.gz -aq --attr-path --available
         // TODO: get name and metadata of package using --description --meta --json
         // right now (on a particular package, not sure which) those options cause an error on mac
-        output = run('nix-env', "-I", `nixpkgs=https://github.com/NixOS/nixpkgs/archive/${hash}.tar.gz`, "-aq", "--attr-path", "--available").stdout
+        output = run('nix-env', "-f", `nixpkgs=https://github.com/NixOS/nixpkgs/archive/${hash}.tar.gz`, "--query", "--attr-path", "--available").stdout
     }
     // extract the names and versions
     let packages = findAll(/nixpkgs\.(\S+)\s+(.+)/, output)
