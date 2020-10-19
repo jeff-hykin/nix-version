@@ -1,7 +1,10 @@
 #!/usr/bin/env node
 const path = require("path")
-const { existsSync, writeFileSync, readFileSync } = require("fs")
+const { existsSync, writeFileSync, readFileSync, writeFile } = require("fs")
 const { spawnSync } = require('child_process')
+
+// may need to increase the amount of memory available
+// export NODE_OPTIONS="--max-old-space-size=20480" #increase to 20gb
 
 function findAll(regexPattern, sourceString) {
     let output = []
@@ -31,13 +34,13 @@ function run(...args) {
 function allCommitsInCwd() {
     let stringOfCommitHashes = run("git", "log", '--format="%H"').stdout
     let listOfCommitHashes = stringOfCommitHashes.split("\n")
-    let cleanListOfCommitHashes = listOfCommitHashes.map(each=>each.replace(/\"/g, "")).filter(each=>each.length)
-    writeFileSync("./commit-hashes.json", JSON.stringify(cleanListOfCommitHashes, 0, 4))
+    let cleanListOfCommitHashes = listOfCommitHashes.map(each=>each.replace(/\"/g, "")).filter(each=>each.length).reverse()
+    writeFile("./commits.json", JSON.stringify(cleanListOfCommitHashes, 0, 4))
     // remove the redundant quotes, remove empty strings
     return cleanListOfCommitHashes
 }
 
-function getAllPackagesIn(hash, existingPackageInfo={}) {
+function getAllPackagesIn(hash, existingPackageInfo={}, hashIndex) {
     let output
     if (hash == null) {
         // --attr-path is the unqie name for nix-env install
@@ -66,24 +69,37 @@ function getAllPackagesIn(hash, existingPackageInfo={}) {
             existingPackageInfo[name][version].commits = []
         }
         // add this commit
-        existingPackageInfo[name][version].commits.push(hash)
+        existingPackageInfo[name][version].commits.push(hashIndex)
     }
     return existingPackageInfo
 }
 
-let commits = allCommitsInCwd().reverse()
+function savePackagesTo(packages, folderLocation) {
+    const path = require("path")
+    let packageNumber = 0
+    let totalNumber = Object.keys(packages).length
+    for (const [eachPackageName, eachValue] of Object.entries(packages)) {
+        packageNumber++
+        
+        let filePath = path.join(folderLocation, eachPackageName+".json")
+        if (packageNumber % 1000 == 0) {
+            console.log(`saving package ${packageNumber}/${totalNumber} to ${filePath}`)
+        }
+        writeFile(filePath, JSON.stringify(eachValue))
+    }
+}
+
+let commits = allCommitsInCwd()
 let [start, end] = [ (process.argv[2]||0)-0, (process.argv[3]||commits.length)-0]
 commits = commits.slice(start, end)
 
 // took 1d 21h 31m 40s to run this though 24392 commits
 let packages = {}
-let index = 0
-for (let each of commits) {
-    index++
-    console.log(`on commit ${index+start}/${commits.length+start}`)
-    packages = getAllPackagesIn(each, packages)
-    // every 100 commits, write to disk encase there is an error
-    if (index % 1 == 0) {
-        writeFileSync("./packages.json", JSON.stringify(packages,0,4))
+for (const [index, eachCommit] of Object.entries(commits)) {
+    console.log(`on commit ${(index+1)+start}/${commits.length+start}`)
+    packages = getAllPackagesIn(eachCommit, packages, index)
+    // every 100 commits (starting after the 5th commit), write to disk encase there is an error
+    if ((index-5) % 100 == 0) {
+        savePackagesTo(`./packages.json`)
     }
 }
