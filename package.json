@@ -1,7 +1,7 @@
 {
   "name": "nix-version",
   "version": "1.0.0",
-  "description": "",
+  "description": "Is a work in progress for keeping track of versions for nixpkgs so that everyone can easily search/install packages.",
   "main": "build.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jeff-hykin/nix-version/issues"
   },
-  "homepage": "https://github.com/jeff-hykin/nix-version#readme"
+  "homepage": "https://github.com/jeff-hykin/nix-version#readme",
+  "dependencies": {
+    "good-js": "^1.5.4"
+  }
 }
