@@ -1,7 +1,13 @@
 #!/usr/bin/env node
 const path = require("path")
 const { existsSync, writeFileSync, readFileSync, writeFile } = require("fs")
-const { spawnSync } = require('child_process')
+const { spawnSync, execSync } = require('child_process')
+
+let pathFor = module.exports.pathFor = {
+    packages: './packages',
+    commits: './commits.json',
+    nixShellNames: './nixShellPackageNames.json',
+}
 
 // may need to increase the amount of memory available
 // export NODE_OPTIONS="--max-old-space-size=20480" #increase to 20gb
@@ -35,42 +41,56 @@ function allCommitsInCwd() {
     let stringOfCommitHashes = run("git", "log", '--format="%H"').stdout
     let listOfCommitHashes = stringOfCommitHashes.split("\n")
     let cleanListOfCommitHashes = listOfCommitHashes.map(each=>each.replace(/\"/g, "")).filter(each=>each.length).reverse()
-    writeFile("./commits.json", JSON.stringify(cleanListOfCommitHashes, 0, 4))
+    writeFile(pathFor.commits, JSON.stringify(cleanListOfCommitHashes, 0, 4), {}, _=>0)
     // remove the redundant quotes, remove empty strings
     return cleanListOfCommitHashes
 }
 
-function getAllPackagesIn(hash, existingPackageInfo={}, hashIndex) {
-    let output
-    if (hash == null) {
-        // --attr-path is the unqie name for nix-env install
-        output = run('nix-env', "-aq", "--attr-path", "--available").stdout
+// load from file if possible
+try { enumeratedShellNames = JSON.parse(readFileSync(pathFor.nixShellNames).toString()) } catch (error) { enumeratedShellNames = [] }
+function enumeratePackageShellName(packageName) {
+    let index = enumeratedShellNames.indexOf(packageName)
+    if (index >= 0) {
+        return index
     } else {
-        // nix-env -I nixpkgs=https://github.com/NixOS/nixpkgs/archive/${COMMIT_HASH}.tar.gz -aq --attr-path --available
-        // TODO: get name and metadata of package using --description --meta --json
-        // right now (on a particular package, not sure which) those options cause an error on mac
-        output = run('nix-env', "-f", `nixpkgs=https://github.com/NixOS/nixpkgs/archive/${hash}.tar.gz`, "--query", "--attr-path", "--available").stdout
+        enumeratedShellNames.push(packageName)
+        // save changes
+        writeFileSync(pathFor.nixShellNames, JSON.stringify(enumeratedShellNames))
+        return enumeratedShellNames.length-1
     }
-    // extract the names and versions
-    let packages = findAll(/nixpkgs\.(\S+)\s+(.+)/, output)
+}
 
-    // reformat them by name
-    for (let [ _, name, version ] of packages) {
-        // create package if it doesn't exist
-        if (!(existingPackageInfo[name] instanceof Object)) {
-            existingPackageInfo[name] = {}
-        }
-        // add version if it didn't exist before
-        if (!(existingPackageInfo[name][version] instanceof Object)) {
-            existingPackageInfo[name][version] = {}
-        }
-        // add hash sources
-        if (!(existingPackageInfo[name][version].commits instanceof Array)) {
-            existingPackageInfo[name][version].commits = []
-        }
-        // add this commit
-        existingPackageInfo[name][version].commits.push(hashIndex)
-    }
+
+function getAllPackagesIn(hash, existingPackageInfo={}, hashIndex) {
+    // get all the data from all the versions for that hash
+    // The reason I'm using forEach is so that the garbage collector can easily/quickly free up the 
+    // large amount of memory used by this file
+    
+    // the commentted-out line below fails, I think because of limitations with node.js
+    //     let result = run('nix-env', "--query", "-f", `https://github.com/NixOS/nixpkgs-channels/archive/${hash}.tar.gz`, "--available", "--json").stdout
+    // so instead we go with a jank shell-specific solution
+    execSync(`nix-env --query -f 'https://github.com/NixOS/nixpkgs-channels/archive/${hash}.tar.gz' --available --json > ${__dirname}/.nosync.temp.json`)
+    console.log(`now trying to parse`)
+    Object.entries(
+        JSON.parse(
+            readFileSync("./.nosync.temp.json")
+        )
+    ).forEach(([ eachNixShellName, eachValue ]) => {
+        
+        // extract the desired data
+        eachNixShellName = eachNixShellName.replace(/^nixpkgs\./, "")
+        eachNixEnvName   = eachValue.name
+        packageName      = eachValue.pname
+        packageVersion   = eachValue.version
+        
+        slimmedDownValue[packageName] = {...slimmedDownValue[packageName]}
+        slimmedDownValue[packageName][packageVersion] = {...slimmedDownValue[packageName][packageVersion]}
+        slimmedDownValue[packageName][packageVersion].sources = [
+            ...slimmedDownValue[packageName][packageVersion].sources,
+            // which commit, what nix-env name, what nix-shell name
+            { h: hashIndex, sn: enumeratePackageShellName(eachNixShellName), en: eachNixEnvName },
+        ]
+    })
     return existingPackageInfo
 }
 
@@ -85,21 +105,23 @@ function savePackagesTo(packages, folderLocation) {
         if (packageNumber % 1000 == 0) {
             console.log(`saving package ${packageNumber}/${totalNumber} to ${filePath}`)
         }
-        writeFile(filePath, JSON.stringify(eachValue))
+        writeFile(filePath, JSON.stringify(eachValue),{},_=>0)
     }
 }
 
+process.chdir(process.argv[2])
 let commits = allCommitsInCwd()
-let [start, end] = [ (process.argv[2]||0)-0, (process.argv[3]||commits.length)-0]
+let [start, end] = [ (process.argv[3]||0)-0, (process.argv[4]||commits.length)-0]
 commits = commits.slice(start, end)
 
 // took 1d 21h 31m 40s to run this though 24392 commits
 let packages = {}
-for (const [index, eachCommit] of Object.entries(commits)) {
+for (let [index, eachCommit] of Object.entries(commits)) {
+    index = index-0
     console.log(`on commit ${(index+1)+start}/${commits.length+start}`)
     packages = getAllPackagesIn(eachCommit, packages, index)
     // every 100 commits (starting after the 5th commit), write to disk encase there is an error
     if ((index-5) % 100 == 0) {
-        savePackagesTo(`./packages.json`)
+        savePackagesTo(packages, pathFor.packages)
     }
 }
