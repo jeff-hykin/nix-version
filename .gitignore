@@ -2,6 +2,7 @@
 # Custom
 # 
 scan/
+.nix-profile
 
 # 
 # standard
