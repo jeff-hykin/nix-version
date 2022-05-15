@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="https://unpkg.com/css-baseline/css/4.css">
     </head>
-    <body style="height: 100vh;">
+    <body style="height: 100vh; overflow: auto; width: 99vw;">
     </body>
     <script> ;((async ()=>{
         
@@ -80,9 +80,36 @@
             container: ({style, children, ...props})=>html`<div style=${`display: flex; flex-direction: column; justify-content: center; justify-items: center; align-items: center; ${style}`} ...${props} >
                 ${children}
             </div>`,
-            container: ({style, children, ...props})=>html`<div style=${`display: flex; flex-direction: column; justify-content: center; justify-items: center; align-items: center; ${style}`} ...${props} >
-                ${children}
-            </div>`
+            attribute: ({style, children, name, value, ...props})=>html`<span style="padding: 0.4rem; font-size: 1.1rem;" ...${props}>
+                <span style="font-weight: bold;">${name}:</span> ${value}
+            </span>`,
+            result: ({style, children, frozen, flexible, ...props})=>{
+                const element = html`
+                    <container style="
+                            align-items: flex-start;
+                            width: 33rem;
+                            height: fit-content;
+                            background: white;
+                            border-radius: 2rem;
+                            padding: 2rem 1.3rem;
+                            box-shadow: rgb(0 0 0 / 0%) -2px 0 1px 2px, rgb(0 0 0 / 12%) 0px 9px 33px -7px, rgb(0 0 0 / 20%) 0px 3px 15px -7px;
+                            transition: all 0.5s ease-in-out 0s;
+                            opacity: 0;
+                            overflow: auto;
+                            margin-bottom: 1.5rem;
+                        ">
+                            <container style="padding: 1rem; align-items: flex-start;">
+                                <attribute name="Name" value=${frozen.name} />
+                                <attribute name="Version" value=${frozen.versionString} />
+                            </container>
+                            <code style="background: lightgray; border-radius: 4px; white-space: pre; overflow: auto; width: 95%; margin: 0.4rem; padding: 1.2rem 0.3rem;">
+                                ${JSON.stringify(frozen,0,4)}
+                            </code>
+                    </container>
+                `
+                setTimeout(()=>element.style.opacity = 1, 1)
+                return element
+            },
         })
         
         const event = {
@@ -94,7 +121,7 @@
         
         let searchBox, resultsBox
         const main = html`
-            <main style="width: 100vw; background: whitesmoke; height: 100%;">
+            <main style="width: 100%; background: whitesmoke; height: fit-content; min-height: 100%;">
                 <container style="height: 20vh; min-height: 12rem;">
                 </container>
                 <container>
@@ -112,11 +139,11 @@
                                 />
                         `}
                     </div>
-                    ${resultsBox = html`
-                        <container style="margin-top: 2rem;">
-                            Results
-                        </container>
-                    `}
+                        ${resultsBox = html`
+                            <container style="height: max-content; padding: 2rem;">
+                                Results
+                            </container>
+                        `}
                 </container>
             </main>
         `
@@ -125,31 +152,12 @@
         everyTime(event.searchResultsReturned).then(()=>{
             resultsBox.innerHTML = ""
             for (const each of searchBox.results) {
-                resultsBox.appendChild(createResultElement(each))
+                resultsBox.appendChild(html`<result ...${each}>`)
             }
         })
         
         function createResultElement(result) {
-            const { name } = result.frozen
-            const element = html`
-                <container style="
-                        align-items: flex-start;
-                        width: 30rem;
-                        height: fit-content;
-                        background: white;
-                        border-radius: 2rem;
-                        padding: 2rem 1.3rem;
-                        box-shadow: rgb(0 0 0 / 0%) -2px 0 1px 2px, rgb(0 0 0 / 12%) 0px 9px 33px -7px, rgb(0 0 0 / 20%) 0px 3px 15px -7px;
-                        transition: all 0.5s ease-in-out 0s;
-                        opacity: 0;
-                    ">
-                    <span>
-                        <span style="font-weight: bold;">Name:</span> ${name}
-                    </span>
-                </container>
-            `
-            setTimeout(()=>element.style.opacity = 1, 1)
-            return element
+            
         }
     }))()</script>
 </html>
