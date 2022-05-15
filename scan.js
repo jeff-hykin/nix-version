@@ -189,10 +189,8 @@ function convertPackageInfo(attrName, packageInfo) {
     // }
 }
 
-import { MeiliSearch } from "https://cdn.skypack.dev/meilisearch"
-import { hashJsonPrimitive } from "./tools.js"
-
-const client = new MeiliSearch({ host: 'http://127.0.0.1:7700' })
+import { createHash } from "https://deno.land/std@0.139.0/hash/mod.ts"
+const hashJsonPrimitive = (value) => createHash("md5").update(JSON.stringify(value)).toString()
 
 const allPackages = {}
 async function asyncAddPackageInfo(newPackageInfo, source) {
@@ -229,15 +227,7 @@ async function asyncAddPackageInfo(newPackageInfo, source) {
     if (!sourceHashes.has(thisHash)) {
         allPackages[packageName][hashValue].flexible.sources.push(source)
     }
-    
-    // dont need to wait on this
-    client.index('packages').updateDocuments([
-        {
-            ...allPackages[packageName][hashValue],
-            id: hashValue,
-        }
-    ])
-    // do wait on this though
+
     await FileSystem.write({
         path: filePath,
         data: JSON.stringify(allPackages[packageName][hashValue]),
