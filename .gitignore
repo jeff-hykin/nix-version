@@ -3,6 +3,7 @@
 # 
 scan/
 .nix-profile
+data.ms
 
 # 
 # standard
