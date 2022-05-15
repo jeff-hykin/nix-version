@@ -1,0 +1,23 @@
+{
+  "name": "nix-version",
+  "version": "1.0.0",
+  "description": "Everything is detailed in the `documentation/setup.md`!",
+  "main": "database.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeff-hykin/nix-version.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeff-hykin/nix-version/issues"
+  },
+  "homepage": "https://github.com/jeff-hykin/nix-version#readme",
+  "dependencies": {
+    "meilisearch": "^0.25.1"
+  }
+}
