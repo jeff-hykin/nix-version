@@ -37,43 +37,54 @@ function allCommitsInCwd() {
     return cleanListOfCommitHashes
 }
 
-function getAllPackagesIn(hash) {
-    let output
-    if (hash == null) {
-        // --attr-path is the unqie name for nix-env install
-        output = run('nix-env', "-aq", "--attr-path", "--available").stdout
-    } else {
-        // nix-env -I nixpkgs=https://github.com/NixOS/nixpkgs/archive/${COMMIT_HASH}.tar.gz -aq --attr-path --available
-        // TODO: get name and metadata of package using --description --meta --json
-        // right now (on a particular package, not sure which) those options cause an error on mac
-        output = run('nix-env', "-I", `nixpkgs=https://github.com/NixOS/nixpkgs/archive/${hash}.tar.gz`, "-aq", "--attr-path", "--available").stdout
-    }
-    // extract the names and versions
-    let packages = findAll(/nixpkgs\.(\S+)\s+(.+)/, output)
-    packages = packages.map(each=>({ evalName: each[1], version: each[2] }))
-
-    // reformat them by name
-    let versionIndex = {}
-    for (let each of packages) {
-        versionIndex[each.evalName] || (versionIndex[each.evalName] = {})
-        versionIndex[each.evalName][each.version] || (versionIndex[each.evalName][each.version] = {})
-        versionIndex[each.evalName][each.version].hash = hash
-    }
-    return versionIndex
-}
-
-
 let commits = allCommitsInCwd()
 
-// restrict range based on args
-commits = process.argv[2] ? commits.slice(process.argv[2]-0, process.argv[3]-0) : commits
-let name = process.argv[2] ? `${process.argv[2]}-${process.argv[3]}` : "all"
-
 let packages = {}
-let index = 0
+let counter = 0
+let index = -1
+let bundles = []
+// create bundles cause its too much RAM to do them all at once
+const bundleSize = 100
+let bundle = []
+let ranges = []
+let range = [0, null]
 for (let each of commits.reverse()) {
+    counter++
     index++
-    console.log(`in ${name}: on commit ${index} of ${commits.length}`)
-    packages = {...packages, ...getAllPackagesIn(each)}
-    writeFileSync(`./packages/${name}.json`, JSON.stringify(packages,0,4))
+    if (counter != bundleSize) {
+        continue
+    } else {
+        range[1] = index+1
+        ranges.push([...range])
+        console.debug(`range is:`,range)
+    }
+    counter = 0
+    bundles.push(bundle) 
+    bundle = []
+    range = [index+1]
 }
+range[1] = index
+ranges.push(range)
+writeFileSync("ranges.json", JSON.stringify(ranges))
+// console.debug(`bundles.length is:`,bundles.length)
+// ;;(async ()=>{
+//     let result = {}
+//     for (let eachBundle of bundles) {
+//         console.debug(`eachBundle.length is:`,eachBundle.length)
+//         // start all the commands
+//         let promises = eachBundle.map((eachHash,index)=>new Promise(async (resolve, reject)=>{
+//             let { stdout, stderr } = await exec('find . -type f | wc -l', { shell: true });
+//             stdout = stdout.toString()
+//             console.log(`on commit ${index} of ${commits.length}`)
+//             setTimeout(() => {
+//                 resolve(getAllPackagesIn(eachHash))
+//                 console.log(`finished commit ${index}`)
+//             }, 0)
+//         }))
+//         // wait them in order
+//         for (let each of promises) {
+//             result = {...result, ...(await each)}
+//         }
+//         writeFileSync("./packages.json", JSON.stringify(result,0,4))
+//     }
+// })()
