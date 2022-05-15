@@ -230,8 +230,13 @@ async function asyncAddPackageInfo(newPackageInfo, source) {
 
 const pathToAllCommits = `./scan/allCommits.txt`
 async function getPathToAllCommitHashes() {
-    console.log(`writing commits to:`, pathToAllCommits)
-    await run`git log --first-parent --date=short --pretty=format:%H#%ad ${Stdout(Overwrite(pathToAllCommits))}`
+    const fileInfo = await FileSystem.info(pathToAllCommits)
+    if (fileInfo.isFile) {
+        return pathToAllCommits
+    } else {
+        console.log(`writing commits to:`, pathToAllCommits)
+        await run`git log --first-parent --date=short --pretty=format:%H#%ad ${Stdout(Overwrite(pathToAllCommits))}`
+    }
     return pathToAllCommits
 }
 
