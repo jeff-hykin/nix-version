@@ -7,8 +7,13 @@ const { Console, yellow } = await import(`https://deno.land/x/quickr@0.3.24/main
 
 Console.env.NIXPKGS_ALLOW_BROKEN = "1"
 Console.env.NIXPKGS_ALLOW_UNFREE = "1"
+Console.env.NIX_PATH = ""
+Console.env.HOME = FileSystem.thisFolder
 
 // TODO: prioritize searching tagged commits first
+    // list all tags with hashes and dates
+    // split by the tags, creating buckets
+    // then do binary list order in the buckets inbetween the tags
 
 // increases resolution over time
 function* binaryListOrder(aList, ) {
@@ -40,7 +45,8 @@ async function getAllPackageInfo(hash) {
         
     }
     if (jsonString == null || output == null) {
-        await run`nix-env -qa --json -I ${`https://github.com/NixOS/nixpkgs/archive/${hash}.tar.gz`} ${Stdout(Overwrite(path))}`
+        // pretend to be linux since it has the most wide support
+        await run`nix-env -qa --json --arg system \"x86_64-linux\" --file ${`https://github.com/NixOS/nixpkgs/archive/${hash}.tar.gz`} ${Stdout(Overwrite(path))}`
         jsonString = await FileSystem.read(path)
     }
     try {
@@ -53,8 +59,8 @@ async function getAllPackageInfo(hash) {
 
 // for single package
 async function getPackageJsonFor(packageAttrPath, hash) {
-    // nix-env -qaA nixpkgs.python --json -I https://github.com/NixOS/nixpkgs/archive/6c36c4ca061f0c85eed3c96c0b3ecc7901f57bb3.tar.gz
-    const jsonString = await run`nix-env -qaA ${packageAttrPath} --json -I ${`https://github.com/NixOS/nixpkgs/archive/${hash}.tar.gz`} ${Stdout(returnAsString)}`
+    // nix-env -qaA nixpkgs.python --json --file https://github.com/NixOS/nixpkgs/archive/6c36c4ca061f0c85eed3c96c0b3ecc7901f57bb3.tar.gz
+    const jsonString = await run`nix-env -qaA ${packageAttrPath} --json --file ${`https://github.com/NixOS/nixpkgs/archive/${hash}.tar.gz`} ${Stdout(returnAsString)}`
     return JSON.parse(jsonString)[packageAttrPath]
 }
 
@@ -275,7 +281,7 @@ async function* iterateAllCommitHashes() {
 // 
 const concurrentSize = 30
 for await (const commitHash of iterateAllCommitHashes()) {
-    console.log(`commitHash is:`,commitHash)
+    console.log(`commitHash is: ${commitHash}, created on: ${commitToDate[commitHash]}`,)
     try {
         console.log(`    getting all package info`)
         const allPackages = await getAllPackageInfo(commitHash)
