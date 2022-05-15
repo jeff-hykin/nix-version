@@ -1,0 +1,1 @@
+{"frozen":{"name":"xf86-video-siliconmotion","versionString":"1.7.7","versionNumberList":[1,7,7]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["xlibs","xf86videosiliconmotion"],"position":null,"date":"2013-09-20"}]}}

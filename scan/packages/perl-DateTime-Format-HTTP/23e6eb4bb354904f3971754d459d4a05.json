@@ -1,0 +1,1 @@
+{"frozen":{"name":"perl-DateTime-Format-HTTP","shortDescription":"Date conversion routines","versionString":"0.40","license":"perl","versionNumberList":[0,40]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["perlPackages","DateTimeFormatHTTP"],"position":null,"date":"2013-09-20"}]}}

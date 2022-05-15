@@ -1,0 +1,1 @@
+{"frozen":{"name":"perl-Module-Path","shortDescription":"Get the full path to a locally installed module","versionString":"0.09","license":"perl","versionNumberList":[0,9]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["perlPackages","ModulePath"],"position":null,"date":"2013-09-20"}]}}

@@ -1,0 +1,1 @@
+{"frozen":{"name":"publicsuffix-list","versionString":"2021-09-03","homepage":"https://github.com/publicsuffix/list","versionNumberList":[]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"1097381d400990a3c9e4732a1a180e71ace9edcc","attributePath":["publicsuffix-list"],"position":null,"date":"2022-01-31"}]}}

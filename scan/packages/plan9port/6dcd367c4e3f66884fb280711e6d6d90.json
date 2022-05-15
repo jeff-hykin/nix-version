@@ -1,0 +1,1 @@
+{"frozen":{"name":"plan9port","shortDescription":"Plan 9 from User Space","versionString":"20110103","homepage":"http://swtch.com/plan9port/","license":"free","versionNumberList":[]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["plan9port"],"position":null,"date":"2013-09-20"}]}}

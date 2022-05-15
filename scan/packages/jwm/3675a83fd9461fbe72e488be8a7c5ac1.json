@@ -1,0 +1,1 @@
+{"frozen":{"name":"jwm","shortDescription":"A window manager for X11 that requires only Xlib","versionString":"2.0.1","versionNumberList":[2,0,1]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["jwm"],"position":null,"date":"2013-09-20"}]}}

@@ -1,0 +1,1 @@
+{"frozen":{"name":"db4","versionString":"4.7.25","versionNumberList":[4,7,25]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["db47"],"position":null,"date":"2013-09-20"}]}}

@@ -1,0 +1,1 @@
+{"frozen":{"name":"perl-Text-BibTeX","shortDescription":"Interface to read and parse BibTeX files","versionString":"0.66","license":"perl5","versionNumberList":[0,66]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["perlPackages","TextBibTeX"],"position":null,"date":"2013-09-20"}]}}

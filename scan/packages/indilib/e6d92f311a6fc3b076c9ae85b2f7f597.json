@@ -1,0 +1,1 @@
+{"frozen":{"name":"indilib","versionString":"0.9.6","homepage":"http://indi.sf.net","versionNumberList":[0,9,6]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["indilib"],"position":null,"date":"2013-09-20"}]}}

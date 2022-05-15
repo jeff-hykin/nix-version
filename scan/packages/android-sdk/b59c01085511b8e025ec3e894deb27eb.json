@@ -1,0 +1,1 @@
+{"frozen":{"name":"android-sdk","versionString":"22.2","versionNumberList":[22,2]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["androidsdk_4_1"],"position":null,"date":"2013-09-20"}]}}

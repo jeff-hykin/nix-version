@@ -1,0 +1,1 @@
+{"frozen":{"name":"arduino-core","shortDescription":"Arduino libraries","versionString":"arduino-core","homepage":"http://arduino.cc/","license":"GPL","versionNumberList":[]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["arduino_core"],"position":null,"date":"2013-09-20"}]}}

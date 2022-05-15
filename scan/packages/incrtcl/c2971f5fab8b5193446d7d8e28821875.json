@@ -1,0 +1,1 @@
+{"frozen":{"name":"incrtcl","shortDescription":"Object Oriented Enhancements for Tcl/Tk","versionString":"3.4b1","homepage":"http://incrtcl.sourceforge.net/","versionNumberList":[3,4,"b1"]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["incrtcl"],"position":null,"date":"2013-09-20"}]}}

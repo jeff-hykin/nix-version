@@ -1,0 +1,1 @@
+{"frozen":{"name":"perl-Parse-CPAN-Meta","versionString":"1.4404","versionNumberList":[1,4404]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["perlPackages","ParseCPANMeta"],"position":null,"date":"2013-09-20"}]}}

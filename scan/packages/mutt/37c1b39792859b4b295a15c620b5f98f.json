@@ -1,0 +1,1 @@
+{"frozen":{"name":"mutt","versionString":"1.5.21","homepage":"http://www.mutt.org","versionNumberList":[1,5,21]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["mutt"],"position":null,"date":"2013-09-20"}]}}

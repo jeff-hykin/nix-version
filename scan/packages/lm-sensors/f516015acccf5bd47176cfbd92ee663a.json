@@ -1,0 +1,1 @@
+{"frozen":{"name":"lm-sensors","shortDescription":"Tools for reading hardware sensors","versionString":"3.3.4","homepage":"http://www.lm-sensors.org/","versionNumberList":[3,3,4]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["lm_sensors"],"position":null,"date":"2013-09-20"}]}}

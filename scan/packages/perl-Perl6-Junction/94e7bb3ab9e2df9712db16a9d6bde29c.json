@@ -1,0 +1,1 @@
+{"frozen":{"name":"perl-Perl6-Junction","versionString":"1.40000","versionNumberList":[1,40000]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["perlPackages","Perl6Junction"],"position":null,"date":"2013-09-20"}]}}

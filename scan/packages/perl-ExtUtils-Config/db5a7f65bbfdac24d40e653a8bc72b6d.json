@@ -1,0 +1,1 @@
+{"frozen":{"name":"perl-ExtUtils-Config","shortDescription":"A wrapper for perl's configuration","versionString":"0.007","license":"perl","versionNumberList":[0,7]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["perlPackages","ExtUtilsConfig"],"position":null,"date":"2013-09-20"}]}}

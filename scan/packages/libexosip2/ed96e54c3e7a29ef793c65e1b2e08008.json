@@ -1,0 +1,1 @@
+{"frozen":{"name":"libexosip2","shortDescription":"Library that hides the complexity of using the SIP protocol","versionString":"3.6.0","license":"GPLv2+","versionNumberList":[3,6,0]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["libexosip_3"],"position":null,"date":"2013-09-20"}]}}

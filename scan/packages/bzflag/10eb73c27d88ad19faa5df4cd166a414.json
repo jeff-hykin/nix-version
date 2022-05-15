@@ -1,0 +1,1 @@
+{"frozen":{"name":"bzflag","shortDescription":"Multiplayer 3D Tank game","versionString":"2.0.16","homepage":"http://bzflag.org/","license":"LGPLv2.1+","versionNumberList":[2,0,16]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["bzflag"],"position":null,"date":"2013-09-20"}]}}

@@ -1,0 +1,1 @@
+{"frozen":{"name":"vlock","shortDescription":"Virtual console locking program","versionString":"2.2.2","versionNumberList":[2,2,2]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["vlock"],"position":null,"date":"2013-09-20"}]}}

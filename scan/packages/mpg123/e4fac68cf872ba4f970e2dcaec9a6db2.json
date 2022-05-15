@@ -1,0 +1,1 @@
+{"frozen":{"name":"mpg123","shortDescription":"Command-line MP3 player","versionString":"1.15.4","homepage":"http://mpg123.sourceforge.net/","license":"LGPL","versionNumberList":[1,15,4]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["mpg123"],"position":null,"date":"2013-09-20"}]}}

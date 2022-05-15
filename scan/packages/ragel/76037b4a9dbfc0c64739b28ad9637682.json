@@ -1,0 +1,1 @@
+{"frozen":{"name":"ragel","shortDescription":"State machine compiler","versionString":"6.3","homepage":"http://www.complang.org/ragel","license":"GPL-2","versionNumberList":[6,3]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["ragel"],"position":null,"date":"2013-09-20"}]}}

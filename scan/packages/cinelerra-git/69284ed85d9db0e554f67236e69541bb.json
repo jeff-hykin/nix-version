@@ -1,0 +1,1 @@
+{"frozen":{"name":"cinelerra-git","shortDescription":"Cinelerra - Video Editor","versionString":"cinelerra-git","homepage":"http://www.cinelerra.org","license":"GPLv2","versionNumberList":[]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["cinelerra"],"position":null,"date":"2013-09-20"}]}}

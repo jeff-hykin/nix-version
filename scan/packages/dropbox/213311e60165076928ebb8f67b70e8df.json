@@ -1,0 +1,1 @@
+{"frozen":{"name":"dropbox","shortDescription":"Online stored folders (daemon version)","versionString":"1.4.21-bin","homepage":"http://www.dropbox.com","versionNumberList":[1,4,21,"-bin"]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["dropbox"],"position":null,"date":"2013-09-20"}]}}

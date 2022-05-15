@@ -1,0 +1,1 @@
+{"frozen":{"name":"fftw","shortDescription":"Fastest Fourier Transform in the West library","versionString":"3.3.2-double","versionNumberList":[3,3,2,"-double"]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["fftw"],"position":null,"date":"2013-09-20"}]}}

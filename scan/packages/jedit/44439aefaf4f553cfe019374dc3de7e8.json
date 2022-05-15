@@ -1,0 +1,1 @@
+{"frozen":{"name":"jedit","shortDescription":"Mature programmer's text editor (Java based)","versionString":"4.4.2","homepage":"http://www.jedit.org","license":"GPL","versionNumberList":[4,4,2]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["jedit"],"position":null,"date":"2013-09-20"}]}}

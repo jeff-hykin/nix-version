@@ -1,0 +1,1 @@
+{"frozen":{"name":"klibc","versionString":"1.5.24-3.11.1","versionNumberList":[1,5,24,"-3.11.1"]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["linuxPackages_3_11","klibc"],"position":null,"date":"2013-09-20"}]}}

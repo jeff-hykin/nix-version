@@ -1,0 +1,1 @@
+{"frozen":{"name":"mysql","versionString":"4.1.18","versionNumberList":[4,1,18]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["mysql4"],"position":null,"date":"2013-09-20"}]}}

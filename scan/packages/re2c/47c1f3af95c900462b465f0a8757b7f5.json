@@ -1,0 +1,1 @@
+{"frozen":{"name":"re2c","shortDescription":"Re2c is a tool for writing very fast and very flexible scanners.","versionString":"0.13.5","versionNumberList":[0,13,5]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["re2c"],"position":null,"date":"2013-09-20"}]}}

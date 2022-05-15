@@ -1,0 +1,1 @@
+{"frozen":{"name":"perl-Devel-Caller","shortDescription":"Meatier versions of C<caller>","versionString":"2.06","license":"perl5","versionNumberList":[2,6]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["perlPackages","DevelCaller"],"position":null,"date":"2013-09-20"}]}}

@@ -1,0 +1,1 @@
+{"frozen":{"name":"jolly-bastion","versionString":"47.02","homepage":"https://github.com/DFgraphics/jolly-bastion","versionNumberList":[47,2]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"05a7b69509f78b4ae9d04fcdf8f57ceb435572fc","attributePath":["dwarf-fortress-packages","themes","jolly-bastion"],"position":null,"date":"2020-05-05"}]}}

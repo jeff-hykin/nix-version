@@ -1,0 +1,1 @@
+{"frozen":{"name":"phoebus","versionString":"47.02a","homepage":"https://github.com/DFgraphics/phoebus","versionNumberList":[47,2,"a"]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"05a7b69509f78b4ae9d04fcdf8f57ceb435572fc","attributePath":["dwarf-fortress-packages","phoebus-theme"],"position":null,"date":"2020-05-05"}]}}

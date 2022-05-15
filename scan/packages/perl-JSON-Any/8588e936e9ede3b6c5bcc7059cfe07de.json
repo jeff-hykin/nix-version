@@ -1,0 +1,1 @@
+{"frozen":{"name":"perl-JSON-Any","shortDescription":"Wrapper Class for the various JSON classes","versionString":"1.29","license":"perl","versionNumberList":[1,29]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["perlPackages","JSONAny"],"position":null,"date":"2013-09-20"}]}}

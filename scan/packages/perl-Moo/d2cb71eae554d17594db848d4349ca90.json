@@ -1,0 +1,1 @@
+{"frozen":{"name":"perl-Moo","shortDescription":"Minimalist Object Orientation (with Moose compatiblity)","versionString":"1.000007","license":"perl5","versionNumberList":[1,7]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["perlPackages","Moo"],"position":null,"date":"2013-09-20"}]}}

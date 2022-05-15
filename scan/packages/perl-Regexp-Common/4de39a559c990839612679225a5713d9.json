@@ -1,0 +1,1 @@
+{"frozen":{"name":"perl-Regexp-Common","versionString":"2.122","versionNumberList":[2,122]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["perlPackages","RegexpCommon"],"position":null,"date":"2013-09-20"}]}}

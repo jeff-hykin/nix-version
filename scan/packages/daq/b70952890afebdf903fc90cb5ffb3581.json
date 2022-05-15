@@ -1,0 +1,1 @@
+{"frozen":{"name":"daq","shortDescription":"Data AcQuisition library (DAQ), for packet I/O","versionString":"2.0.0","homepage":"http://www.snort.org","license":"GPLv2","versionNumberList":[2,0,0]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["daq"],"position":null,"date":"2013-09-20"}]}}

@@ -1,0 +1,1 @@
+{"frozen":{"name":"bittorrent","shortDescription":"The original client for the BitTorrent peer-to-peer file sharing protocol","versionString":"5.2.2","versionNumberList":[5,2,2]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["bittorrent"],"position":null,"date":"2013-09-20"}]}}

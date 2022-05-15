@@ -1,0 +1,1 @@
+{"frozen":{"name":"rpm","shortDescription":"The RPM Package Manager","versionString":"4.7.2","homepage":"http://www.rpm.org/","license":"GPLv2","versionNumberList":[4,7,2]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["rpm"],"position":null,"date":"2013-09-20"}]}}

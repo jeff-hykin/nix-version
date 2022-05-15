@@ -1,0 +1,1 @@
+{"frozen":{"name":"monodevelop","versionString":"0.6-pre2315","versionNumberList":[0,6,"-pre2315"]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["monodevelop"],"position":null,"date":"2013-09-20"}]}}

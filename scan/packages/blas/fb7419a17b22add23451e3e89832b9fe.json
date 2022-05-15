@@ -1,0 +1,1 @@
+{"frozen":{"name":"blas","shortDescription":"Basic Linear Algebra Subprograms","versionString":"20070405","homepage":"http://www.netlib.org/blas/","license":"public domain","versionNumberList":[]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["blas"],"position":null,"date":"2013-09-20"}]}}

@@ -1,0 +1,1 @@
+{"frozen":{"name":"source","versionString":"source","homepage":"https://github.com/WordPress/WordPress","versionNumberList":[]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"22091c912a38f2f9f8cb8efd612915a9346e57cb","attributePath":["wordpress"],"position":null,"date":"2019-03-01"}]}}

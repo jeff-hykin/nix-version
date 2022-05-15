@@ -1,0 +1,1 @@
+{"frozen":{"name":"microcode2ucode","shortDescription":"Microcode converter for Intel .dat files","versionString":"20120205","homepage":"http://www.intel.com","versionNumberList":[]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["microcode2ucode"],"position":null,"date":"2013-09-20"}]}}

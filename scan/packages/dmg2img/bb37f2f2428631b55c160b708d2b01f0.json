@@ -1,0 +1,1 @@
+{"frozen":{"name":"dmg2img","versionString":"1.6.4","versionNumberList":[1,6,4]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["dmg2img"],"position":null,"date":"2013-09-20"}]}}

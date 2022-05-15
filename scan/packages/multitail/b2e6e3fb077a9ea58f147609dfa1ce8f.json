@@ -1,0 +1,1 @@
+{"frozen":{"name":"multitail","shortDescription":"tail on Steroids","versionString":"5.2.12","homepage":"http://www.vanheusden.com/multitail/","versionNumberList":[5,2,12]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["multitail"],"position":null,"date":"2013-09-20"}]}}

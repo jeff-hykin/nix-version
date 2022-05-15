@@ -1,0 +1,1 @@
+{"frozen":{"name":"stix-two","versionString":"2.0.2","homepage":"https://github.com/stipub/stixfonts","versionNumberList":[2,0,2]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"05a7b69509f78b4ae9d04fcdf8f57ceb435572fc","attributePath":["stix-two"],"position":null,"date":"2020-05-05"}]}}

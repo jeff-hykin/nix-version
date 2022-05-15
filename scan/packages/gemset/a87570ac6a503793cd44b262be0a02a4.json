@@ -1,0 +1,1 @@
+{"frozen":{"name":"gemset","versionString":"44.10a","homepage":"https://github.com/DFgraphics/gemset","versionNumberList":[44,10,"a"]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"22091c912a38f2f9f8cb8efd612915a9346e57cb","attributePath":["dwarf-fortress-packages","themes","gemset"],"position":null,"date":"2019-03-01"}]}}

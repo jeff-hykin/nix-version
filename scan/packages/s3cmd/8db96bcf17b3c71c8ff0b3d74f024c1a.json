@@ -1,0 +1,1 @@
+{"frozen":{"name":"s3cmd","shortDescription":"A command-line tool to manipulate Amazon S3 buckets","versionString":"1.0.1","homepage":"http://s3tools.org/","versionNumberList":[1,0,1]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["s3cmd"],"position":null,"date":"2013-09-20"}]}}

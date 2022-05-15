@@ -1,0 +1,1 @@
+{"frozen":{"name":"mousepad","shortDescription":"A simple text editor for Xfce","versionString":"0.3.0","homepage":"http://www.xfce.org/","license":"GPLv2+","versionNumberList":[0,3,0]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["xfce","mousepad"],"position":null,"date":"2013-09-20"}]}}

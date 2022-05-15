@@ -1,0 +1,1 @@
+{"frozen":{"name":"libwnck","shortDescription":"A library for creating task lists and pagers","versionString":"2.31.0","license":"LGPLv2.1","versionNumberList":[2,31,0]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["gnome","libwnck"],"position":null,"date":"2013-09-20"}]}}

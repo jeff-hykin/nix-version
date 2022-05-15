@@ -1,0 +1,1 @@
+{"frozen":{"name":"jdk","versionString":"1.6.0_45b06-plugin","license":"unfree","versionNumberList":[1,6,0,"_45b06-plugin"]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["jrePlugin"],"position":null,"date":"2013-09-20"}]}}

@@ -1,7 +1,6 @@
 # 
 # Custom
 # 
-scan/
 .nix-profile
 data.ms
 

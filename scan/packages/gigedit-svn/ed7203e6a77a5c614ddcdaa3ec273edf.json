@@ -1,0 +1,1 @@
+{"frozen":{"name":"gigedit-svn","shortDescription":"Gigasampler file access library","versionString":"2342","homepage":"http://www.linuxsampler.org","license":"GPLv2","versionNumberList":[]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["gigedit"],"position":null,"date":"2013-09-20"}]}}

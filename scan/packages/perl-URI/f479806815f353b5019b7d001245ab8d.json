@@ -1,0 +1,1 @@
+{"frozen":{"name":"perl-URI","shortDescription":"Uniform Resource Identifiers (absolute and relative)","versionString":"1.60","license":"perl","versionNumberList":[1,60]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["perlPackages","URI"],"position":null,"date":"2013-09-20"}]}}

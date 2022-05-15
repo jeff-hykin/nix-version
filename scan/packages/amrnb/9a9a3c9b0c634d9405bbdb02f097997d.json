@@ -1,0 +1,1 @@
+{"frozen":{"name":"amrnb","shortDescription":"AMR Narrow-Band Codec","versionString":"7.0.0.2","homepage":"http://www.penguin.cz/~utx/amr","license":"unfree","versionNumberList":[7,0,0,2]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["amrnb"],"position":null,"date":"2013-09-20"}]}}

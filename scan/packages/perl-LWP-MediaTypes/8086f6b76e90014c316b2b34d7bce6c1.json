@@ -1,0 +1,1 @@
+{"frozen":{"name":"perl-LWP-MediaTypes","shortDescription":"Guess media type for a file or a URL","versionString":"6.02","license":"perl","versionNumberList":[6,2]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["perlPackages","LWPMediaTypes"],"position":null,"date":"2013-09-20"}]}}

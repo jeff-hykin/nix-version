@@ -1,0 +1,1 @@
+{"frozen":{"name":"file","shortDescription":"A program that shows the type of files","versionString":"5.12","homepage":"http://darwinsys.com/file","versionNumberList":[5,12]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["file"],"position":null,"date":"2013-09-20"}]}}

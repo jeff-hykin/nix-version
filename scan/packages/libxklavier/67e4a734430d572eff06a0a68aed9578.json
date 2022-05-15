@@ -1,0 +1,1 @@
+{"frozen":{"name":"libxklavier","versionString":"5.0","homepage":"http://freedesktop.org/wiki/Software/LibXklavier","versionNumberList":[5,0]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["libxklavier"],"position":null,"date":"2013-09-20"}]}}

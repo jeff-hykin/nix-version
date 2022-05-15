@@ -1,0 +1,1 @@
+{"frozen":{"name":"junit","versionString":"4.8.2","homepage":"http://www.junit.org/","versionNumberList":[4,8,2]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["junit"],"position":null,"date":"2013-09-20"}]}}

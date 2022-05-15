@@ -1,0 +1,1 @@
+{"frozen":{"name":"nmap","versionString":"5.50","versionNumberList":[5,50]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["nmap"],"position":null,"date":"2013-09-20"}]}}

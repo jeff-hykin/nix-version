@@ -1,0 +1,1 @@
+{"frozen":{"name":"perl-Class-MethodMaker","shortDescription":"A module for creating generic methods","versionString":"2.18","license":"perl","versionNumberList":[2,18]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["perlPackages","ClassMethodMaker"],"position":null,"date":"2013-09-20"}]}}

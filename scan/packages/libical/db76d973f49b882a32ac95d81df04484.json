@@ -1,0 +1,1 @@
+{"frozen":{"name":"libical","versionString":"0.48-p20120623","versionNumberList":[0,48,"-p20120623"]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["libical"],"position":null,"date":"2013-09-20"}]}}

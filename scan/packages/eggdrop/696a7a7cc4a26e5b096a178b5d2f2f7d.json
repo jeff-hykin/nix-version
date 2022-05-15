@@ -1,0 +1,1 @@
+{"frozen":{"name":"eggdrop","versionString":"1.6.19+ctcpfix","versionNumberList":[1,6,19,"+ctcpfix"]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["eggdrop"],"position":null,"date":"2013-09-20"}]}}

@@ -1,0 +1,1 @@
+{"frozen":{"name":"perl-PPIx-Utilities","shortDescription":"Extensions to L<PPI|PPI>","versionString":"1.001000","license":"perl","versionNumberList":[1,1000]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["perlPackages","PPIxUtilities"],"position":null,"date":"2013-09-20"}]}}

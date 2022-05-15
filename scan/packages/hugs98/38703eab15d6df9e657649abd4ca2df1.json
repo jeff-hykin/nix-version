@@ -1,0 +1,1 @@
+{"frozen":{"name":"hugs98","shortDescription":"The HUGS 98 Haskell interpreter","versionString":"200609","homepage":"http://www.haskell.org/hugs","license":"as-is","versionNumberList":[]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["hugs"],"position":null,"date":"2013-09-20"}]}}

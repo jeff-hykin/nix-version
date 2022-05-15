@@ -1,0 +1,1 @@
+{"frozen":{"name":"sauerbraten-r3331","shortDescription":"","versionString":"sauerbraten-r3331","license":"freeware","versionNumberList":[]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["sauerbraten"],"position":null,"date":"2013-09-20"}],"platforms":[]}}

@@ -1,0 +1,1 @@
+{"frozen":{"name":"meph","versionString":"47.04_v5.5.0_V1.1.2","homepage":"https://github.com/DFgraphics/meph","versionNumberList":[47,4,"_v5.5.0_V1.1.2"]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"6c36c4ca061f0c85eed3c96c0b3ecc7901f57bb3","attributePath":["dwarf-fortress-packages","themes","meph"],"position":null,"date":"2021-02-24"}]}}

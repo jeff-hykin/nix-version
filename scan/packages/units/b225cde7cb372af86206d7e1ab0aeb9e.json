@@ -1,0 +1,1 @@
+{"frozen":{"name":"units","shortDescription":"Unit conversion tool.","versionString":"1.86","versionNumberList":[1,86]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["units"],"position":null,"date":"2013-09-20"}]}}

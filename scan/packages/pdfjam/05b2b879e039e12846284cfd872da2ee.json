@@ -1,0 +1,1 @@
+{"frozen":{"name":"pdfjam","versionString":"1.20","versionNumberList":[1,20]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["pdfjam"],"position":null,"date":"2013-09-20"}]}}

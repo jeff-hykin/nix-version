@@ -1,0 +1,1 @@
+{"frozen":{"name":"gimp","shortDescription":"The GNU Image Manipulation Program","versionString":"2.8.6","homepage":"http://www.gimp.org/","license":"GPL","versionNumberList":[2,8,6]},"flexible":{"sources":[{"git":"https://github.com/NixOS/nixpkgs.git","commit":"ad4156e4973abe0c306617c033169bc9c6fa44e1","attributePath":["gimp_2_8"],"position":null,"date":"2013-09-20"}]}}
