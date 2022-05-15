@@ -1,0 +1,11 @@
+- generate branches for all packages, give them their own timeline
+    - generate a `snowball/package.nix` using the position and attribute info
+    - generate a `snowball/snowball.nix` that looks like a flake, and defaults to outputting the package
+    - generate a `snowball/options.nix` that contains named inputs (variants), for generating various flake-lock outputs (defaults to a linux and darwin variant)
+    - generate a `snowball/metadata/` the location for all the `[variant.json]` files
+- have the search results
+    - buttons for:
+        - install to system
+        - install to project
+        - use inside a nix file (hover/click=>copy-paste)
+    - have all those^ link to the branches instead of nixpkgs directly
