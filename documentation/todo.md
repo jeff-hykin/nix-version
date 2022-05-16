@@ -1,8 +1,15 @@
-- generate branches for all packages, give them their own timeline
-    - generate a `snowball/package.nix` using the position and attribute info
-    - generate a `snowball/snowball.nix` that looks like a flake, and defaults to outputting the package
-    - generate a `snowball/options.nix` that contains named inputs (variants), for generating various flake-lock outputs (defaults to a linux and darwin variant)
-    - generate a `snowball/metadata/` the location for all the `[variant.json]` files
+- for every package create a folder
+    - create a package.nix, have it look like a flake
+        - as input, have the current folder/system
+        - as output
+            - import the package from the existing nixpkgs url
+            - overlay it with anything in the current system
+    - create a tools.nix for exporting nix-functions instead of derivations
+    - copy the source file (probably default.nix) to the same directory
+    - create a conversion-help.nix that tries to convert the args of a default.nix function into a flake-like format
+    - create an `examples.nix`
+    - create `metadata/`
+- create one big repo that imports all the little ones
 - have the search results
     - buttons for:
         - install to system

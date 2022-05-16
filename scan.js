@@ -10,6 +10,20 @@ Console.env.NIXPKGS_ALLOW_UNFREE = "1"
 Console.env.NIX_PATH = ""
 Console.env.HOME = FileSystem.thisFolder
 
+async function jsonRead(path) {
+    let jsonString = await FileSystem.read(path)
+    let output
+    try {
+        output = JSON.parse(jsonString)
+    } catch (error) {
+        // if corrupt, delete it
+        if (typeof jsonString == 'string') {
+            await FileSystem.remove(path)
+        }
+    }
+    return output
+}
+
 // TODO: prioritize searching tagged commits first
     // list all tags with hashes and dates
     // split by the tags, creating buckets
@@ -37,24 +51,19 @@ function* binaryListOrder(aList, ) {
 const allPackgeInfoPath = `./scan/allPackageInfo/`
 async function getAllPackageInfo(hash) {
     const path = `${allPackgeInfoPath}/${hash}.json`
-    let jsonString = await FileSystem.read(path)
-    let output
-    try {
-        output = JSON.parse(jsonString)
-    } catch (error) {
-        
-    }
-    if (jsonString == null || output == null) {
+    let output = await jsonRead(path)
+    if (output == null) {
         // pretend to be linux since it has the most wide support
         await run`nix-env -qa --json --arg system \"x86_64-linux\" --file ${`https://github.com/NixOS/nixpkgs/archive/${hash}.tar.gz`} ${Stdout(Overwrite(path))}`
-        jsonString = await FileSystem.read(path)
+        output = await jsonRead(path)
     }
-    try {
-        return JSON.parse(jsonString)
-    } catch (error) {
+    // if still null
+    if (output == null) {
         console.log(`path is:`,path)
         throw Error(error)
     }
+
+    return output
 }
 
 // for single package
@@ -290,7 +299,7 @@ for await (const commitHash of iterateAllCommitHashes()) {
     try {
         console.log(`    getting all package info`)
         const allPackages = await getAllPackageInfo(commitHash)
-        console.log(`    getting package info retrieved`)
+        console.log(`    package info retrieved`)
         const waitingGroup = []
         const entries = Object.entries(allPackages)
         const numberOfAttributes = entries.length
@@ -317,8 +326,12 @@ for await (const commitHash of iterateAllCommitHashes()) {
                 )
             )
             if (waitingGroup.length > concurrentSize) {
-                await Promise.all(waitingGroup)
-                waitingGroup.splice(0,Infinity)
+                try {
+                    await Promise.all(waitingGroup)
+                    waitingGroup.splice(0,Infinity)
+                } catch (error) {
+                    console.warn(`    error with package: ${attrName}`, error)
+                }
             }
         }
         progress.completedHashes.push(commitHash)
