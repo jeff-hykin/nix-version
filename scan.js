@@ -118,6 +118,11 @@ function convertPackageInfo(attrName, packageInfo) {
         }
     }
     
+    if (packageInfo.meta == null) {
+        console.debug(`packageInfo is:`,packageInfo)
+        Deno.exit()
+    }
+
     output.frozen.license = packageInfo.meta.license
     output.frozen.shortDescription = packageInfo.meta.description
     output.frozen.longDescription  = packageInfo.meta.longDescription
