@@ -1,0 +1,7289 @@
+{
+  "_915resolution": {
+    "name": "915resolution-0.5.2",
+    "pname": "915resolution",
+    "version": "0.5.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "a52dec": {
+    "name": "a52dec-0.7.4",
+    "pname": "a52dec",
+    "version": "0.7.4",
+    "system": "x86_64-linux",
+    "meta": {
+      "homepage": "http://liba52.sourceforge.net"
+    }
+  },
+  "aalib": {
+    "name": "aalib-1.4rc4",
+    "pname": "aalib",
+    "version": "1.4rc4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "aangifte2005": {
+    "name": "aangifte2005-1",
+    "pname": "aangifte2005",
+    "version": "1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "aangifte2006": {
+    "name": "aangifte2006-1",
+    "pname": "aangifte2006",
+    "version": "1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Elektronische aangifte IB 2006",
+      "url": "http://www.belastingdienst.nl/download/1341.html"
+    }
+  },
+  "abc": {
+    "name": "abc-1.2.0",
+    "pname": "abc",
+    "version": "1.2.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The AspectBench Compiler for AspectJ"
+    }
+  },
+  "abiword": {
+    "name": "abiword-2.4.6",
+    "pname": "abiword",
+    "version": "2.4.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kernel_module_acerhk": {
+    "name": "acerhk_kernel_patch-0.5.35",
+    "pname": "acerhk_kernel_patch",
+    "version": "0.5.35",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Hotkey driver for some Acer",
+      "homepage": "http://www.cakey.de/acerhk/",
+      "license": "GPL-2"
+    }
+  },
+  "acl": {
+    "name": "acl-2.2.45",
+    "pname": "acl",
+    "version": "2.2.45",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "acpi": {
+    "name": "acpi-0.09",
+    "pname": "acpi",
+    "version": "0.09",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Linux ACPI client is a small command-line\n                    program that attempts to replicate the functionality of\n\t\t    the \"old\" `apm' command on ACPI systems.  It includes\n\t\t    battery and thermal information.",
+      "homepage": "http://grahame.angrygoats.net/acpi.shtml",
+      "license": "GPLv2+"
+    }
+  },
+  "acpitool": {
+    "name": "acpitool-0.4.7",
+    "pname": "acpitool",
+    "version": "0.4.7",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "ACPI Tool is a small, convenient command-line\n                    ACPI client with a lot of features for Linux.",
+      "homepage": "http://freeunix.dyndns.org:8000/site2/acpitool.shtml",
+      "license": "GPLv2+"
+    }
+  },
+  "aefs": {
+    "name": "aefs-0.3pre285",
+    "pname": "aefs",
+    "version": "0.3pre285",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "agg": {
+    "name": "agg-2.5",
+    "pname": "agg",
+    "version": "2.5",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "alex": {
+    "name": "alex-2.2",
+    "pname": "alex",
+    "version": "2.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A lexical analyser generator for Haskell"
+    }
+  },
+  "alsaLib": {
+    "name": "alsa-lib-1.0.16",
+    "pname": "alsa-lib",
+    "version": "1.0.16",
+    "system": "x86_64-linux",
+    "meta": {
+      "homepage": "http://www.alsa-project.org"
+    }
+  },
+  "alsaUtils": {
+    "name": "alsa-utils-1.0.16",
+    "pname": "alsa-utils",
+    "version": "1.0.16",
+    "system": "x86_64-linux",
+    "meta": {
+      "homepage": "http://www.alsa-project.org"
+    }
+  },
+  "amsn": {
+    "name": "amsn-0.96",
+    "pname": "amsn",
+    "version": "0.96",
+    "system": "x86_64-linux",
+    "meta": {
+      "homepage": "http://amsn-project.net"
+    }
+  },
+  "amule": {
+    "name": "aMule-2.1.3",
+    "pname": "aMule",
+    "version": "2.1.3",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tEDonkey client.\n"
+    }
+  },
+  "ant": {
+    "name": "ant-jdk-1.6.0_4",
+    "pname": "ant-jdk",
+    "version": "1.6.0_4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "antlr": {
+    "name": "antlr-2.7.6",
+    "pname": "antlr",
+    "version": "2.7.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "antlr3": {
+    "name": "antlr-3.0b3",
+    "pname": "antlr",
+    "version": "3.0b3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "apacheHttpd": {
+    "name": "apache-httpd-2.2.8x",
+    "pname": "apache-httpd",
+    "version": "2.2.8x",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Apache HTTPD, the world's most popular web server",
+      "homepage": "http://httpd.apache.org/"
+    }
+  },
+  "tomcat6": {
+    "name": "apache-tomcat-6.0.14",
+    "pname": "apache-tomcat",
+    "version": "6.0.14",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.applewmproto": {
+    "name": "applewmproto-1.0.3",
+    "pname": "applewmproto",
+    "version": "1.0.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.appres": {
+    "name": "appres-1.0.1",
+    "pname": "appres",
+    "version": "1.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "apr": {
+    "name": "apr-1.2.12",
+    "pname": "apr",
+    "version": "1.2.12",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The Apache Portable Runtime library",
+      "homepage": "http://apr.apache.org/"
+    }
+  },
+  "aprutil": {
+    "name": "apr-util-1.2.12",
+    "pname": "apr-util",
+    "version": "1.2.12",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A companion library to APR, the Apache Portable Runtime",
+      "homepage": "http://apr.apache.org/"
+    }
+  },
+  "arts": {
+    "name": "arts-1.5.4",
+    "pname": "arts",
+    "version": "1.5.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "asciidoc": {
+    "name": "asciidoc-8.2.5",
+    "pname": "asciidoc",
+    "version": "8.2.5",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "AsciiDoc is a text-based document generation system.\n                    AsciiDoc input files can be translated to HTML and\n\t\t    DocBook markups",
+      "homepage": "http://www.methods.co.nz/asciidoc/",
+      "license": "GPLv2+"
+    }
+  },
+  "aspectj": {
+    "name": "aspectj-1.5.2",
+    "pname": "aspectj",
+    "version": "1.5.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "aspell": {
+    "name": "aspell-0.60.5",
+    "pname": "aspell",
+    "version": "0.60.5",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "GNU Aspell, A spell checker for many languages",
+      "homepage": "http://aspell.net/",
+      "license": "LGPL"
+    }
+  },
+  "aspellDicts.de": {
+    "name": "aspell-dict-de-20030222-1",
+    "pname": "aspell-dict-de",
+    "version": "20030222-1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Aspell dictionary for German"
+    }
+  },
+  "aspellDicts.en": {
+    "name": "aspell-dict-en-6.0-0",
+    "pname": "aspell-dict-en",
+    "version": "6.0-0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Aspell dictionary for English"
+    }
+  },
+  "aspellDicts.eo": {
+    "name": "aspell-dict-eo-0.50-2",
+    "pname": "aspell-dict-eo",
+    "version": "0.50-2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Aspell dictionary for Esperanto"
+    }
+  },
+  "aspellDicts.es": {
+    "name": "aspell-dict-es-0.50-2",
+    "pname": "aspell-dict-es",
+    "version": "0.50-2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Aspell dictionary for Spanish"
+    }
+  },
+  "aspellDicts.fr": {
+    "name": "aspell-dict-fr-0.50-3",
+    "pname": "aspell-dict-fr",
+    "version": "0.50-3",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Aspell dictionary for French"
+    }
+  },
+  "aspellDicts.la": {
+    "name": "aspell-dict-la-20020503-0",
+    "pname": "aspell-dict-la",
+    "version": "20020503-0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Aspell dictionary for Latin"
+    }
+  },
+  "aspellDicts.nl": {
+    "name": "aspell-dict-nl-0.50-2",
+    "pname": "aspell-dict-nl",
+    "version": "0.50-2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Aspell dictionary for Dutch"
+    }
+  },
+  "aspellDicts.ru": {
+    "name": "aspell-dict-ru-0.99f7-1",
+    "pname": "aspell-dict-ru",
+    "version": "0.99f7-1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Aspell dictionary for Russian"
+    }
+  },
+  "ataripp": {
+    "name": "atari++-1.46",
+    "pname": "atari++",
+    "version": "1.46",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "atari800": {
+    "name": "atari800-2.0.2",
+    "pname": "atari800",
+    "version": "2.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "aterm23x": {
+    "name": "aterm-2.3.1",
+    "pname": "aterm",
+    "version": "2.3.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "aterm": {
+    "name": "aterm-2.4.2",
+    "pname": "aterm",
+    "version": "2.4.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Library for manipulation of term data structures in C",
+      "homepage": "http://www.cwi.nl/htbin/sen1/twiki/bin/view/SEN1/ATerm",
+      "license": "LGPL",
+      "priority": "10"
+    }
+  },
+  "aterm242fixes": {
+    "name": "aterm-2.4.2-fixes-r2",
+    "pname": "aterm",
+    "version": "2.4.2-fixes-r2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Library for manipulation of term data structures in C",
+      "homepage": "http://www.cwi.nl/htbin/sen1/twiki/bin/view/SEN1/ATerm",
+      "license": "LGPL"
+    }
+  },
+  "aterm25": {
+    "name": "aterm-2.5",
+    "pname": "aterm",
+    "version": "2.5",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Library for manipulation of term data structures in C",
+      "homepage": "http://www.cwi.nl/htbin/sen1/twiki/bin/view/SEN1/ATerm",
+      "license": "LGPL"
+    }
+  },
+  "atermjava": {
+    "name": "aterm-java-1.6",
+    "pname": "aterm-java",
+    "version": "1.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.atk": {
+    "name": "atk-1.12.4",
+    "pname": "atk",
+    "version": "1.12.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "attr": {
+    "name": "attr-2.4.32",
+    "pname": "attr",
+    "version": "2.4.32",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "auctex": {
+    "name": "auctex-11.84",
+    "pname": "auctex",
+    "version": "11.84",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "AUCTeX is an extensible package for writing and formatting TeX files in GNU Emacs and XEmacs.",
+      "homepage": "http://www.gnu.org/software/auctex"
+    }
+  },
+  "audacious": {
+    "name": "audacious-1.4.6",
+    "pname": "audacious",
+    "version": "1.4.6",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Audacious, a media player forked from the Beep Media Player, which was itself an XMMS fork",
+      "homepage": "http://audacious-media-player.org/"
+    }
+  },
+  "audacious_plugins": {
+    "name": "audacious-plugins-1.4.5",
+    "pname": "audacious-plugins",
+    "version": "1.4.5",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Plugins for the Audacious media player",
+      "homepage": "http://audacious-media-player.org/"
+    }
+  },
+  "audacity": {
+    "name": "audacity-1.3.3",
+    "pname": "audacity",
+    "version": "1.3.3",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Audacity sound editor.",
+      "homepage": "http://audacity.sourceforge.net",
+      "src": null
+    }
+  },
+  "audiofile": {
+    "name": "audiofile-0.2.6",
+    "pname": "audiofile",
+    "version": "0.2.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "aufs": {
+    "name": "aufs-20080128",
+    "pname": "aufs",
+    "version": "20080128",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Another Unionfs implementation for Linux",
+      "homepage": "http://aufs.sourceforge.net/"
+    }
+  },
+  "aumix": {
+    "name": "aumix-2.8",
+    "pname": "aumix",
+    "version": "2.8",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Aumix adjusts an audio mixer from X, the console,\n    \t\t    a terminal, the command line or a script.",
+      "homepage": "http://www.jpj.net/~trevor/aumix.html",
+      "license": "GPL"
+    }
+  },
+  "autoconf": {
+    "name": "autoconf-2.61",
+    "pname": "autoconf",
+    "version": "2.61",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "automake110x": {
+    "name": "automake-1.10",
+    "pname": "automake",
+    "version": "1.10",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "automake17x": {
+    "name": "automake-1.7.9",
+    "pname": "automake",
+    "version": "1.7.9",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "automake": {
+    "name": "automake-1.9.6",
+    "pname": "automake",
+    "version": "1.9.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "avahi": {
+    "name": "avahi-0.6.22",
+    "pname": "avahi",
+    "version": "0.6.22",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Avahi is a system which facilitates service discovery\n                    on a local network.  It is an implementation of the\n\t\t    mDNS (for \"Multicast DNS\") and DNS-SD (for \"DNS-Based\n\t\t    Service Discovery\") protocols.",
+      "homepage": "http://avahi.org",
+      "license": "LGPLv2+"
+    }
+  },
+  "axel": {
+    "name": "axel-1.0b",
+    "pname": "axel",
+    "version": "1.0b",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A console downloading program. Has some features for parallel connections for faster downloading."
+    }
+  },
+  "axis": {
+    "name": "axis-1.3",
+    "pname": "axis",
+    "version": "1.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "axis2": {
+    "name": "axis2-1.3",
+    "pname": "axis2",
+    "version": "1.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "azureus": {
+    "name": "azureus-2.3.0.6",
+    "pname": "azureus",
+    "version": "2.3.0.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "bakoma_ttf": {
+    "name": "bakoma-ttf",
+    "pname": "bakoma-ttf",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "TrueType versions of the Computer Modern and AMS TeX Fonts",
+      "homepage": "http://www.ctan.org/tex-archive/fonts/cm/ps-type1/bakoma/ttf/"
+    }
+  },
+  "bash": {
+    "name": "bash-3.2-p33",
+    "pname": "bash",
+    "version": "3.2-p33",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "GNU Bourne-Again Shell, the de facto standard shell on Linux",
+      "homepage": "http://www.gnu.org/software/bash/",
+      "priority": "10"
+    }
+  },
+  "bashInteractive": {
+    "name": "bash-3.2-p33-interactive",
+    "pname": "bash",
+    "version": "3.2-p33-interactive",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "GNU Bourne-Again Shell, the de facto standard shell on Linux (for interactive use)",
+      "homepage": "http://www.gnu.org/software/bash/"
+    }
+  },
+  "batik": {
+    "name": "batik-1.6",
+    "pname": "batik",
+    "version": "1.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "bazaar": {
+    "name": "bazaar-1.1",
+    "pname": "bazaar",
+    "version": "1.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A distributed version control system that Just Works",
+      "homepage": "http://bazaar-vcs.org/"
+    }
+  },
+  "bbdb": {
+    "name": "bbdb-2.35",
+    "pname": "bbdb",
+    "version": "2.35",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The Insidious Big Brother Database (BBDB), a\n                    contact management utility for Emacs.",
+      "homepage": "http://bbdb.sourceforge.net/",
+      "license": "GPL"
+    }
+  },
+  "bc": {
+    "name": "bc-1.0.6",
+    "pname": "bc",
+    "version": "1.0.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.bdftopcf": {
+    "name": "bdftopcf-1.0.1",
+    "pname": "bdftopcf",
+    "version": "1.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "beecrypt": {
+    "name": "beecrypt-4.1.2",
+    "pname": "beecrypt",
+    "version": "4.1.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.beforelight": {
+    "name": "beforelight-1.0.2",
+    "pname": "beforelight",
+    "version": "1.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "bibtextools": {
+    "name": "bibtex-tools-0.2pre13026",
+    "pname": "bibtex-tools",
+    "version": "0.2pre13026",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "bigloo": {
+    "name": "bigloo3.0d-alpha21Feb08",
+    "pname": "bigloo3.0d-alpha21Feb08",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "scheme -> C / Java compiler (.net experimental)",
+      "homepage": "http://www-sop.inria.fr/mimosa/fp/Bigloo/",
+      "license": [
+        "GPL"
+      ]
+    }
+  },
+  "xlibs.bigreqsproto": {
+    "name": "bigreqsproto-1.0.2",
+    "pname": "bigreqsproto",
+    "version": "1.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "binutils": {
+    "name": "binutils-2.18",
+    "pname": "binutils",
+    "version": "2.18",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Tools for manipulating binaries (linker, assembler, etc.)",
+      "priority": "10"
+    }
+  },
+  "bison": {
+    "name": "bison-1.875",
+    "pname": "bison",
+    "version": "1.875",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "bison23": {
+    "name": "bison-2.3",
+    "pname": "bison",
+    "version": "2.3",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A yacc-compatible parser generator"
+    }
+  },
+  "bittornado": {
+    "name": "bit-tornado",
+    "pname": "bit-tornado",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Bittorrent client with IPv6 support."
+    }
+  },
+  "bitlbee": {
+    "name": "bitlbee-1.0.4",
+    "pname": "bitlbee",
+    "version": "1.0.4",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "BitlBee, an IRC to other chat networks gateway.",
+      "homepage": "http://www.bitlbee.org/",
+      "license": "GPL"
+    }
+  },
+  "xlibs.bitmap": {
+    "name": "bitmap-1.0.2",
+    "pname": "bitmap",
+    "version": "1.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "bittorrent": {
+    "name": "bittorrent-5.2.0",
+    "pname": "bittorrent",
+    "version": "5.2.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The original client for the BitTorrent peer-to-peer file sharing protocol"
+    }
+  },
+  "blender": {
+    "name": "blender-2.45",
+    "pname": "blender",
+    "version": "2.45",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "3D Creation/Animation/Publishing System",
+      "homepage": "http://www.blender.org",
+      "license": "GPL-2 BL"
+    }
+  },
+  "bmp": {
+    "name": "bmp-0.9.7.1",
+    "pname": "bmp",
+    "version": "0.9.7.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Beep Media Player, an XMMS fork"
+    }
+  },
+  "bmp_plugin_musepack": {
+    "name": "bmp-plugin-musepack-1.2",
+    "pname": "bmp-plugin-musepack",
+    "version": "1.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "bmp_plugin_wma": {
+    "name": "bmp-plugin-wma-1.0.5",
+    "pname": "bmp-plugin-wma",
+    "version": "1.0.5",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "bmrsa": {
+    "name": "bmrsa-11",
+    "pname": "bmrsa",
+    "version": "11",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\t\tRSA utility.\n",
+      "src": null
+    }
+  },
+  "boehmgc": {
+    "name": "boehm-gc-7.0",
+    "pname": "boehm-gc",
+    "version": "7.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A garbage collector for C and C++",
+      "homepage": "http://www.hpl.hp.com/personal/Hans_Boehm/gc/"
+    }
+  },
+  "bogofilter": {
+    "name": "bogofilter-1.1.6",
+    "pname": "bogofilter",
+    "version": "1.1.6",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Bogofilter is a mail filter that classifies mail\n                    as spam or ham (non-spam) by a statistical analysis of\n\t\t    the message's header and content (body).  The program is\n\t\t    able to learn from the user's classifications and\n\t\t    corrections.  It is based on a Bayesian filter.",
+      "homepage": "http://bogofilter.sourceforge.net/",
+      "license": "GPLv2"
+    }
+  },
+  "boost": {
+    "name": "boost-1.34.1",
+    "pname": "boost",
+    "version": "1.34.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "bridge_utils": {
+    "name": "bridge-utils-1.2",
+    "pname": "bridge-utils",
+    "version": "1.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "http://sourceforge.net/projects/bridge/",
+      "homepage": [
+        "http://www.linux-foundation.org/en/Net:Bridge/",
+        "http://sourceforge.net/projects/bridge/"
+      ],
+      "license": "GPL"
+    }
+  },
+  "finger_bsd": {
+    "name": "bsd-finger-0.17",
+    "pname": "bsd-finger",
+    "version": "0.17",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "fingerd_bsd": {
+    "name": "bsd-fingerd-0.17",
+    "pname": "bsd-fingerd",
+    "version": "0.17",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "bsddb3": {
+    "name": "bsddb3-4.5.0",
+    "pname": "bsddb3",
+    "version": "4.5.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "bsdiff": {
+    "name": "bsdiff-4.2",
+    "pname": "bsdiff",
+    "version": "4.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "busybox": {
+    "name": "busybox-1.2.2.1",
+    "pname": "busybox",
+    "version": "1.2.2.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "bvi": {
+    "name": "bvi-1.3.2",
+    "pname": "bvi",
+    "version": "1.3.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "hex editor with vim style keybindings",
+      "homepage": "http://bvi.sourceforge.net/download.html",
+      "license": "GPL2"
+    }
+  },
+  "bzip2": {
+    "name": "bzip2-1.0.4",
+    "pname": "bzip2",
+    "version": "1.0.4",
+    "system": "x86_64-linux",
+    "meta": {
+      "homepage": "http://www.bzip.org"
+    }
+  },
+  "cabextract": {
+    "name": "cabextract-1.2",
+    "pname": "cabextract",
+    "version": "1.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "cairo": {
+    "name": "cairo-1.4.6",
+    "pname": "cairo",
+    "version": "1.4.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "cairomm": {
+    "name": "cairomm-1.4.6",
+    "pname": "cairomm",
+    "version": "1.4.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "ccache": {
+    "name": "ccache-2.4",
+    "pname": "ccache",
+    "version": "2.4",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "ccache, a tool that caches compilation results.",
+      "homepage": "http://ccache.samba.org/",
+      "license": "GPL"
+    }
+  },
+  "cdparanoia": {
+    "name": "cdparanoia-III-alpha9.8",
+    "pname": "cdparanoia-III-alpha9.8",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "homepage": "http://xiph.org/paranoia"
+    }
+  },
+  "cdrkit": {
+    "name": "cdrkit-1.1.6",
+    "pname": "cdrkit",
+    "version": "1.1.6",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Portable command-line CD/DVD recorder software, mostly compatible with cdrtools",
+      "homepage": "http://cdrkit.org/",
+      "license": "GPL2"
+    }
+  },
+  "cdrtools": {
+    "name": "cdrtools-2.01",
+    "pname": "cdrtools",
+    "version": "2.01",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Highly portable CD/DVD/BluRay command line recording software (deprecated; use cdrkit instead)",
+      "homepage": "http://cdrecord.berlios.de/old/private/cdrecord.html"
+    }
+  },
+  "cfitsio": {
+    "name": "cfitsio-3.060",
+    "pname": "cfitsio",
+    "version": "3.060",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "chatzilla": {
+    "name": "chatzilla-0.9.79",
+    "pname": "chatzilla",
+    "version": "0.9.79",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Stand-alone version of Chatzilla, an IRC client",
+      "homepage": "http://chatzilla.hacksrus.com/"
+    }
+  },
+  "chkrootkit": {
+    "name": "chkrootkit-0.48",
+    "pname": "chkrootkit",
+    "version": "0.48",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "chmlib": {
+    "name": "chmlib-0.39",
+    "pname": "chmlib",
+    "version": "0.39",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "CHLIB is a library for dealing with Microsoft ITSS/CHM\n\t  format files",
+      "homepage": "http://www.jedrea.com/chmlib",
+      "license": "LGPL"
+    }
+  },
+  "cil": {
+    "name": "cil-1.3.2",
+    "pname": "cil",
+    "version": "1.3.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "cilaterm": {
+    "name": "cil-aterm-1.3.6",
+    "pname": "cil-aterm",
+    "version": "1.3.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "cksfv": {
+    "name": "cksfv-1.3",
+    "pname": "cksfv",
+    "version": "1.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "clanlib": {
+    "name": "clanlib-0.8.0",
+    "pname": "clanlib",
+    "version": "0.8.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "clearlyU": {
+    "name": "clearlyU-12-1.9",
+    "pname": "clearlyU",
+    "version": "12-1.9",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\t\tA Unicode font.\n",
+      "src": null
+    }
+  },
+  "clearsilver": {
+    "name": "clearsilver-0.10.3",
+    "pname": "clearsilver",
+    "version": "0.10.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "clisp": {
+    "name": "clisp-2.43",
+    "pname": "clisp",
+    "version": "2.43",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "ANSI Common Lisp Implementation",
+      "homepage": "http://clisp.cons.org"
+    }
+  },
+  "cluceneCore": {
+    "name": "clucene-core-0.9.20",
+    "pname": "clucene-core",
+    "version": "0.9.20",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "CLucene is a port of the very popular Java Lucene text search engine API. Core package.",
+      "homepage": "http://clucene.sourceforge.net"
+    }
+  },
+  "cmake": {
+    "name": "cmake-2.4.7",
+    "pname": "cmake",
+    "version": "2.4.7",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Cross-Platform Makefile Generator"
+    }
+  },
+  "commonsFileUpload": {
+    "name": "commons-fileupload-1.0",
+    "pname": "commons-fileupload",
+    "version": "1.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "compiz_050": {
+    "name": "compiz-0.5.0",
+    "pname": "compiz",
+    "version": "0.5.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "compiz": {
+    "name": "compiz-0.6.2",
+    "pname": "compiz",
+    "version": "0.6.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tCompiz window manager\n",
+      "src": null
+    }
+  },
+  "compizExtra": {
+    "name": "compiz-extra-20070305",
+    "pname": "compiz-extra",
+    "version": "20070305",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.compositeproto": {
+    "name": "compositeproto-0.4",
+    "pname": "compositeproto",
+    "version": "0.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "construo": {
+    "name": "construo-0.2.2",
+    "pname": "construo",
+    "version": "0.2.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tConstruo masses and springs simulation.\n",
+      "src": null
+    }
+  },
+  "coredumper": {
+    "name": "coredumper-1.1",
+    "pname": "coredumper",
+    "version": "1.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "corefonts": {
+    "name": "corefonts-1",
+    "pname": "corefonts",
+    "version": "1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "coreutils": {
+    "name": "coreutils-6.10",
+    "pname": "coreutils",
+    "version": "6.10",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The basic file, shell and text manipulation utilities of the GNU operating system",
+      "homepage": "http://www.gnu.org/software/coreutils/"
+    }
+  },
+  "cpio": {
+    "name": "cpio-2.9",
+    "pname": "cpio",
+    "version": "2.9",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "cppunit": {
+    "name": "cppunit-1.12.0",
+    "pname": "cppunit",
+    "version": "1.12.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "cracklib": {
+    "name": "cracklib-2.8.12",
+    "pname": "cracklib",
+    "version": "2.8.12",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "cramfsswap": {
+    "name": "cramfsswap-1.4.1",
+    "pname": "cramfsswap",
+    "version": "1.4.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "cron": {
+    "name": "cron-4.1",
+    "pname": "cron",
+    "version": "4.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Vixie Cron, a daemon for running commands at specific times"
+    }
+  },
+  "ctags": {
+    "name": "ctags-5.5.4",
+    "pname": "ctags",
+    "version": "5.5.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "ctl": {
+    "name": "ctl-1.4.1",
+    "pname": "ctl",
+    "version": "1.4.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Color Transformation Language",
+      "homepage": "http://ampasctl.sourceforge.net",
+      "license": "SOME OPEN SOURCE LICENSE"
+    }
+  },
+  "cua": {
+    "name": "cua-mode-2.10",
+    "pname": "cua-mode",
+    "version": "2.10",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "cups": {
+    "name": "cups-1.2.10",
+    "pname": "cups",
+    "version": "1.2.10",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "realCurl": {
+    "name": "curl-7.17.1",
+    "pname": "curl",
+    "version": "7.17.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "curl": {
+    "name": "curl-7.17.1",
+    "pname": "curl",
+    "version": "7.17.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "curlftpfs": {
+    "name": "curlftpfs-0.9.1",
+    "pname": "curlftpfs",
+    "version": "0.9.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "cvs": {
+    "name": "cvs-1.12.13",
+    "pname": "cvs",
+    "version": "1.12.13",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "cvs2svn": {
+    "name": "cvs2svn-2.0.1",
+    "pname": "cvs2svn",
+    "version": "2.0.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A tool to convert CVS repositories to Subversion repositories",
+      "homepage": "http://cvs2svn.tigris.org/"
+    }
+  },
+  "cyrus_sasl": {
+    "name": "cyrus-sasl-2.1.22",
+    "pname": "cyrus-sasl",
+    "version": "2.1.22",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "d4x": {
+    "name": "d4x-2.5.7.1",
+    "pname": "d4x",
+    "version": "2.5.7.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "graphical download manager",
+      "homepage": "http://www.krasu.ru/soft/chuchelo/",
+      "license": "Artistic"
+    }
+  },
+  "xlibs.damageproto": {
+    "name": "damageproto-1.1.0",
+    "pname": "damageproto",
+    "version": "1.1.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "darcs": {
+    "name": "darcs-1.0.9",
+    "pname": "darcs",
+    "version": "1.0.9",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Patch-based version management system"
+    }
+  },
+  "darcs_2_pre": {
+    "name": "darcs-2.0.0pre3",
+    "pname": "darcs",
+    "version": "2.0.0pre3",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Patch-based version management system"
+    }
+  },
+  "db44": {
+    "name": "db4-4.4.20",
+    "pname": "db4",
+    "version": "4.4.20",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "db4": {
+    "name": "db4-4.5.20",
+    "pname": "db4",
+    "version": "4.5.20",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "dblatex": {
+    "name": "dblatex-0.2.7",
+    "pname": "dblatex",
+    "version": "0.2.7",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A program to convert DocBook to DVI, PostScript or PDF via LaTeX or ConTeXt",
+      "homepage": "http://dblatex.sourceforge.net/",
+      "license": "GPL"
+    }
+  },
+  "dbus_glib": {
+    "name": "dbus-glib-0.74",
+    "pname": "dbus-glib",
+    "version": "0.74",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "GLib bindings for D-Bus lightweight IPC mechanism",
+      "homepage": "http://dbus.freedesktop.org",
+      "license": "AFL-2.1 or GPL-2"
+    }
+  },
+  "dclib": {
+    "name": "dclib-0.3.7",
+    "pname": "dclib",
+    "version": "0.3.7",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kde4.decibel": {
+    "name": "decibel-0.5.0",
+    "pname": "decibel",
+    "version": "0.5.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "dejavu_fonts": {
+    "name": "dejavu-fonts-2.23",
+    "pname": "dejavu-fonts",
+    "version": "2.23",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "devicemapper": {
+    "name": "device-mapper-1.02.22",
+    "pname": "device-mapper",
+    "version": "1.02.22",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "devicemapperStatic": {
+    "name": "device-mapper-1.02.22-static",
+    "pname": "device-mapper",
+    "version": "1.02.22-static",
+    "system": "x86_64-linux",
+    "meta": {
+      "priority": "10"
+    }
+  },
+  "dhcp": {
+    "name": "dhcp-3.0.6",
+    "pname": "dhcp",
+    "version": "3.0.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "dia": {
+    "name": "dia-0.96",
+    "pname": "dia",
+    "version": "0.96",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Gnome Diagram drawing software.",
+      "homepage": "http://www.gnome.org/projects/dia"
+    }
+  },
+  "dict": {
+    "name": "dict-1.9.15",
+    "pname": "dict",
+    "version": "1.9.15",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\t\tDict protocol server and client.\n",
+      "src": null
+    }
+  },
+  "dictdDBs.eng2fra": {
+    "name": "dictd-db-eng-fra",
+    "pname": "dictd-db-eng-fra",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\t\tdictd-db-eng-fra dictionary for dictd.\n",
+      "src": null
+    }
+  },
+  "dictdDBs.eng2nld": {
+    "name": "dictd-db-eng-nld",
+    "pname": "dictd-db-eng-nld",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\t\tdictd-db-eng-nld dictionary for dictd.\n",
+      "src": null
+    }
+  },
+  "dictdDBs.eng2rus": {
+    "name": "dictd-db-eng-rus",
+    "pname": "dictd-db-eng-rus",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\t\tdictd-db-eng-rus dictionary for dictd.\n",
+      "src": null
+    }
+  },
+  "dictdDBs.fra2eng": {
+    "name": "dictd-db-fra-eng",
+    "pname": "dictd-db-fra-eng",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\t\tdictd-db-fra-eng dictionary for dictd.\n",
+      "src": null
+    }
+  },
+  "dictdDBs.mueller_eng2rus_pkg": {
+    "name": "dictd-db-mueller-eng-rus",
+    "pname": "dictd-db-mueller-eng-rus",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\t\tdictd-db-mueller-eng-rus dictionary for dictd.\n",
+      "src": null
+    }
+  },
+  "dictdDBs.nld2eng": {
+    "name": "dictd-db-nld-eng",
+    "pname": "dictd-db-nld-eng",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\t\tdictd-db-nld-eng dictionary for dictd.\n",
+      "src": null
+    }
+  },
+  "dietlibc": {
+    "name": "dietlibc-0.30",
+    "pname": "dietlibc",
+    "version": "0.30",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A small implementation of the C library",
+      "homepage": "http://www.fefe.de/dietlibc/",
+      "license": "GPL"
+    }
+  },
+  "diffutils": {
+    "name": "diffutils-2.8.1",
+    "pname": "diffutils",
+    "version": "2.8.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Commands for showing the differences between files (diff, cmp, etc.)",
+      "homepage": "http://www.gnu.org/software/diffutils/diffutils.html"
+    }
+  },
+  "directfb": {
+    "name": "directfb-1.1.0",
+    "pname": "directfb",
+    "version": "1.1.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "djview4": {
+    "name": "djview4-4.1-2",
+    "pname": "djview4",
+    "version": "4.1-2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A new portable DjVu viewer and browser plugin",
+      "homepage": "http://djvu.sourceforge.net/djview4.html",
+      "license": "GPL2"
+    }
+  },
+  "djvulibre": {
+    "name": "djvulibre-3.5.19",
+    "pname": "djvulibre",
+    "version": "3.5.19",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tDjVu libre - a library and a viewer for djvu format - compression for\n\tscanned images.\n",
+      "homepage": "http://djvu.sourceforge.net"
+    }
+  },
+  "dmidecode": {
+    "name": "dmidecode-2.9",
+    "pname": "dmidecode",
+    "version": "2.9",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\t\tTool to decode Desktop Management Interface and SBIOS data.\n",
+      "src": null
+    }
+  },
+  "xlibs.dmxproto": {
+    "name": "dmxproto-2.2.2",
+    "pname": "dmxproto",
+    "version": "2.2.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "dnsmasq": {
+    "name": "dnsmasq-2.40",
+    "pname": "dnsmasq",
+    "version": "2.40",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "DNS forwarder and DHCP server",
+      "homepage": "http://www.thekelleys.org.uk/dnsmasq/doc.html",
+      "license": "GPL"
+    }
+  },
+  "docbook_xml_dtd_412": {
+    "name": "docbook-xml-4.1.2",
+    "pname": "docbook-xml",
+    "version": "4.1.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "docbook_xml_dtd_42": {
+    "name": "docbook-xml-4.2",
+    "pname": "docbook-xml",
+    "version": "4.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "docbook_xml_dtd_43": {
+    "name": "docbook-xml-4.3",
+    "pname": "docbook-xml",
+    "version": "4.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "docbook_xml_ebnf_dtd": {
+    "name": "docbook-xml-ebnf-1.2b1",
+    "pname": "docbook-xml-ebnf",
+    "version": "1.2b1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "docbook_xml_xslt": {
+    "name": "docbook-xsl-1.72.0",
+    "pname": "docbook-xsl",
+    "version": "1.72.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "docbook2x": {
+    "name": "docbook2X-0.8.8",
+    "pname": "docbook2X",
+    "version": "0.8.8",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "docbook2X is a software package that converts DocBook\n                    documents into the traditional Unix man page format\n\t\t    and the GNU Texinfo format.",
+      "homepage": "http://docbook2x.sourceforge.net/",
+      "license": "MIT-style"
+    }
+  },
+  "docbook5": {
+    "name": "docbook5-5.0-pre-cr1",
+    "pname": "docbook5",
+    "version": "5.0-pre-cr1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "docbook5_xsl": {
+    "name": "docbook5-xsl-1.73.1",
+    "pname": "docbook5-xsl",
+    "version": "1.73.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "dosbox": {
+    "name": "dosbox-0.65",
+    "pname": "dosbox",
+    "version": "0.65",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "dosfstools": {
+    "name": "dosfstools-2.11deb",
+    "pname": "dosfstools",
+    "version": "2.11deb",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n        Dosfstools - utilities for vfat file system.\n",
+      "homepage": "http://sixpak.org/dosfstools/dosfstools-2.8vb2.tar.gz",
+      "src": null
+    }
+  },
+  "dovecot": {
+    "name": "dovecot-1.0.3",
+    "pname": "dovecot",
+    "version": "1.0.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "dvdplusrwtools": {
+    "name": "dvd+rw-tools-7.0",
+    "pname": "dvd+rw-tools",
+    "version": "7.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tDVD+RW tools.\n",
+      "src": null
+    }
+  },
+  "e2fsprogs": {
+    "name": "e2fsprogs-1.40.7",
+    "pname": "e2fsprogs",
+    "version": "1.40.7",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "e2fsprogsDiet": {
+    "name": "e2fsprogs-1.40.7-diet",
+    "pname": "e2fsprogs",
+    "version": "1.40.7-diet",
+    "system": "x86_64-linux",
+    "meta": {
+      "priority": "10"
+    }
+  },
+  "e3cfsprogs": {
+    "name": "e3cfsprogs-1.39",
+    "pname": "e3cfsprogs",
+    "version": "1.39",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "ecj": {
+    "name": "ecj-3.1",
+    "pname": "ecj",
+    "version": "3.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "eclipse_classic_src": {
+    "name": "eclipse-classic-3.3.1.1",
+    "pname": "eclipse-classic",
+    "version": "3.3.1.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "jdtsdk": {
+    "name": "eclipse-JDT-SDK-3.3.2",
+    "pname": "eclipse-JDT-SDK",
+    "version": "3.3.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "eclipsesdk": {
+    "name": "eclipse-sdk-3.3.2",
+    "pname": "eclipse-sdk",
+    "version": "3.3.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "eclipseSpoofax": {
+    "name": "eclipse-sdk-3.3.2-with-spoofax",
+    "pname": "eclipse-sdk",
+    "version": "3.3.2-with-spoofax",
+    "system": "x86_64-linux",
+    "meta": {
+      "priority": "10"
+    }
+  },
+  "ed": {
+    "name": "ed-0.9",
+    "pname": "ed",
+    "version": "0.9",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.editres": {
+    "name": "editres-1.0.2",
+    "pname": "editres",
+    "version": "1.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "ejabberd": {
+    "name": "ejabberd-2.0.0",
+    "pname": "ejabberd",
+    "version": "2.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "eject": {
+    "name": "eject-2.1.5",
+    "pname": "eject",
+    "version": "2.1.5",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "elfutils": {
+    "name": "elfutils-0.131",
+    "pname": "elfutils",
+    "version": "0.131",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "elinks": {
+    "name": "elinks-0.11.3",
+    "pname": "elinks",
+    "version": "0.11.3",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Full-Featured Text WWW Browser",
+      "homepage": "http://elinks.or.cz"
+    }
+  },
+  "emacs21": {
+    "name": "emacs-21.4a",
+    "pname": "emacs",
+    "version": "21.4a",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "All Hail Emacs, the ultimate editor"
+    }
+  },
+  "emacs": {
+    "name": "emacs-22.1",
+    "pname": "emacs",
+    "version": "22.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "emacsUnicode": {
+    "name": "emacs-23.0.0.1-pre20070705",
+    "pname": "emacs",
+    "version": "23.0.0.1-pre20070705",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Emacs with Unicode, GTK and Xft support (23.x alpha)",
+      "homepage": "http://www.emacswiki.org/cgi-bin/wiki/XftGnuEmacs",
+      "license": "GPL"
+    }
+  },
+  "emma": {
+    "name": "emma-2.0.5312",
+    "pname": "emma",
+    "version": "2.0.5312",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A code coverage tool for Java",
+      "homepage": "http://emma.sourceforge.net/"
+    }
+  },
+  "enchant": {
+    "name": "enchant-1.3.0",
+    "pname": "enchant",
+    "version": "1.3.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "homepage": "http://www.abisource.com/enchant"
+    }
+  },
+  "xlibs.encodings": {
+    "name": "encodings-1.0.2",
+    "pname": "encodings",
+    "version": "1.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "enscript": {
+    "name": "enscript-1.6.4",
+    "pname": "enscript",
+    "version": "1.6.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "epm": {
+    "name": "epm-4.1",
+    "pname": "epm",
+    "version": "4.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The ESP Package Manager generates distribution archives for a variety of platforms",
+      "homepage": "http://www.easysw.com/epm/index.php"
+    }
+  },
+  "eprover": {
+    "name": "EProver-0.999",
+    "pname": "EProver",
+    "version": "0.999",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tE automated theorem prover.\n"
+    }
+  },
+  "erlang": {
+    "name": "erlang-R12B-1",
+    "pname": "erlang-R12B",
+    "version": "1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.esound": {
+    "name": "esound-0.2.36",
+    "pname": "esound",
+    "version": "0.2.36",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.evieext": {
+    "name": "evieext-1.0.2",
+    "pname": "evieext",
+    "version": "1.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "exif": {
+    "name": "exif-0.6.15",
+    "pname": "exif",
+    "version": "0.6.15",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "exiv2": {
+    "name": "exiv2-0.15",
+    "pname": "exiv2",
+    "version": "0.15",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "expat": {
+    "name": "expat-2.0.1",
+    "pname": "expat",
+    "version": "2.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "expect": {
+    "name": "expect-5.43.0",
+    "pname": "expect",
+    "version": "5.43.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A tool for automating interactive applications",
+      "homepage": "http://expect.nist.gov/"
+    }
+  },
+  "ext3cowtools": {
+    "name": "ext3cow-tools",
+    "pname": "ext3cow-tools",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kde4.extragear_plasma": {
+    "name": "extragear-plasma-4.0beta4",
+    "pname": "extragear-plasma",
+    "version": "4.0beta4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "exult": {
+    "name": "exult-1.2",
+    "pname": "exult",
+    "version": "1.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A reimplementation of the Ultima VII game engine"
+    }
+  },
+  "fspot": {
+    "name": "f-spot-0.0.10",
+    "pname": "f-spot",
+    "version": "0.0.10",
+    "system": "x86_64-linux",
+    "meta": {
+      "homepage": "http://f-spot.org"
+    }
+  },
+  "facile": {
+    "name": "facile-1.1",
+    "pname": "facile",
+    "version": "1.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A Functional Constraint Library",
+      "homepage": "http://www.recherche.enac.fr/log/facile",
+      "license": "LGPL"
+    }
+  },
+  "fbpanel": {
+    "name": "fbpanel",
+    "pname": "fbpanel",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tJust a desktop panel.\t\n",
+      "src": null
+    }
+  },
+  "fcgi": {
+    "name": "fcgi-2.4.0",
+    "pname": "fcgi",
+    "version": "2.4.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "FastCGI  is a language independent, scalable, open extension to CG",
+      "homepage": "http://www.fastcgi.com/",
+      "license": "FastCGI see LICENSE.TERMS"
+    }
+  },
+  "feh": {
+    "name": "feh-1.3.4",
+    "pname": "feh",
+    "version": "1.3.4",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A light-weight image viewer",
+      "homepage": "http://linuxbrit.co.uk/feh/"
+    }
+  },
+  "fetchmail": {
+    "name": "fetchmail-6.3.8",
+    "pname": "fetchmail",
+    "version": "6.3.8",
+    "system": "x86_64-linux",
+    "meta": {
+      "homepage": "http://www.fetchmail.info"
+    }
+  },
+  "ffmpeg": {
+    "name": "ffmpeg-20051126",
+    "pname": "ffmpeg",
+    "version": "20051126",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "ffmpeg_svn": {
+    "name": "ffmpeg-svn-pre-r11901",
+    "pname": "ffmpeg-svn-pre-r11901",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "fftw": {
+    "name": "fftw-3.1.2",
+    "pname": "fftw",
+    "version": "3.1.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tFastest Fourier Transform in the West library.\n",
+      "src": null
+    }
+  },
+  "file": {
+    "name": "file-4.23",
+    "pname": "file",
+    "version": "4.23",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A program that shows the type of files",
+      "homepage": "ftp://ftp.astron.com/pub/file"
+    }
+  },
+  "filelight": {
+    "name": "filelight-1.0",
+    "pname": "filelight",
+    "version": "1.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tFilelight lets you analyze which directories \n\tand files eat your disk space.\n"
+    }
+  },
+  "findbugs": {
+    "name": "findbugs-1.3.2",
+    "pname": "findbugs",
+    "version": "1.3.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A static analysis tool to find bugs in Java programs automatically",
+      "homepage": "http://findbugs.sourceforge.net/"
+    }
+  },
+  "findutils4227": {
+    "name": "findutils-4.2.27",
+    "pname": "findutils",
+    "version": "4.2.27",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "findutils": {
+    "name": "findutils-4.2.32",
+    "pname": "findutils",
+    "version": "4.2.32",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The basic directory searching utilities of the GNU operating system",
+      "homepage": "http://www.gnu.org/software/findutils/"
+    }
+  },
+  "findutilsWrapper": {
+    "name": "findutils-4.2.32-wrapper",
+    "pname": "findutils",
+    "version": "4.2.32-wrapper",
+    "system": "x86_64-linux",
+    "meta": {
+      "priority": "10"
+    }
+  },
+  "firefox": {
+    "name": "firefox-2.0.0.12",
+    "pname": "firefox",
+    "version": "2.0.0.12",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Mozilla Firefox - the browser, reloaded",
+      "homepage": "http://www.mozilla.com/en-US/firefox/",
+      "priority": "10"
+    }
+  },
+  "firefoxWrapper": {
+    "name": "firefox-2.0.0.12-with-plugins",
+    "pname": "firefox",
+    "version": "2.0.0.12-with-plugins",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Mozilla Firefox - the browser, reloaded (with plugins: gnash-0.8.2, mplayerplug-in-3.50)"
+    }
+  },
+  "firefox3": {
+    "name": "firefox-3.0-beta-3",
+    "pname": "firefox",
+    "version": "3.0-beta-3",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Mozilla Firefox - the browser, reloaded",
+      "homepage": "http://www.mozilla.com/en-US/firefox/",
+      "priority": "10"
+    }
+  },
+  "firefox3Wrapper": {
+    "name": "firefox-3.0-beta-3-with-plugins",
+    "pname": "firefox",
+    "version": "3.0-beta-3-with-plugins",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Mozilla Firefox - the browser, reloaded (with plugins: gnash-0.8.2, mplayerplug-in-3.50)",
+      "priority": "10"
+    }
+  },
+  "xlibs.fixesproto": {
+    "name": "fixesproto-4.0",
+    "pname": "fixesproto",
+    "version": "4.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "flac": {
+    "name": "flac-1.2.1",
+    "pname": "flac",
+    "version": "1.2.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "homepage": "http://flac.sourceforge.net"
+    }
+  },
+  "flapjax": {
+    "name": "flapjax-source-20070514",
+    "pname": "flapjax-source",
+    "version": "20070514",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "programming language designed around the demands of modern, client-based Web applications",
+      "homepage": "http://www.flapjax-lang.org/",
+      "license": "BSD"
+    }
+  },
+  "flashplayer7": {
+    "name": "flashplayer-7.0r25",
+    "pname": "flashplayer",
+    "version": "7.0r25",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "flex2533": {
+    "name": "flex-2.5.33",
+    "pname": "flex",
+    "version": "2.5.33",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A fast lexical analyser generator"
+    }
+  },
+  "flex2534": {
+    "name": "flex-2.5.34",
+    "pname": "flex",
+    "version": "2.5.34",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A fast lexical analyser generator"
+    }
+  },
+  "flex": {
+    "name": "flex-2.5.4a",
+    "pname": "flex",
+    "version": "2.5.4a",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "flite": {
+    "name": "flite-1.3-release",
+    "pname": "flite",
+    "version": "1.3-release",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Flite text to speech engine",
+      "homepage": "http://www.speech.cs.cmu.edu/flite/download.html",
+      "license": "BSD as-is"
+    }
+  },
+  "fltk20": {
+    "name": "fltk-2.0.x-r5940",
+    "pname": "fltk",
+    "version": "2.0.x-r5940",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "a C++ cross platform lightweight gui library binding",
+      "homepage": "http://www.fltk.org"
+    }
+  },
+  "xlibs.fontadobe100dpi": {
+    "name": "font-adobe-100dpi-1.0.0",
+    "pname": "font-adobe",
+    "version": "100dpi-1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontadobe75dpi": {
+    "name": "font-adobe-75dpi-1.0.0",
+    "pname": "font-adobe",
+    "version": "75dpi-1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontadobeutopia100dpi": {
+    "name": "font-adobe-utopia-100dpi-1.0.1",
+    "pname": "font-adobe-utopia",
+    "version": "100dpi-1.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontadobeutopia75dpi": {
+    "name": "font-adobe-utopia-75dpi-1.0.1",
+    "pname": "font-adobe-utopia",
+    "version": "75dpi-1.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontadobeutopiatype1": {
+    "name": "font-adobe-utopia-type1-1.0.1",
+    "pname": "font-adobe-utopia-type1",
+    "version": "1.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontalias": {
+    "name": "font-alias-1.0.1",
+    "pname": "font-alias",
+    "version": "1.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontarabicmisc": {
+    "name": "font-arabic-misc-1.0.0",
+    "pname": "font-arabic-misc",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontbh100dpi": {
+    "name": "font-bh-100dpi-1.0.0",
+    "pname": "font-bh",
+    "version": "100dpi-1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontbh75dpi": {
+    "name": "font-bh-75dpi-1.0.0",
+    "pname": "font-bh",
+    "version": "75dpi-1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontbhlucidatypewriter100dpi": {
+    "name": "font-bh-lucidatypewriter-100dpi-1.0.0",
+    "pname": "font-bh-lucidatypewriter",
+    "version": "100dpi-1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontbhlucidatypewriter75dpi": {
+    "name": "font-bh-lucidatypewriter-75dpi-1.0.0",
+    "pname": "font-bh-lucidatypewriter",
+    "version": "75dpi-1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontbhttf": {
+    "name": "font-bh-ttf-1.0.0",
+    "pname": "font-bh-ttf",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontbhtype1": {
+    "name": "font-bh-type1-1.0.0",
+    "pname": "font-bh-type1",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontbitstream100dpi": {
+    "name": "font-bitstream-100dpi-1.0.0",
+    "pname": "font-bitstream",
+    "version": "100dpi-1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontbitstream75dpi": {
+    "name": "font-bitstream-75dpi-1.0.0",
+    "pname": "font-bitstream",
+    "version": "75dpi-1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontbitstreamspeedo": {
+    "name": "font-bitstream-speedo-1.0.0",
+    "pname": "font-bitstream-speedo",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontbitstreamtype1": {
+    "name": "font-bitstream-type1-1.0.0",
+    "pname": "font-bitstream-type1",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontcronyxcyrillic": {
+    "name": "font-cronyx-cyrillic-1.0.0",
+    "pname": "font-cronyx-cyrillic",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontcursormisc": {
+    "name": "font-cursor-misc-1.0.0",
+    "pname": "font-cursor-misc",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontdaewoomisc": {
+    "name": "font-daewoo-misc-1.0.0",
+    "pname": "font-daewoo-misc",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontdecmisc": {
+    "name": "font-dec-misc-1.0.0",
+    "pname": "font-dec-misc",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontibmtype1": {
+    "name": "font-ibm-type1-1.0.0",
+    "pname": "font-ibm-type1",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontisasmisc": {
+    "name": "font-isas-misc-1.0.0",
+    "pname": "font-isas-misc",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontjismisc": {
+    "name": "font-jis-misc-1.0.0",
+    "pname": "font-jis-misc",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontmicromisc": {
+    "name": "font-micro-misc-1.0.0",
+    "pname": "font-micro-misc",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontmisccyrillic": {
+    "name": "font-misc-cyrillic-1.0.0",
+    "pname": "font-misc-cyrillic",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontmiscethiopic": {
+    "name": "font-misc-ethiopic-1.0.0",
+    "pname": "font-misc-ethiopic",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontmiscmeltho": {
+    "name": "font-misc-meltho-1.0.0",
+    "pname": "font-misc-meltho",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontmiscmisc": {
+    "name": "font-misc-misc-1.0.0",
+    "pname": "font-misc-misc",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontmuttmisc": {
+    "name": "font-mutt-misc-1.0.0",
+    "pname": "font-mutt-misc",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontschumachermisc": {
+    "name": "font-schumacher-misc-1.0.0",
+    "pname": "font-schumacher-misc",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontscreencyrillic": {
+    "name": "font-screen-cyrillic-1.0.1",
+    "pname": "font-screen-cyrillic",
+    "version": "1.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontsonymisc": {
+    "name": "font-sony-misc-1.0.0",
+    "pname": "font-sony-misc",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontsunmisc": {
+    "name": "font-sun-misc-1.0.0",
+    "pname": "font-sun-misc",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontutil": {
+    "name": "font-util-1.0.1",
+    "pname": "font-util",
+    "version": "1.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontwinitzkicyrillic": {
+    "name": "font-winitzki-cyrillic-1.0.0",
+    "pname": "font-winitzki-cyrillic",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontxfree86type1": {
+    "name": "font-xfree86-type1-1.0.0",
+    "pname": "font-xfree86-type1",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontcacheproto": {
+    "name": "fontcacheproto-0.1.2",
+    "pname": "fontcacheproto",
+    "version": "0.1.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "fontconfig": {
+    "name": "fontconfig-2.4.2",
+    "pname": "fontconfig",
+    "version": "2.4.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "fontforge": {
+    "name": "fontforge-20070808",
+    "pname": "fontforge",
+    "version": "20070808",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "fontforgeX": {
+    "name": "fontforge-20070808",
+    "pname": "fontforge",
+    "version": "20070808",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fontsproto": {
+    "name": "fontsproto-2.0.2",
+    "pname": "fontsproto",
+    "version": "2.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fonttosfnt": {
+    "name": "fonttosfnt-1.0.3",
+    "pname": "fonttosfnt",
+    "version": "1.0.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "fpc": {
+    "name": "fpc-2.2.0",
+    "pname": "fpc",
+    "version": "2.2.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tFree Pascal Compiler from a source distribution.\n"
+    }
+  },
+  "freealut": {
+    "name": "freealut-1.1.0",
+    "pname": "freealut",
+    "version": "1.1.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "freealut_soft": {
+    "name": "freealut-1.1.0",
+    "pname": "freealut",
+    "version": "1.1.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "freefont_ttf": {
+    "name": "freefont-ttf-20060126",
+    "pname": "freefont-ttf",
+    "version": "20060126",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "liberation_ttf": {
+    "name": "freefont-ttf-20060126",
+    "pname": "freefont-ttf",
+    "version": "20060126",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "freeglut": {
+    "name": "freeglut-2.4.0",
+    "pname": "freeglut",
+    "version": "2.4.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "freemind": {
+    "name": "freemind-0.9.0_Beta_13",
+    "pname": "freemind",
+    "version": "0.9.0_Beta_13",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "mind mapping software",
+      "homepage": "http://freemind.sourceforge.net/wiki/index.php/Main_Page",
+      "license": "GPL"
+    }
+  },
+  "freetype": {
+    "name": "freetype-2.3.1",
+    "pname": "freetype",
+    "version": "2.3.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "fribidi": {
+    "name": "fribidi-0.10.7",
+    "pname": "fribidi",
+    "version": "0.10.7",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "frown": {
+    "name": "frown-0.6.1",
+    "pname": "frown",
+    "version": "0.6.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "fsgAltBuild": {
+    "name": "fsg-4.4",
+    "pname": "fsg",
+    "version": "4.4",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tFalling Sand Game - a cellular automata engine tuned towards the likes of Falling Sand.\n",
+      "src": null
+    }
+  },
+  "fsg": {
+    "name": "fsg-4.4",
+    "pname": "fsg",
+    "version": "4.4",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tFalling Sand Game - a cellular automata engine tuned towards the likes of Falling Sand.\n"
+    }
+  },
+  "xlibs.fslsfonts": {
+    "name": "fslsfonts-1.0.1",
+    "pname": "fslsfonts",
+    "version": "1.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.fstobdf": {
+    "name": "fstobdf-1.0.2",
+    "pname": "fstobdf",
+    "version": "1.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "fuse": {
+    "name": "fuse-2.7.2",
+    "pname": "fuse",
+    "version": "2.7.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Kernel module and library that allows filesystems to be implemented in user space",
+      "homepage": "http://fuse.sourceforge.net/"
+    }
+  },
+  "fxload": {
+    "name": "fxload-2002_04_11",
+    "pname": "fxload",
+    "version": "2002_04_11",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Tool to upload firmware to Cypress EZ-USB microcontrollers",
+      "homepage": "http://linux-hotplug.sourceforge.net/?selected=usb"
+    }
+  },
+  "g77": {
+    "name": "g77",
+    "pname": "g77",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "g77_40": {
+    "name": "g77-4.0",
+    "pname": "g77",
+    "version": "4.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "GNU Compiler Collection, 4.0.x",
+      "homepage": "http://gcc.gnu.org/",
+      "license": "GPL/LGPL"
+    }
+  },
+  "g77_41": {
+    "name": "g77-4.1",
+    "pname": "g77",
+    "version": "4.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "GNU Compiler Collection, 4.1.x",
+      "homepage": "http://gcc.gnu.org/",
+      "license": "GPL/LGPL"
+    }
+  },
+  "gnome.gail": {
+    "name": "gail-1.9.3",
+    "pname": "gail",
+    "version": "1.9.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "fam": {
+    "name": "gamin-0.1.9",
+    "pname": "gamin",
+    "version": "0.1.9",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gw6c": {
+    "name": "Gateway6-Client",
+    "pname": "Gateway6-Client",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tGateway6 client. Provides IPv6 tunnel (by default - using \n\tFreenet6 anonymous server, which means dynamic IPv6 address, \n\tbut if you register at any tunnel broker you can easily \n\tenter you data in configuration.nix). You need also to enable\n\tservice \"gw6c\". And check that tun, ipv6 and sit are modprobed.\n"
+    }
+  },
+  "gawk": {
+    "name": "gawk-3.1.6",
+    "pname": "gawk",
+    "version": "3.1.6",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "GNU implementation of the AWK programming language",
+      "homepage": "http://www.gnu.org/software/gawk/"
+    }
+  },
+  "gcc295": {
+    "name": "gcc-2.95.3",
+    "pname": "gcc",
+    "version": "2.95.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gcc33": {
+    "name": "gcc-3.3.6",
+    "pname": "gcc",
+    "version": "3.3.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gcc34": {
+    "name": "gcc-3.4.6",
+    "pname": "gcc",
+    "version": "3.4.6",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "GNU Compiler Collection, 3.4.x",
+      "homepage": "http://gcc.gnu.org/",
+      "license": "GPL/LGPL"
+    }
+  },
+  "gcc40": {
+    "name": "gcc-4.0.4",
+    "pname": "gcc",
+    "version": "4.0.4",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "GNU Compiler Collection, 4.0.x",
+      "homepage": "http://gcc.gnu.org/",
+      "license": "GPL/LGPL"
+    }
+  },
+  "gcc41": {
+    "name": "gcc-4.1.2",
+    "pname": "gcc",
+    "version": "4.1.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "GNU Compiler Collection, 4.1.x",
+      "homepage": "http://gcc.gnu.org/",
+      "license": "GPL/LGPL"
+    }
+  },
+  "gcc": {
+    "name": "gcc-4.2.3",
+    "pname": "gcc",
+    "version": "4.2.3",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "GNU Compiler Collection, 4.2.x",
+      "homepage": "http://gcc.gnu.org/",
+      "license": "GPL/LGPL"
+    }
+  },
+  "gccupc40": {
+    "name": "gcc-upc-4.0.3.5",
+    "pname": "gcc-upc",
+    "version": "4.0.3.5",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A GCC-based compiler for the Unified Parallel C (UPC)\n                    language, a distributed shared memory aware variant of\n\t\t    C (see http://upc.gwu.edu/).",
+      "homepage": "http://www.intrepid.com/upc.html",
+      "license": "GPL/LGPL"
+    }
+  },
+  "xlibs.gccmakedep": {
+    "name": "gccmakedep-1.0.2",
+    "pname": "gccmakedep",
+    "version": "1.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.GConf": {
+    "name": "GConf-2.14.0",
+    "pname": "GConf",
+    "version": "2.14.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.gconfeditor": {
+    "name": "gconf-editor-2.16.0",
+    "pname": "gconf-editor",
+    "version": "2.16.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gd": {
+    "name": "gd-2.0.35",
+    "pname": "gd",
+    "version": "2.0.35",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "An open source code library for the dynamic creation of images by programmers",
+      "homepage": "http://www.libgd.org/"
+    }
+  },
+  "gdal": {
+    "name": "gdal-1.4.2",
+    "pname": "gdal",
+    "version": "1.4.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gdb": {
+    "name": "gdb-6.7.1",
+    "pname": "gdb",
+    "version": "6.7.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gdmap": {
+    "name": "gdmap0.7.5",
+    "pname": "gdmap0.7.5",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tRecursive rectangle map of disk usage.\t\n",
+      "src": null
+    }
+  },
+  "gemrb": {
+    "name": "gemrb-0.2.9",
+    "pname": "gemrb",
+    "version": "0.2.9",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A reimplementation of the Infinity Engine  (used by Baldur's Gate, Icewind Dale, Planescape: Torment, etc.)",
+      "homepage": "http://gemrb.sourceforge.net/"
+    }
+  },
+  "generator": {
+    "name": "generator-0.35-cbiere-r3",
+    "pname": "generator",
+    "version": "0.35-cbiere-r3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "genext2fs": {
+    "name": "genext2fs-1.4.1",
+    "pname": "genext2fs",
+    "version": "1.4.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "geos": {
+    "name": "geos-3.0.0rc4",
+    "pname": "geos",
+    "version": "3.0.0rc4",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "C++ port of the Java Topology Suite (JTS)- all the OpenGIS \"Simple Features for SQL\" spatial predicate functions and spatial operators, as well as specific JTS topology functions such as IsValid",
+      "homepage": "http://geos.refractions.net/",
+      "license": "GPL"
+    }
+  },
+  "getopt": {
+    "name": "getopt-1.1.4",
+    "pname": "getopt",
+    "version": "1.1.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gettext": {
+    "name": "gettext-0.17",
+    "pname": "gettext",
+    "version": "0.17",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "ghc64": {
+    "name": "ghc-6.4.2",
+    "pname": "ghc",
+    "version": "6.4.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The Glasgow Haskell Compiler"
+    }
+  },
+  "ghcboot": {
+    "name": "ghc-6.4.2-boot",
+    "pname": "ghc",
+    "version": "6.4.2-boot",
+    "system": "x86_64-linux",
+    "meta": {
+      "priority": "10"
+    }
+  },
+  "ghc66": {
+    "name": "ghc-6.6",
+    "pname": "ghc",
+    "version": "6.6",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The Glasgow Haskell Compiler v6.6"
+    }
+  },
+  "ghc661": {
+    "name": "ghc-6.6.1",
+    "pname": "ghc",
+    "version": "6.6.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The Glasgow Haskell Compiler"
+    }
+  },
+  "ghc": {
+    "name": "ghc-6.8.2",
+    "pname": "ghc",
+    "version": "6.8.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The Glasgow Haskell Compiler"
+    }
+  },
+  "ghcsAndLibs.ghc68.ghc": {
+    "name": "ghc-6.8.2",
+    "pname": "ghc",
+    "version": "6.8.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "ghcsAndLibs.ghc68.extra_src": {
+    "name": "ghc-6.8.2-src-extralibs.tar.bz2",
+    "pname": "ghc",
+    "version": "6.8.2-src-extralibs.tar.bz2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "ghcsAndLibs.ghc68.src": {
+    "name": "ghc-6.8.2-src.tar.bz2",
+    "pname": "ghc",
+    "version": "6.8.2-src.tar.bz2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "ghcLibraryWrapper68": {
+    "name": "ghc6.8.2_wrapper",
+    "pname": "ghc6.8.2_wrapper",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "ghcPkgUtil": {
+    "name": "ghcPkgUtil-internal",
+    "pname": "ghcPkgUtil-internal",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "ghostscript": {
+    "name": "ghostscript-8.56",
+    "pname": "ghostscript",
+    "version": "8.56",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "ghostscriptX": {
+    "name": "ghostscript-8.56-with-X",
+    "pname": "ghostscript",
+    "version": "8.56-with-X",
+    "system": "x86_64-linux",
+    "meta": {
+      "priority": "10"
+    }
+  },
+  "giflib": {
+    "name": "giflib-4.1.6",
+    "pname": "giflib",
+    "version": "4.1.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gimp": {
+    "name": "gimp-2.4.5",
+    "pname": "gimp",
+    "version": "2.4.5",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The GNU Image Manipulation Program",
+      "homepage": "http://www.gimp.org/",
+      "license": "GPL"
+    }
+  },
+  "git": {
+    "name": "git-1.5.4.2",
+    "pname": "git",
+    "version": "1.5.4.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Git, a popular distributed version control system\n                    designed to handle very large projects with speed\n\t\t    and efficiency.",
+      "homepage": "http://git.or.cz",
+      "license": "GPLv2"
+    }
+  },
+  "gkrellm": {
+    "name": "gkrellm-2.3.1",
+    "pname": "gkrellm",
+    "version": "2.3.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "GKrellM, a themeable process stack of system monitors.",
+      "homepage": "http://members.dslextreme.com/users/billw/gkrellm/gkrellm.html",
+      "license": "GPL"
+    }
+  },
+  "glew": {
+    "name": "glew-1.5.0",
+    "pname": "glew",
+    "version": "1.5.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "cross-platform open-source C/C++ extension loading library",
+      "homepage": "http://glew.sourceforge.net/",
+      "license": [
+        "BSD",
+        "GLX",
+        "SGI-B",
+        "GPL2"
+      ]
+    }
+  },
+  "gnome.glib": {
+    "name": "glib-2.12.13",
+    "pname": "glib",
+    "version": "2.12.13",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "glibc": {
+    "name": "glibc-2.7",
+    "pname": "glibc",
+    "version": "2.7",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gtkLibs.glibmm": {
+    "name": "glibmm-2.12.10",
+    "pname": "glibmm",
+    "version": "2.12.10",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.glproto": {
+    "name": "glproto-1.4.8",
+    "pname": "glproto",
+    "version": "1.4.8",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "glxinfo": {
+    "name": "glxinfo-6.5.2",
+    "pname": "glxinfo",
+    "version": "6.5.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gmime": {
+    "name": "gmime-2.2.1",
+    "pname": "gmime",
+    "version": "2.2.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gmp": {
+    "name": "gmp-4.2.2",
+    "pname": "gmp",
+    "version": "4.2.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating point numbers",
+      "homepage": "http://gmplib.org/",
+      "license": "LGPL"
+    }
+  },
+  "gnash": {
+    "name": "gnash-0.8.2",
+    "pname": "gnash",
+    "version": "0.8.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Gnash is the GNU Flash movie player.",
+      "homepage": "http://www.gnu.org/software/gnash/",
+      "license": "GPLv3+"
+    }
+  },
+  "gnet": {
+    "name": "gnet-2.0.7",
+    "pname": "gnet",
+    "version": "2.0.7",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.gnomedesktop": {
+    "name": "gnome-desktop-2.16.3",
+    "pname": "gnome-desktop",
+    "version": "2.16.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.gnomedocutils": {
+    "name": "gnome-doc-utils-0.8.0",
+    "pname": "gnome-doc-utils",
+    "version": "0.8.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.gnomeicontheme": {
+    "name": "gnome-icon-theme-2.16.1",
+    "pname": "gnome-icon-theme",
+    "version": "2.16.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.gnomekeyring": {
+    "name": "gnome-keyring-0.6.0",
+    "pname": "gnome-keyring",
+    "version": "0.6.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.gnomemenus": {
+    "name": "gnome-menus-2.16.1",
+    "pname": "gnome-menus",
+    "version": "2.16.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.gnomemimedata": {
+    "name": "gnome-mime-data-2.4.3",
+    "pname": "gnome-mime-data",
+    "version": "2.4.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.gnomepanel": {
+    "name": "gnome-panel-2.16.2",
+    "pname": "gnome-panel",
+    "version": "2.16.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.gnometerminal": {
+    "name": "gnome-terminal-2.16.1",
+    "pname": "gnome-terminal",
+    "version": "2.16.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.gnomeutils": {
+    "name": "gnome-utils-2.16.2",
+    "pname": "gnome-utils",
+    "version": "2.16.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.gnomevfs": {
+    "name": "gnome-vfs-2.16.3",
+    "pname": "gnome-vfs",
+    "version": "2.16.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnugrep": {
+    "name": "gnugrep-2.5.3",
+    "pname": "gnugrep",
+    "version": "2.5.3",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "GNU implementation of the Unix grep command",
+      "homepage": "http://www.gnu.org/software/grep/"
+    }
+  },
+  "gnum4": {
+    "name": "gnum4-1.4.9",
+    "pname": "gnum4",
+    "version": "1.4.9",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnumake380": {
+    "name": "gnumake-3.80",
+    "pname": "gnumake",
+    "version": "3.80",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnumake": {
+    "name": "gnumake-3.81",
+    "pname": "gnumake",
+    "version": "3.81",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnupatch": {
+    "name": "gnupatch-2.5.4",
+    "pname": "gnupatch",
+    "version": "2.5.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnupg": {
+    "name": "gnupg-1.4.8",
+    "pname": "gnupg",
+    "version": "1.4.8",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A free implementation of the OpenPGP standard for encrypting and signing data",
+      "homepage": "http://www.gnupg.org/"
+    }
+  },
+  "gnupg2": {
+    "name": "gnupg-2.0.8",
+    "pname": "gnupg",
+    "version": "2.0.8",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A free implementation of the OpenPGP standard for encrypting\n\tand signing data, v2",
+      "homepage": "http://www.gnupg.org/"
+    }
+  },
+  "gnuplotX": {
+    "name": "gnuplot-4.2.2-nix",
+    "pname": "gnuplot",
+    "version": "4.2.2-nix",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnuplot": {
+    "name": "gnuplot-4.2.2-nix",
+    "pname": "gnuplot",
+    "version": "4.2.2-nix",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnused412": {
+    "name": "gnused-4.1.2",
+    "pname": "gnused",
+    "version": "4.1.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnused": {
+    "name": "gnused-4.1.5",
+    "pname": "gnused",
+    "version": "4.1.5",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "GNU implementation of the Unix sed command",
+      "homepage": "http://www.gnu.org/software/grep/"
+    }
+  },
+  "gnutar151": {
+    "name": "gnutar-1.15.1",
+    "pname": "gnutar",
+    "version": "1.15.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnutar": {
+    "name": "gnutar-1.19",
+    "pname": "gnutar",
+    "version": "1.19",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "GNU implementation of the tar archiver",
+      "homepage": "http://www.gnu.org/software/grep/"
+    }
+  },
+  "gnutls": {
+    "name": "gnutls-2.1.5",
+    "pname": "gnutls",
+    "version": "2.1.5",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The GNU Transport Layer Security Library",
+      "homepage": "http://www.gnu.org/software/gnutls/",
+      "license": "LGPL"
+    }
+  },
+  "gocr": {
+    "name": "gocr",
+    "pname": "gocr",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\t\tGPL Optical Character Recognition\n",
+      "src": null
+    }
+  },
+  "gperf": {
+    "name": "gperf-3.0.3",
+    "pname": "gperf",
+    "version": "3.0.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gpgme": {
+    "name": "gpgme-1.1.4",
+    "pname": "gpgme",
+    "version": "1.1.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gphoto2": {
+    "name": "gphoto2-2.4.0",
+    "pname": "gphoto2",
+    "version": "2.4.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "homepage": "http://www.gphoto.org"
+    }
+  },
+  "gqview": {
+    "name": "gqview-2.1.5",
+    "pname": "gqview",
+    "version": "2.1.5",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A fast image viewer",
+      "homepage": "http://gqview.sourceforge.net"
+    }
+  },
+  "graphviz": {
+    "name": "graphviz-2.16.1",
+    "pname": "graphviz",
+    "version": "2.16.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A program for visualising graphs",
+      "homepage": "http://www.graphviz.org/"
+    }
+  },
+  "groff": {
+    "name": "groff-1.19.2",
+    "pname": "groff",
+    "version": "1.19.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "grub": {
+    "name": "grub-0.97",
+    "pname": "grub",
+    "version": "0.97",
+    "system": "i686-linux",
+    "meta": {}
+  },
+  "gsl": {
+    "name": "gsl-1.9",
+    "pname": "gsl",
+    "version": "1.9",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "numerical library (>1000 functions)",
+      "homepage": "http://www.gnu.org/software/gsl",
+      "license": "GPL2"
+    }
+  },
+  "gnome.gtk": {
+    "name": "gtk+-2.10.14",
+    "pname": "gtk+",
+    "version": "2.10.14",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gtkgnutella": {
+    "name": "gtk-gnutella-0.96.1",
+    "pname": "gtk-gnutella",
+    "version": "0.96.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gtksharp1": {
+    "name": "gtk-sharp-1.0.6",
+    "pname": "gtk-sharp",
+    "version": "1.0.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gtksharp2": {
+    "name": "gtk-sharp-1.9.2",
+    "pname": "gtk-sharp",
+    "version": "1.9.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.gtkhtml": {
+    "name": "gtkhtml-3.12.2",
+    "pname": "gtkhtml",
+    "version": "3.12.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gtkLibs.gtkmm": {
+    "name": "gtkmm-2.10.11",
+    "pname": "gtkmm",
+    "version": "2.10.11",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gtkmozembedsharp": {
+    "name": "gtkmozembed-sharp-0.7-pre41601",
+    "pname": "gtkmozembed-sharp",
+    "version": "0.7-pre41601",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.gtksourceview": {
+    "name": "gtksourceview-1.8.3",
+    "pname": "gtksourceview",
+    "version": "1.8.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gtksourceviewsharp": {
+    "name": "gtksourceview-sharp-0.6-pre40261",
+    "pname": "gtksourceview-sharp",
+    "version": "0.6-pre40261",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gtkspell": {
+    "name": "gtkspell-2.0.11",
+    "pname": "gtkspell",
+    "version": "2.0.11",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "guile": {
+    "name": "guile-1.8.4",
+    "pname": "guile",
+    "version": "1.8.4",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "GNU Guile is an interpreter for the Scheme\n                    programming language, packaged as a library that\n\t\t    can be embedded into programs to make them extensible.",
+      "homepage": "http://www.gnu.org/software/guile/",
+      "license": "LGPL"
+    }
+  },
+  "guileLib": {
+    "name": "guile-lib-0.1.6",
+    "pname": "guile-lib",
+    "version": "0.1.6",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Guile-Library, a set of various useful\n                    Guile Scheme modules.",
+      "homepage": "http://home.gna.org/guile-lib/",
+      "license": "GPL"
+    }
+  },
+  "guileLint": {
+    "name": "guile-lint-14",
+    "pname": "guile-lint",
+    "version": "14",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Guile-Lint checks syntax and semantics in a\n                    Guile program or module.",
+      "homepage": "http://www.geocities.com/user42_kevin/guile-lint/index.html",
+      "license": "GPL"
+    }
+  },
+  "gv": {
+    "name": "gv-3.6.1",
+    "pname": "gv",
+    "version": "3.6.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "homepage": "http://wwwthep.physik.uni-mainz.de/~plass/gv"
+    }
+  },
+  "gwtdragdrop": {
+    "name": "gwt-dragdrop-1.2.6",
+    "pname": "gwt-dragdrop",
+    "version": "1.2.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gwt": {
+    "name": "gwt-linux-1.4.61",
+    "pname": "gwt-linux",
+    "version": "1.4.61",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gwtwidgets": {
+    "name": "gwt-widgets-0.1.5",
+    "pname": "gwt-widgets",
+    "version": "0.1.5",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "dylan": {
+    "name": "gwydion-dylan-2.4.0",
+    "pname": "gwydion-dylan",
+    "version": "2.4.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gzip": {
+    "name": "gzip-1.3.12",
+    "pname": "gzip",
+    "version": "1.3.12",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The gzip compression program",
+      "homepage": "http://www.gzip.org/"
+    }
+  },
+  "haddock": {
+    "name": "haddock-2.0.0.0",
+    "pname": "haddock",
+    "version": "2.0.0.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "a tool for automatically generating documentation from annotated Haskell source code"
+    }
+  },
+  "hal": {
+    "name": "hal-0.5.10",
+    "pname": "hal",
+    "version": "0.5.10",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "happy": {
+    "name": "happy-1.17",
+    "pname": "happy",
+    "version": "1.17",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "binary": {
+    "name": "haskell-binary-0.4.1",
+    "pname": "haskell-binary",
+    "version": "0.4.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Efficient, pure binary serialisation using lazy ByteStrings"
+    }
+  },
+  "Crypto": {
+    "name": "haskell-Crypto-4.1.0",
+    "pname": "haskell-Crypto",
+    "version": "4.1.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Several encryption algorithms for Haskell"
+    }
+  },
+  "gtk2hs": {
+    "name": "haskell-gtk2hs-0.9.12.1",
+    "pname": "haskell-gtk2hs",
+    "version": "0.9.12.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "HDBC": {
+    "name": "haskell-HDBC-1.1.4",
+    "pname": "haskell-HDBC",
+    "version": "1.1.4",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "HDBC provides an abstraction layer between Haskell programs and SQL relational databases"
+    }
+  },
+  "HDBCPostgresql": {
+    "name": "haskell-HDBC-postgresql-1.1.4.0",
+    "pname": "haskell-HDBC-postgresql",
+    "version": "1.1.4.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "This package provides a PostgreSQL driver for HDBC"
+    }
+  },
+  "HDBCSqlite": {
+    "name": "haskell-HDBC-sqlite3-1.1.4.0",
+    "pname": "haskell-HDBC-sqlite3",
+    "version": "1.1.4.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "This is the Sqlite v3 driver for HDBC, the generic database access system for Haskell"
+    }
+  },
+  "haskellMode": {
+    "name": "haskell-mode-1.45",
+    "pname": "haskell-mode",
+    "version": "1.45",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "pcreLight": {
+    "name": "haskell-pcre-light-0.3",
+    "pname": "haskell-pcre-light",
+    "version": "0.3",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A small, efficient and portable regex library for Perl 5 compatible regular expressions"
+    }
+  },
+  "uulib": {
+    "name": "haskell-uulib-0.9.5",
+    "pname": "haskell-uulib",
+    "version": "0.9.5",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Fast Parser Combinators and Pretty Printing Combinators"
+    }
+  },
+  "vty": {
+    "name": "haskell-vty-3.0.0",
+    "pname": "haskell-vty",
+    "version": "3.0.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "vty is a *very* simplistic library in the niche of ncurses"
+    }
+  },
+  "X11": {
+    "name": "haskell-X11-1.4.1",
+    "pname": "haskell-X11",
+    "version": "1.4.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A Haskell binding to the X11 graphics library"
+    }
+  },
+  "zlibHaskell": {
+    "name": "haskell-zlib-0.4.0.2",
+    "pname": "haskell-zlib",
+    "version": "0.4.0.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Compression and decompression in the gzip and zlib formats"
+    }
+  },
+  "hasktags": {
+    "name": "hasktags-modified",
+    "pname": "hasktags-modified",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Marc's modified hasktags"
+    }
+  },
+  "hddtemp": {
+    "name": "hddtemp-0.3-beta15",
+    "pname": "hddtemp",
+    "version": "0.3-beta15",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "shows the harddisk temperature",
+      "homepage": "https://savannah.nongnu.org/projects/hddtemp/",
+      "license": "GPL2"
+    }
+  },
+  "hdparm": {
+    "name": "hdparm-6.9",
+    "pname": "hdparm",
+    "version": "6.9",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "heimdal": {
+    "name": "heimdal-1.0.2",
+    "pname": "heimdal",
+    "version": "1.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "helium": {
+    "name": "helium-1.5",
+    "pname": "helium",
+    "version": "1.5",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "hello": {
+    "name": "hello-2.1.1",
+    "pname": "hello",
+    "version": "2.1.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "GNU Hello, a classic computer science tool",
+      "homepage": "http://www.gnu.org/software/hello/"
+    }
+  },
+  "help2man": {
+    "name": "help2man-1.35.1",
+    "pname": "help2man",
+    "version": "1.35.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "hevea": {
+    "name": "hevea-1.07",
+    "pname": "hevea",
+    "version": "1.07",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "makeWrapper": {
+    "name": "hook",
+    "pname": "hook",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "hsqldb": {
+    "name": "hsqldb-1.8.0.8",
+    "pname": "hsqldb",
+    "version": "1.8.0.8",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "htop": {
+    "name": "htop-0.6.6",
+    "pname": "htop",
+    "version": "0.6.6",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "An interactive process viewer for Linux",
+      "homepage": "http://htop.sourceforge.net"
+    }
+  },
+  "httpunit": {
+    "name": "httpunit-1.6",
+    "pname": "httpunit",
+    "version": "1.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "hwdata": {
+    "name": "hwdata-0.172",
+    "pname": "hwdata",
+    "version": "0.172",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "i810switch": {
+    "name": "i810switch-0.6.5",
+    "pname": "i810switch",
+    "version": "0.6.5",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "i810switch is a utility for switching the LCD and external VGA display.",
+      "homepage": "http://www16.plala.or.jp/mano-a-mano/i810switch.html",
+      "license": "GPL2"
+    }
+  },
+  "iana_etc": {
+    "name": "iana-etc-2.20",
+    "pname": "iana-etc",
+    "version": "2.20",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.iceauth": {
+    "name": "iceauth-1.0.2",
+    "pname": "iceauth",
+    "version": "1.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "icewm": {
+    "name": "icewm",
+    "pname": "icewm",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "IceWM is a window manager for the X Window System.",
+      "homepage": "http://www.icewm.org"
+    }
+  },
+  "xlibs.ico": {
+    "name": "ico-1.0.2",
+    "pname": "ico",
+    "version": "1.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "iconnamingutils": {
+    "name": "icon-naming-utils-0.8.2",
+    "pname": "icon-naming-utils",
+    "version": "0.8.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "icu": {
+    "name": "icu4c-3.6",
+    "pname": "icu4c",
+    "version": "3.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "id3lib": {
+    "name": "id3lib-3.8.3",
+    "pname": "id3lib",
+    "version": "3.8.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "ifplugd": {
+    "name": "ifplugd-0.28",
+    "pname": "ifplugd",
+    "version": "0.28",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "ilbc": {
+    "name": "ilbc-rfc3951",
+    "pname": "ilbc-rfc3951",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "ilmbase": {
+    "name": "ilmbase-1.0.1",
+    "pname": "ilmbase",
+    "version": "1.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "imagemagick": {
+    "name": "ImageMagick-6.3.9-0",
+    "pname": "ImageMagick",
+    "version": "6.3.9-0",
+    "system": "x86_64-linux",
+    "meta": {
+      "homepage": "http://www.imagemagick.org"
+    }
+  },
+  "imagemagickBig": {
+    "name": "ImageMagick-6.3.9-0",
+    "pname": "ImageMagick",
+    "version": "6.3.9-0",
+    "system": "x86_64-linux",
+    "meta": {
+      "homepage": "http://www.imagemagick.org"
+    }
+  },
+  "xlibs.imake": {
+    "name": "imake-1.0.2",
+    "pname": "imake",
+    "version": "1.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "imlib": {
+    "name": "imlib-1.9.15",
+    "pname": "imlib",
+    "version": "1.9.15",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "imlib2": {
+    "name": "imlib2-1.3.0",
+    "pname": "imlib2",
+    "version": "1.3.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "indent": {
+    "name": "indent",
+    "pname": "indent",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tGNU Indent - a source text formatter.\n",
+      "src": null
+    }
+  },
+  "indilib": {
+    "name": "indilib-0.5",
+    "pname": "indilib",
+    "version": "0.5",
+    "system": "x86_64-linux",
+    "meta": {
+      "homepage": "http://indi.sf.net"
+    }
+  },
+  "inetutils": {
+    "name": "inetutils-1.5",
+    "pname": "inetutils",
+    "version": "1.5",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "GNU Inetutils is a collection of common network\n                    programs, including telnet, FTP, RSH, rlogin and\n\t\t    TFTP clients and servers, among others.",
+      "homepage": "http://www.gnu.org/software/inetutils/",
+      "license": "GPLv3+"
+    }
+  },
+  "iniparser": {
+    "name": "iniparser-3.0b",
+    "pname": "iniparser",
+    "version": "3.0b",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Free standalone ini file parsing library",
+      "homepage": "http://ndevilla.free.fr/iniparser",
+      "license": "MIT"
+    }
+  },
+  "initscripts": {
+    "name": "initscripts-8.18",
+    "pname": "initscripts",
+    "version": "8.18",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "inkscape": {
+    "name": "inkscape-0.45.1",
+    "pname": "inkscape",
+    "version": "0.45.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Inkscape is a feature-rich vector graphics editor\n                    that edits files in the W3C SVG (Scalable Vector\n\t\t    Graphics) file format.",
+      "homepage": "http://www.inkscape.org",
+      "license": "GPL"
+    }
+  },
+  "xlibs.inputproto": {
+    "name": "inputproto-1.4.2.1",
+    "pname": "inputproto",
+    "version": "1.4.2.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.intltool": {
+    "name": "intltool-0.35.0",
+    "pname": "intltool",
+    "version": "0.35.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "intltool": {
+    "name": "intltool-0.36.2",
+    "pname": "intltool",
+    "version": "0.36.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tInternalization tool for XML.\n",
+      "src": null
+    }
+  },
+  "ion3": {
+    "name": "ion-3rc-20070902",
+    "pname": "ion",
+    "version": "3rc-20070902",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Ion is a tiling tabbed window manager designed with keyboard users in mind.",
+      "homepage": "http://modeemi.fi/~tuomov/ion"
+    }
+  },
+  "iproute": {
+    "name": "iproute-20070313",
+    "pname": "iproute",
+    "version": "20070313",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "iptables": {
+    "name": "iptables-1.4.0",
+    "pname": "iptables",
+    "version": "1.4.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n     IPtables Linux firewall.\n",
+      "src": null
+    }
+  },
+  "iputils": {
+    "name": "iputils-20020927",
+    "pname": "iputils",
+    "version": "20020927",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "ipw2200fw": {
+    "name": "ipw2200-fw-3.0",
+    "pname": "ipw2200-fw",
+    "version": "3.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Firmware for the Intel 2200BG wireless card (requires acceptance of license, see http://ipw2200.sourceforge.net/firmware.php?fid=7",
+      "homepage": "http://ipw2200.sourceforge.net/firmware.php",
+      "license": "http://ipw2200.sourceforge.net/firmware.php?fid=7"
+    }
+  },
+  "ircdHybrid": {
+    "name": "ircd-hybrid-7.2.2",
+    "pname": "ircd-hybrid",
+    "version": "7.2.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tAn IPv6-capable IRC server.\n"
+    }
+  },
+  "irssi": {
+    "name": "irssi-0.8.12",
+    "pname": "irssi",
+    "version": "0.8.12",
+    "system": "x86_64-linux",
+    "meta": {
+      "homepage": "http://irssi.org"
+    }
+  },
+  "iwlwifi": {
+    "name": "iwlwifi-1.2.25",
+    "pname": "iwlwifi",
+    "version": "1.2.25",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Intel Wireless WiFi Link drivers for Linux",
+      "homepage": "http://www.intellinuxwireless.org/",
+      "license": "GPLv2"
+    }
+  },
+  "iwlwifi3945ucode": {
+    "name": "iwlwifi-3945-ucode-2.14.1.5",
+    "pname": "iwlwifi",
+    "version": "3945-ucode-2.14.1.5",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Firmware for the Intel 3945ABG wireless card",
+      "homepage": "http://intellinuxwireless.org/"
+    }
+  },
+  "iwlwifi4965ucode": {
+    "name": "iwlwifi-4965-ucode-4.44.17",
+    "pname": "iwlwifi",
+    "version": "4965-ucode-4.44.17",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Firmware for the Intel 4965ABG wireless card",
+      "homepage": "http://intellinuxwireless.org/"
+    }
+  },
+  "jakartabcel": {
+    "name": "jakarta-bcel-5.1",
+    "pname": "jakarta-bcel",
+    "version": "5.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "jakartaregexp": {
+    "name": "jakarta-regexp-1.4",
+    "pname": "jakarta-regexp",
+    "version": "1.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "tomcat5": {
+    "name": "jakarta-tomcat-5.0.27",
+    "pname": "jakarta-tomcat",
+    "version": "5.0.27",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "jasper": {
+    "name": "jasper-1.900.1",
+    "pname": "jasper",
+    "version": "1.900.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "JasPer JPEG2000 Library",
+      "homepage": "http://www.ece.uvic.ca/~mdadams/jasper/"
+    }
+  },
+  "javaCup": {
+    "name": "java-cup-10k",
+    "pname": "java-cup",
+    "version": "10k",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "javafront": {
+    "name": "java-front-0.9",
+    "pname": "java-front",
+    "version": "0.9",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "javasvn": {
+    "name": "javasvn-1.0.6",
+    "pname": "javasvn",
+    "version": "1.0.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "jboss": {
+    "name": "jboss-4.2.2.GA",
+    "pname": "jboss",
+    "version": "4.2.2.GA",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "JBoss, Open Source J2EE application server",
+      "homepage": "http://www.jboss.org/",
+      "license": "GPL/LGPL"
+    }
+  },
+  "jboss_mysql_jdbc": {
+    "name": "jboss-mysql-jdbc",
+    "pname": "jboss-mysql-jdbc",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "jclasslib": {
+    "name": "jclasslib-2.0",
+    "pname": "jclasslib",
+    "version": "2.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "jdiskreport": {
+    "name": "jdiskreport-1.2.3",
+    "pname": "jdiskreport",
+    "version": "1.2.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "jdk": {
+    "name": "jdk-1.6.0_4",
+    "pname": "jdk",
+    "version": "1.6.0_4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "jdkPlugin": {
+    "name": "jdk-1.6.0_4-plugin",
+    "pname": "jdk",
+    "version": "1.6.0_4-plugin",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "jdk5": {
+    "name": "jdk-1_5_0_15",
+    "pname": "jdk",
+    "version": "1_5_0_15",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "jdom": {
+    "name": "jdom-1.0",
+    "pname": "jdom",
+    "version": "1.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "jedit": {
+    "name": "jedit-4.2",
+    "pname": "jedit",
+    "version": "4.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "really nice programmers editor written in Java. Give it a try",
+      "homepage": "http://www.jedit.org",
+      "license": "GPL"
+    }
+  },
+  "jetty": {
+    "name": "jetty-5.1.4",
+    "pname": "jetty",
+    "version": "5.1.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "jetty61": {
+    "name": "jetty-6.1.3",
+    "pname": "jetty",
+    "version": "6.1.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "jflex": {
+    "name": "jflex-1.4.1",
+    "pname": "jflex",
+    "version": "1.4.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "jikes": {
+    "name": "jikes-1.22",
+    "pname": "jikes",
+    "version": "1.22",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "jikespg": {
+    "name": "jikespg-1.3",
+    "pname": "jikespg",
+    "version": "1.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "jing": {
+    "name": "jing-20030619",
+    "pname": "jing",
+    "version": "20030619",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "jing_tools": {
+    "name": "jing-tools-20030619",
+    "pname": "jing-tools",
+    "version": "20030619",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "jjtraveler": {
+    "name": "jjtraveler-0.4.3",
+    "pname": "jjtraveler",
+    "version": "0.4.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "joe": {
+    "name": "joe-3.3",
+    "pname": "joe",
+    "version": "3.3",
+    "system": "x86_64-linux",
+    "meta": {
+      "homepage": "http://joe-editor.sourceforge.net"
+    }
+  },
+  "jre": {
+    "name": "jre-1.6.0_4",
+    "pname": "jre",
+    "version": "1.6.0_4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "jrePlugin": {
+    "name": "jre-1.6.0_4-plugin",
+    "pname": "jre",
+    "version": "1.6.0_4-plugin",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "junicode": {
+    "name": "junicode-0.6.15",
+    "pname": "junicode",
+    "version": "0.6.15",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\t\tA Unicode font.\n",
+      "src": null
+    }
+  },
+  "junit": {
+    "name": "junit-3.8.1",
+    "pname": "junit",
+    "version": "3.8.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "jwhois": {
+    "name": "jwhois-4.0",
+    "pname": "jwhois",
+    "version": "4.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A client for the WHOIS protocol allowing you to query the owner of a domain name",
+      "homepage": "http://www.gnu.org/software/jwhois/",
+      "license": "GPL"
+    }
+  },
+  "kaffe": {
+    "name": "kaffe-1.1.4",
+    "pname": "kaffe",
+    "version": "1.1.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kbd": {
+    "name": "kbd-1.12",
+    "pname": "kbd",
+    "version": "1.12",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.kbproto": {
+    "name": "kbproto-1.0.3",
+    "pname": "kbproto",
+    "version": "1.0.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kcachegrind": {
+    "name": "kcachegrind-0.4.6",
+    "pname": "kcachegrind",
+    "version": "0.4.6",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Interactive visualisation tool for Valgrind profiling data"
+    }
+  },
+  "kde4.env": {
+    "name": "kde-env",
+    "pname": "kde-env",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kdebase": {
+    "name": "kdebase-3.5.7",
+    "pname": "kdebase",
+    "version": "3.5.7",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kde4.base": {
+    "name": "kdebase-4.0.0",
+    "pname": "kdebase",
+    "version": "4.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kde4.runtime": {
+    "name": "kdebase-runtime-4.0.0",
+    "pname": "kdebase-runtime",
+    "version": "4.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kde4.workspace": {
+    "name": "kdebase-workspace-4.0.0",
+    "pname": "kdebase-workspace",
+    "version": "4.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kde4.edu": {
+    "name": "kdeedu-4.0.0",
+    "pname": "kdeedu",
+    "version": "4.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kde4.games": {
+    "name": "kdegames-4.0.0",
+    "pname": "kdegames",
+    "version": "4.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kde4.graphics": {
+    "name": "kdegraphics-4.0.0",
+    "pname": "kdegraphics",
+    "version": "4.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kdelibs": {
+    "name": "kdelibs-3.5.7",
+    "pname": "kdelibs",
+    "version": "3.5.7",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kde4.libs": {
+    "name": "kdelibs-4.0.0",
+    "pname": "kdelibs",
+    "version": "4.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kde4.multimedia": {
+    "name": "kdemultimedia-4.0.0",
+    "pname": "kdemultimedia",
+    "version": "4.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kde4.network": {
+    "name": "kdenetwork-4.0.0",
+    "pname": "kdenetwork",
+    "version": "4.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kde4.pim": {
+    "name": "kdepim-4.0beta4",
+    "pname": "kdepim",
+    "version": "4.0beta4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kde4.pimlibs": {
+    "name": "kdepimlibs-4.0.0",
+    "pname": "kdepimlibs",
+    "version": "4.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kde4.toys": {
+    "name": "kdetoys-4.0.0",
+    "pname": "kdetoys",
+    "version": "4.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kde4.utils": {
+    "name": "kdeutils-4.0.0",
+    "pname": "kdeutils",
+    "version": "4.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "keen4": {
+    "name": "keen4",
+    "pname": "keen4",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Commander Keen Episode 4: Secret of the Oracle"
+    }
+  },
+  "kernelscripts": {
+    "name": "kernelscripts-0.0.1",
+    "pname": "kernelscripts",
+    "version": "0.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "keynav": {
+    "name": "keynav",
+    "pname": "keynav",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A tool to generate X11 mouse clicks from keyboard."
+    }
+  },
+  "kino": {
+    "name": "kino-1.2.0",
+    "pname": "kino",
+    "version": "1.2.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Kino is a non-linear DV editor for GNU/Linux",
+      "homepage": "http://www.kinodv.org/",
+      "license": "GPL2"
+    }
+  },
+  "klibc": {
+    "name": "klibc-1.5",
+    "pname": "klibc",
+    "version": "1.5",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "ktorrent": {
+    "name": "ktorrent-2.2.5",
+    "pname": "ktorrent",
+    "version": "2.2.5",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A BitTorrent client for KDE",
+      "homepage": "http://ktorrent.org/"
+    }
+  },
+  "kuickshow": {
+    "name": "kuickshow-0.8.5",
+    "pname": "kuickshow",
+    "version": "0.8.5",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kvm12": {
+    "name": "kvm-12",
+    "pname": "kvm",
+    "version": "12",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kvm17": {
+    "name": "kvm-17",
+    "pname": "kvm",
+    "version": "17",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kvm49": {
+    "name": "kvm-49",
+    "pname": "kvm",
+    "version": "49",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kvm": {
+    "name": "kvm-57",
+    "pname": "kvm",
+    "version": "57",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A full virtualization solution for Linux on x86 hardware containing virtualization extensions",
+      "homepage": "http://kvm.qumranet.com/"
+    }
+  },
+  "lablgtk": {
+    "name": "lablgtk-2.6.0",
+    "pname": "lablgtk",
+    "version": "2.6.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "ladspaH": {
+    "name": "ladspa.h",
+    "pname": "ladspa.h",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tLADSPA format audio plugins.\n",
+      "src": null
+    }
+  },
+  "lame": {
+    "name": "lame-3.97",
+    "pname": "lame",
+    "version": "3.97",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "lazylist": {
+    "name": "lazylist-1.0a",
+    "pname": "lazylist",
+    "version": "1.0a",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.lbxproxy": {
+    "name": "lbxproxy-1.0.1",
+    "pname": "lbxproxy",
+    "version": "1.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "lcms": {
+    "name": "lcms-1.14",
+    "pname": "lcms",
+    "version": "1.14",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "lcov": {
+    "name": "lcov-1.4pre-cvs-20041021",
+    "pname": "lcov",
+    "version": "1.4pre-cvs-20041021",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "less": {
+    "name": "less-418",
+    "pname": "less",
+    "version": "418",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "lesstif": {
+    "name": "lesstif-0.95",
+    "pname": "lesstif",
+    "version": "0.95",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "lftp": {
+    "name": "lftp-3.5.14",
+    "pname": "lftp",
+    "version": "3.5.14",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "lhs2tex": {
+    "name": "lhs2tex-1.13pre3",
+    "pname": "lhs2tex",
+    "version": "1.13pre3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libaal": {
+    "name": "libaal-1.0.5",
+    "pname": "libaal",
+    "version": "1.0.5",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Support library for Reiser4",
+      "homepage": "http://www.namesys.com/"
+    }
+  },
+  "libao": {
+    "name": "libao-0.8.8",
+    "pname": "libao",
+    "version": "0.8.8",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Libao is Xiph.org's cross-platform audio\n                    library that allows programs to output audio\n\t\t    using a simple API on a wide variety of platforms.",
+      "homepage": "http://xiph.org/ao/",
+      "license": "GPL"
+    }
+  },
+  "xlibs.libAppleWM": {
+    "name": "libAppleWM-1.0.0",
+    "pname": "libAppleWM",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libarchive": {
+    "name": "libarchive-2.4.12",
+    "pname": "libarchive",
+    "version": "2.4.12",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A library for reading and writing streaming archives",
+      "homepage": "http://people.freebsd.org/~kientzle/libarchive"
+    }
+  },
+  "gnome.libart_lgpl": {
+    "name": "libart_lgpl-2.3.17",
+    "pname": "libart_lgpl",
+    "version": "2.3.17",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libassuan": {
+    "name": "libassuan-1.0.4",
+    "pname": "libassuan",
+    "version": "1.0.4",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Libassuan  is the IPC library used by some GnuPG related software",
+      "homepage": "http://www.gnupg.org"
+    }
+  },
+  "libavc1394": {
+    "name": "libavc1394-0.5.3",
+    "pname": "libavc1394",
+    "version": "0.5.3",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "programming interface for the 1394 Trade Association AV/C (Audio/Video Control) Digital Interface Command Set",
+      "homepage": "http://sourceforge.net/projects/libavc1394/",
+      "license": [
+        "GPL",
+        "LGPL"
+      ]
+    }
+  },
+  "gnome.libbonobo": {
+    "name": "libbonobo-2.16.0",
+    "pname": "libbonobo",
+    "version": "2.16.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.libbonoboui": {
+    "name": "libbonoboui-2.16.0",
+    "pname": "libbonoboui",
+    "version": "2.16.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libcaca": {
+    "name": "libcaca-0.99-beta13b",
+    "pname": "libcaca",
+    "version": "0.99-beta13b",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libcap": {
+    "name": "libcap-2.07",
+    "pname": "libcap",
+    "version": "2.07",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libcdaudio": {
+    "name": "libcdaudio-0.99.12",
+    "pname": "libcdaudio",
+    "version": "0.99.12",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libcddb": {
+    "name": "libcddb-1.3.0",
+    "pname": "libcddb",
+    "version": "1.3.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Libcddb is a C library to access data on a CDDB server\n                    (freedb.org).",
+      "homepage": "http://libcddb.sourceforge.net/",
+      "license": "LGPLv2+"
+    }
+  },
+  "libcdio": {
+    "name": "libcdio-0.79",
+    "pname": "libcdio",
+    "version": "0.79",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "GNU libcdio is a library for OS-idependent CD-ROM and\n                    CD image access.  It includes a library for working with\n\t\t    ISO-9660 filesystems (libiso9660), as well as utility\n\t\t    programs such as an audio CD player and an extractor.",
+      "homepage": "http://www.gnu.org/software/libcdio/",
+      "license": "GPLv2+"
+    }
+  },
+  "libcm": {
+    "name": "libcm-0.1.1",
+    "pname": "libcm",
+    "version": "0.1.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libdaemon": {
+    "name": "libdaemon-0.12",
+    "pname": "libdaemon",
+    "version": "0.12",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libdbi": {
+    "name": "libdbi0.8.2",
+    "pname": "libdbi0.8.2",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tDB independent interface to DB.\t\n",
+      "src": null
+    }
+  },
+  "libdbiDrivers": {
+    "name": "libdbi0.8.2-1",
+    "pname": "libdbi0.8.2",
+    "version": "1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tDB independent interface to DB; DB drivers (mysql only for now).\n",
+      "src": null
+    }
+  },
+  "xlibs.libdmx": {
+    "name": "libdmx-1.0.2",
+    "pname": "libdmx",
+    "version": "1.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libdrm": {
+    "name": "libdrm-2.3.0",
+    "pname": "libdrm",
+    "version": "2.3.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libdv": {
+    "name": "libdv-1.0.0",
+    "pname": "libdv",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "software decoder for DV format video, as defined by the IEC 61834 and SMPTE 314M standards",
+      "homepage": "http://sourceforge.net/projects/libdv/",
+      "license": []
+    }
+  },
+  "libdvdcss": {
+    "name": "libdvdcss-1.2.9",
+    "pname": "libdvdcss",
+    "version": "1.2.9",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libdvdnav": {
+    "name": "libdvdnav-20050211",
+    "pname": "libdvdnav",
+    "version": "20050211",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libdvdread": {
+    "name": "libdvdread-0.9.6",
+    "pname": "libdvdread",
+    "version": "0.9.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libevent": {
+    "name": "libevent-1.1b",
+    "pname": "libevent",
+    "version": "1.1b",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libexif": {
+    "name": "libexif-0.6.16",
+    "pname": "libexif",
+    "version": "0.6.16",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libextractor": {
+    "name": "libextractor0.5.18",
+    "pname": "libextractor0.5.18",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tLibextractor - extracts metadata from files.\n",
+      "src": null
+    }
+  },
+  "xlibs.libfontenc": {
+    "name": "libfontenc-1.0.4",
+    "pname": "libfontenc",
+    "version": "1.0.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libFS": {
+    "name": "libFS-1.0.0",
+    "pname": "libFS",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libgcrypt": {
+    "name": "libgcrypt-1.3.1",
+    "pname": "libgcrypt",
+    "version": "1.3.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.libglade": {
+    "name": "libglade-2.6.0",
+    "pname": "libglade",
+    "version": "2.6.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.libgnome": {
+    "name": "libgnome-2.16.0",
+    "pname": "libgnome",
+    "version": "2.16.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.libgnomecanvas": {
+    "name": "libgnomecanvas-2.14.0",
+    "pname": "libgnomecanvas",
+    "version": "2.14.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.libgnomeprint": {
+    "name": "libgnomeprint-2.12.1",
+    "pname": "libgnomeprint",
+    "version": "2.12.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.libgnomeprintui": {
+    "name": "libgnomeprintui-2.12.1",
+    "pname": "libgnomeprintui",
+    "version": "2.12.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.libgnomeui": {
+    "name": "libgnomeui-2.16.1",
+    "pname": "libgnomeui",
+    "version": "2.16.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libgpgerror": {
+    "name": "libgpg-error-1.4",
+    "pname": "libgpg-error",
+    "version": "1.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libgphoto2": {
+    "name": "libgphoto2-2.4.0",
+    "pname": "libgphoto2",
+    "version": "2.4.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "license": "LGPL-2"
+    }
+  },
+  "libgsf": {
+    "name": "libgsf-1.14.7",
+    "pname": "libgsf",
+    "version": "1.14.7",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "GNOME Structured File Library",
+      "homepage": "http://www.gnome.org/projects/libgsf",
+      "license": "LGPL"
+    }
+  },
+  "gnome.libgtop": {
+    "name": "libgtop-2.14.6",
+    "pname": "libgtop",
+    "version": "2.14.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libICE": {
+    "name": "libICE-1.0.4",
+    "pname": "libICE",
+    "version": "1.0.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libid3tag": {
+    "name": "libid3tag-0.15.1b",
+    "pname": "libid3tag",
+    "version": "0.15.1b",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "An ID3 tag manipulation library.",
+      "homepage": "http://mad.sourceforge.net/",
+      "license": "GPL"
+    }
+  },
+  "gnome.libIDL": {
+    "name": "libIDL-0.8.7",
+    "pname": "libIDL",
+    "version": "0.8.7",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libidn": {
+    "name": "libidn-1.2",
+    "pname": "libidn",
+    "version": "1.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "GNU Libidn library for internationalized domain names",
+      "homepage": "http://www.gnu.org/software/libidn",
+      "license": "LGPL"
+    }
+  },
+  "libiec61883": {
+    "name": "libiec61883-1.1.0",
+    "pname": "libiec61883",
+    "version": "1.1.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "TODO",
+      "homepage": "http://www.linux1394.org",
+      "license": "LGPL"
+    }
+  },
+  "libixp03": {
+    "name": "libixp-0.3",
+    "pname": "libixp",
+    "version": "0.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libixp_for_wmii": {
+    "name": "libixp_for_wmii",
+    "pname": "libixp_for_wmii",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "priority": "10"
+    }
+  },
+  "libjingle": {
+    "name": "libjingle-0.3.11",
+    "pname": "libjingle",
+    "version": "0.3.11",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libjpeg": {
+    "name": "libjpeg-6b",
+    "pname": "libjpeg",
+    "version": "6b",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libjpegStatic": {
+    "name": "libjpeg-6b-static",
+    "pname": "libjpeg",
+    "version": "6b-static",
+    "system": "x86_64-linux",
+    "meta": {
+      "priority": "10"
+    }
+  },
+  "libksba": {
+    "name": "libksba-1.0.2",
+    "pname": "libksba",
+    "version": "1.0.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Libksba  is a CMS and X.509 access library under\n\t\tdevelopment",
+      "homepage": "http://www.gnupg.org"
+    }
+  },
+  "xlibs.liblbxutil": {
+    "name": "liblbxutil-1.0.1",
+    "pname": "liblbxutil",
+    "version": "1.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libmad": {
+    "name": "libmad-0.15.1b",
+    "pname": "libmad",
+    "version": "0.15.1b",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "MAD, a high-quality, fixed-point, MPEG audio decoder\n                   supporting MPEG-1 and MPEG-2."
+    }
+  },
+  "libmcs": {
+    "name": "libmcs-0.7.0",
+    "pname": "libmcs",
+    "version": "0.7.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A library and set of userland tools which abstract the storage of configuration settings away from userland applications",
+      "homepage": "http://www.atheme.org/projects/mcs.shtml"
+    }
+  },
+  "libmowgli": {
+    "name": "libmowgli-0.6.1",
+    "pname": "libmowgli",
+    "version": "0.6.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A development framework for C providing high performance and highly flexible algorithms",
+      "homepage": "http://www.atheme.org/projects/mowgli.shtml"
+    }
+  },
+  "libmpcdec": {
+    "name": "libmpcdec-1.2.6",
+    "pname": "libmpcdec",
+    "version": "1.2.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libmspack": {
+    "name": "libmspack-0.0.20040308alpha",
+    "pname": "libmspack",
+    "version": "0.0.20040308alpha",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libnotify": {
+    "name": "libnotify-0.4.4",
+    "pname": "libnotify",
+    "version": "0.4.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libnova": {
+    "name": "libnova-0.12.1",
+    "pname": "libnova",
+    "version": "0.12.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Celestial Mechanics, Astrometry and Astrodynamics Library",
+      "homepage": "http://libnova.sf.net"
+    }
+  },
+  "libnscd": {
+    "name": "libnscd-2.0.2",
+    "pname": "libnscd",
+    "version": "2.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libogg": {
+    "name": "libogg-1.1.3",
+    "pname": "libogg",
+    "version": "1.1.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "liboil": {
+    "name": "liboil-0.3.13",
+    "pname": "liboil",
+    "version": "0.3.13",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Liboil is a library of simple functions that are optimized\n    for various CPUs.",
+      "homepage": "http://liboil.freedesktop.org"
+    }
+  },
+  "xlibs.liboldX": {
+    "name": "liboldX-1.0.1",
+    "pname": "liboldX",
+    "version": "1.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "liboop": {
+    "name": "liboop",
+    "pname": "liboop",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "`liboop', an event loop library.",
+      "homepage": "http://liboop.ofb.net/",
+      "license": "LGPL"
+    }
+  },
+  "libotr": {
+    "name": "libotr-3.1.0",
+    "pname": "libotr",
+    "version": "3.1.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libpcap": {
+    "name": "libpcap-0.9.8",
+    "pname": "libpcap",
+    "version": "0.9.8",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libpng": {
+    "name": "libpng-1.2.24",
+    "pname": "libpng",
+    "version": "1.2.24",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libpthreadstubs": {
+    "name": "libpthread-stubs-0.1",
+    "pname": "libpthread-stubs",
+    "version": "0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libraw1394": {
+    "name": "libraw1394-1.3.0",
+    "pname": "libraw1394",
+    "version": "1.3.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "library providing direct access to the IEEE 1394 bus through the Linux 1394 subsystem's raw1394 user space interface",
+      "homepage": "http://www.linux1394.org",
+      "license": [
+        "GPL",
+        "LGPL"
+      ]
+    }
+  },
+  "librsvg": {
+    "name": "librsvg-2.16.1",
+    "pname": "librsvg",
+    "version": "2.16.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libsamplerate": {
+    "name": "libsamplerate-0.1.2",
+    "pname": "libsamplerate",
+    "version": "0.1.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Sample Rate Converter for audio",
+      "homepage": "http://www.mega-nerd.com/SRC/index.html",
+      "license": [
+        "GPL",
+        {
+          "name": "libsamplerate Commercial Use License",
+          "url": "http://www.mega-nerd.com/SRC/libsamplerate-cul.pdf"
+        }
+      ]
+    }
+  },
+  "libselinux": {
+    "name": "libselinux-1.30",
+    "pname": "libselinux",
+    "version": "1.30",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libsepol": {
+    "name": "libsepol-1.12",
+    "pname": "libsepol",
+    "version": "1.12",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libsexy": {
+    "name": "libsexy-0.1.11",
+    "pname": "libsexy",
+    "version": "0.1.11",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libsigcxx": {
+    "name": "libsigc++-2.0.16",
+    "pname": "libsigc++",
+    "version": "2.0.16",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libsigsegv": {
+    "name": "libsigsegv-2.5",
+    "pname": "libsigsegv",
+    "version": "2.5",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A library for handling page faults in user mode",
+      "homepage": "http://libsigsegv.sf.net"
+    }
+  },
+  "xlibs.libSM": {
+    "name": "libSM-1.0.3",
+    "pname": "libSM",
+    "version": "1.0.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libsmbios": {
+    "name": "libsmbios-0.13.6",
+    "pname": "libsmbios",
+    "version": "0.13.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libsndfile": {
+    "name": "libsndfile-1.0.12",
+    "pname": "libsndfile",
+    "version": "1.0.12",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.libsoup": {
+    "name": "libsoup-2.2.99",
+    "pname": "libsoup",
+    "version": "2.2.99",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libtheora": {
+    "name": "libtheora-1.0beta2",
+    "pname": "libtheora",
+    "version": "1.0beta2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libtiff": {
+    "name": "libtiff-3.8.2",
+    "pname": "libtiff",
+    "version": "3.8.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libtool": {
+    "name": "libtool-1.5.26",
+    "pname": "libtool",
+    "version": "1.5.26",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libtorrent": {
+    "name": "libtorrent-0.11.9",
+    "pname": "libtorrent",
+    "version": "0.11.9",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n      LibTorrent is a BitTorrent library written in C++ for *nix, with a focus on high performance and good code.\n    "
+    }
+  },
+  "libungif": {
+    "name": "libungif-4.1.4",
+    "pname": "libungif",
+    "version": "4.1.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libunwind": {
+    "name": "libunwind-0.98.6",
+    "pname": "libunwind",
+    "version": "0.98.6",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The primary goal of this project is to define a portable\n\t\tand efficient API to determine the call-chain of a program",
+      "homepage": "http://www.nongnu.org/libunwind"
+    }
+  },
+  "libusb": {
+    "name": "libusb-0.1.12",
+    "pname": "libusb",
+    "version": "0.1.12",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libvolume_id": {
+    "name": "libvolume_id-0.81.0",
+    "pname": "libvolume_id",
+    "version": "0.81.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libvorbis": {
+    "name": "libvorbis-1.2.0",
+    "pname": "libvorbis",
+    "version": "1.2.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libWindowsWM": {
+    "name": "libWindowsWM-1.0.0",
+    "pname": "libWindowsWM",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libwmf": {
+    "name": "libwmf-0.2.8.4",
+    "pname": "libwmf",
+    "version": "0.2.8.4",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tWMF library from wvWare.\n"
+    }
+  },
+  "gnome.libwnck": {
+    "name": "libwnck-2.16.3",
+    "pname": "libwnck",
+    "version": "2.16.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libwpd": {
+    "name": "libwpd-0.8.14",
+    "pname": "libwpd",
+    "version": "0.8.14",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libX11": {
+    "name": "libX11-1.1.3",
+    "pname": "libX11",
+    "version": "1.1.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXau": {
+    "name": "libXau-1.0.3",
+    "pname": "libXau",
+    "version": "1.0.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXaw": {
+    "name": "libXaw-1.0.4",
+    "pname": "libXaw",
+    "version": "1.0.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libxcb": {
+    "name": "libxcb-1.1",
+    "pname": "libxcb",
+    "version": "1.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXcomposite": {
+    "name": "libXcomposite-0.4.0",
+    "pname": "libXcomposite",
+    "version": "0.4.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libxcrypt": {
+    "name": "libxcrypt-2.4",
+    "pname": "libxcrypt",
+    "version": "2.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXcursor": {
+    "name": "libXcursor-1.1.9",
+    "pname": "libXcursor",
+    "version": "1.1.9",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXdamage": {
+    "name": "libXdamage-1.0.4",
+    "pname": "libXdamage",
+    "version": "1.0.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXdmcp": {
+    "name": "libXdmcp-1.0.2",
+    "pname": "libXdmcp",
+    "version": "1.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXevie": {
+    "name": "libXevie-1.0.2",
+    "pname": "libXevie",
+    "version": "1.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXext": {
+    "name": "libXext-1.0.2",
+    "pname": "libXext",
+    "version": "1.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXfixes": {
+    "name": "libXfixes-4.0.3",
+    "pname": "libXfixes",
+    "version": "4.0.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXfont": {
+    "name": "libXfont-1.3.1",
+    "pname": "libXfont",
+    "version": "1.3.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXfontcache": {
+    "name": "libXfontcache-1.0.4",
+    "pname": "libXfontcache",
+    "version": "1.0.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXft": {
+    "name": "libXft-2.1.12",
+    "pname": "libXft",
+    "version": "2.1.12",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXi": {
+    "name": "libXi-1.1.3",
+    "pname": "libXi",
+    "version": "1.1.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXinerama": {
+    "name": "libXinerama-1.0.2",
+    "pname": "libXinerama",
+    "version": "1.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libxkbfile": {
+    "name": "libxkbfile-1.0.4",
+    "pname": "libxkbfile",
+    "version": "1.0.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libxkbui": {
+    "name": "libxkbui-1.0.2",
+    "pname": "libxkbui",
+    "version": "1.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libxklavier": {
+    "name": "libxklavier-3.4",
+    "pname": "libxklavier",
+    "version": "3.4",
+    "system": "x86_64-linux",
+    "meta": {
+      "homepage": "http://freedesktop.org/wiki/Software/LibXklavier"
+    }
+  },
+  "libxml2": {
+    "name": "libxml2-2.6.30",
+    "pname": "libxml2",
+    "version": "2.6.30",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libxml2Python": {
+    "name": "libxml2-2.6.30-with-python",
+    "pname": "libxml2",
+    "version": "2.6.30-with-python",
+    "system": "x86_64-linux",
+    "meta": {
+      "priority": "10"
+    }
+  },
+  "xlibs.libXmu": {
+    "name": "libXmu-1.0.3",
+    "pname": "libXmu",
+    "version": "1.0.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXp": {
+    "name": "libXp-1.0.0",
+    "pname": "libXp",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXpm": {
+    "name": "libXpm-3.5.7",
+    "pname": "libXpm",
+    "version": "3.5.7",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXprintAppUtil": {
+    "name": "libXprintAppUtil-1.0.1",
+    "pname": "libXprintAppUtil",
+    "version": "1.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXprintUtil": {
+    "name": "libXprintUtil-1.0.1",
+    "pname": "libXprintUtil",
+    "version": "1.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXrandr": {
+    "name": "libXrandr-1.2.2",
+    "pname": "libXrandr",
+    "version": "1.2.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXrender": {
+    "name": "libXrender-0.9.4",
+    "pname": "libXrender",
+    "version": "0.9.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXres": {
+    "name": "libXres-1.0.3",
+    "pname": "libXres",
+    "version": "1.0.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXScrnSaver": {
+    "name": "libXScrnSaver-1.1.2",
+    "pname": "libXScrnSaver",
+    "version": "1.1.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libxslt": {
+    "name": "libxslt-1.1.22",
+    "pname": "libxslt",
+    "version": "1.1.22",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXt": {
+    "name": "libXt-1.0.4",
+    "pname": "libXt",
+    "version": "1.0.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXTrap": {
+    "name": "libXTrap-1.0.0",
+    "pname": "libXTrap",
+    "version": "1.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXtst": {
+    "name": "libXtst-1.0.3",
+    "pname": "libXtst",
+    "version": "1.0.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXv": {
+    "name": "libXv-1.0.3",
+    "pname": "libXv",
+    "version": "1.0.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXvMC": {
+    "name": "libXvMC-1.0.4",
+    "pname": "libXvMC",
+    "version": "1.0.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXxf86dga": {
+    "name": "libXxf86dga-1.0.2",
+    "pname": "libXxf86dga",
+    "version": "1.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXxf86misc": {
+    "name": "libXxf86misc-1.0.1",
+    "pname": "libXxf86misc",
+    "version": "1.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.libXxf86vm": {
+    "name": "libXxf86vm-1.0.1",
+    "pname": "libXxf86vm",
+    "version": "1.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "libzip": {
+    "name": "libzip-0.8",
+    "pname": "libzip",
+    "version": "0.8",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A C library for reading, creating and modifying zip archives",
+      "homepage": "http://www.nih.at/libzip"
+    }
+  },
+  "links": {
+    "name": "links-1.00pre15",
+    "pname": "links",
+    "version": "1.00pre15",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kernel_2_6_20": {
+    "name": "linux-2.6.20.12",
+    "pname": "linux",
+    "version": "2.6.20.12",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The Linux kernel (with patches: paravirt-nvidia, skas-2.6.20-v9-pre9, fbsplash-0.9.2-r5-2.6.20-rc6)"
+    }
+  },
+  "kernel_2_6_21_ck": {
+    "name": "linux-2.6.21",
+    "pname": "linux",
+    "version": "2.6.21",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The Linux kernel (with patches: ext3cow, Con Kolivas Patch, paravirt-nvidia, skas-2.6.20-v9-pre9, fbsplash-0.9.2-r5-2.6.21)"
+    }
+  },
+  "kernel_2_6_21": {
+    "name": "linux-2.6.21.7",
+    "pname": "linux",
+    "version": "2.6.21.7",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The Linux kernel (with patches: ext3cow, paravirt-nvidia, skas-2.6.20-v9-pre9, fbsplash-0.9.2-r5-2.6.21)"
+    }
+  },
+  "kernel_2_6_22": {
+    "name": "linux-2.6.22.18",
+    "pname": "linux",
+    "version": "2.6.22.18",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The Linux kernel (with patches: fbsplash-0.9.2-r5-2.6.21)"
+    }
+  },
+  "kernel": {
+    "name": "linux-2.6.23.17",
+    "pname": "linux",
+    "version": "2.6.23.17",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The Linux kernel (with patches: fbsplash-0.9.2-r5-2.6.21, unionfs-2.2.2)"
+    }
+  },
+  "kernelHeaders_2_6_21": {
+    "name": "linux-headers-2.6.21.3",
+    "pname": "linux-headers",
+    "version": "2.6.21.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "kernelHeaders": {
+    "name": "linux-headers-2.6.23.16",
+    "pname": "linux-headers",
+    "version": "2.6.23.16",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "pam": {
+    "name": "linux-pam-0.99.6.3",
+    "pname": "linux-pam",
+    "version": "0.99.6.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "linuxwacom": {
+    "name": "linuxwacom-0.7.2",
+    "pname": "linuxwacom",
+    "version": "0.7.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.listres": {
+    "name": "listres-1.0.1",
+    "pname": "listres",
+    "version": "1.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.lndir": {
+    "name": "lndir-1.0.1",
+    "pname": "lndir",
+    "version": "1.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "log4cxx": {
+    "name": "log4cxx-0.9.7",
+    "pname": "log4cxx",
+    "version": "0.9.7",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "loudmouth": {
+    "name": "loudmouth-1.3.3",
+    "pname": "loudmouth",
+    "version": "1.3.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "lout": {
+    "name": "lout-3.36",
+    "pname": "lout",
+    "version": "3.36",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Lout is a document layout system, similar in functionality\n    \t\t    to TeX/LaTeX, but based on a purely functional programming\n\t\t    language.  It can produce PostScript output.",
+      "homepage": "http://www.cs.usyd.edu.au/~jeff/",
+      "license": "GPL"
+    }
+  },
+  "lsh": {
+    "name": "lsh-2.0.4",
+    "pname": "lsh",
+    "version": "2.0.4",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "GNU lsh, a GPL'd implementation of the SSH protocol.",
+      "homepage": "http://www.lysator.liu.se/~nisse/lsh/",
+      "license": "GPL"
+    }
+  },
+  "lsof": {
+    "name": "lsof-4.78",
+    "pname": "lsof",
+    "version": "4.78",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "List open files. Can show what process has opened some file, \nsocket (IPv6/IPv4/UNIX local), or partition (by opening a file from it)."
+    }
+  },
+  "ltrace": {
+    "name": "ltrace-0.5",
+    "pname": "ltrace",
+    "version": "0.5",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tLibrary call tracer.\n",
+      "src": null
+    }
+  },
+  "lua4": {
+    "name": "lua-4.0.1",
+    "pname": "lua",
+    "version": "4.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "lua5": {
+    "name": "lua-5.1.2",
+    "pname": "lua",
+    "version": "5.1.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "lucene": {
+    "name": "lucene-1.4.1",
+    "pname": "lucene",
+    "version": "1.4.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.luit": {
+    "name": "luit-1.0.2",
+    "pname": "luit",
+    "version": "1.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "lvm2": {
+    "name": "lvm2-2.02.28",
+    "pname": "lvm2",
+    "version": "2.02.28",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "lvm2Static": {
+    "name": "lvm2-2.02.28-static",
+    "pname": "lvm2",
+    "version": "2.02.28-static",
+    "system": "x86_64-linux",
+    "meta": {
+      "priority": "10"
+    }
+  },
+  "lynx": {
+    "name": "lynx-2.8.6",
+    "pname": "lynx",
+    "version": "2.8.6",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A text-mode web browser"
+    }
+  },
+  "lyx": {
+    "name": "lyx-1.5.3",
+    "pname": "lyx",
+    "version": "1.5.3",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "WYSIWYM frontend for LaTeX, DocBook, etc.",
+      "homepage": "http://www.lyx.org",
+      "license": "GPL2"
+    }
+  },
+  "lzma": {
+    "name": "lzma-4.32.5",
+    "pname": "lzma",
+    "version": "4.32.5",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The LZMA compression program",
+      "homepage": "http://tukaani.org/lzma/"
+    }
+  },
+  "lzo": {
+    "name": "lzo-2.02",
+    "pname": "lzo",
+    "version": "2.02",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "LZO is a data compresion library which is suitable for\n\t\tdata de-/compression in real-time",
+      "homepage": "http://www.oberhumer.com/opensource/lzo"
+    }
+  },
+  "xlibs.makedepend": {
+    "name": "makedepend-1.0.1",
+    "pname": "makedepend",
+    "version": "1.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "man": {
+    "name": "man-1.6f",
+    "pname": "man",
+    "version": "1.6f",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Tool to read online Unix documentation",
+      "homepage": "http://primates.ximian.com/~flucifredi/man/"
+    }
+  },
+  "man_db": {
+    "name": "man-db-2.5.1",
+    "pname": "man-db",
+    "version": "2.5.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "An implementation of the standard Unix documentation system accessed using the man command",
+      "homepage": "http://www.nongnu.org/man-db/"
+    }
+  },
+  "manpages": {
+    "name": "man-pages-2.74",
+    "pname": "man-pages",
+    "version": "2.74",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Linux development manual pages",
+      "homepage": "ftp://ftp.win.tue.nl/pub/linux-local/manpages/"
+    }
+  },
+  "martyr": {
+    "name": "martyr-0.3.9",
+    "pname": "martyr",
+    "version": "0.3.9",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "maven": {
+    "name": "maven-1.0.2",
+    "pname": "maven",
+    "version": "1.0.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "mvn_bin": {
+    "name": "maven-2.0.8-bin",
+    "pname": "maven",
+    "version": "2.0.8-bin",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Java build tool",
+      "homepage": "apache.org"
+    }
+  },
+  "maxima": {
+    "name": "maxima-5.13.0",
+    "pname": "maxima",
+    "version": "5.13.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Maxima computer algebra system",
+      "homepage": "http://maxima.sourceforge.net"
+    }
+  },
+  "mc": {
+    "name": "mc-4.6.1",
+    "pname": "mc",
+    "version": "4.6.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "File Manager and User Shell for the GNU Project",
+      "homepage": "http://www.ibiblio.org/mc"
+    }
+  },
+  "mdadm": {
+    "name": "mdadm-2.6",
+    "pname": "mdadm",
+    "version": "2.6",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Programs for managing RAID arrays under Linux"
+    }
+  },
+  "mediastreamer": {
+    "name": "mediastreamer2-2.2.0-cvs20080207",
+    "pname": "mediastreamer2",
+    "version": "2.2.0-cvs20080207",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "memtest86": {
+    "name": "memtest86+-1.70",
+    "pname": "memtest86+",
+    "version": "1.70",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "mercurial": {
+    "name": "mercurial-0.9.5",
+    "pname": "mercurial",
+    "version": "0.9.5",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A fast, lightweight SCM system for very large distributed projects",
+      "homepage": "http://www.selenic.com/mercurial/"
+    }
+  },
+  "mesa": {
+    "name": "mesa-7.0.2",
+    "pname": "mesa",
+    "version": "7.0.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "An open source implementation of OpenGL",
+      "homepage": "http://www.mesa3d.org/"
+    }
+  },
+  "mesaHeaders": {
+    "name": "mesa-headers-6.5.2",
+    "pname": "mesa-headers",
+    "version": "6.5.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "gnome.metacity": {
+    "name": "metacity-2.16.5",
+    "pname": "metacity",
+    "version": "2.16.5",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "mingetty": {
+    "name": "mingetty-1.07",
+    "pname": "mingetty",
+    "version": "1.07",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "mjpegtools": {
+    "name": "mjpegtools-1.6.2",
+    "pname": "mjpegtools",
+    "version": "1.6.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "mk": {
+    "name": "mk-2006-01-31",
+    "pname": "mk",
+    "version": "2006-01-31",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.mkfontdir": {
+    "name": "mkfontdir-1.0.3",
+    "pname": "mkfontdir",
+    "version": "1.0.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.mkfontscale": {
+    "name": "mkfontscale-1.0.3",
+    "pname": "mkfontscale",
+    "version": "1.0.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "mkinitrd": {
+    "name": "mkinitrd-4.2.15",
+    "pname": "mkinitrd",
+    "version": "4.2.15",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "mktemp": {
+    "name": "mktemp-1.5",
+    "pname": "mktemp",
+    "version": "1.5",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "mockobjects": {
+    "name": "mockobjects-0.09",
+    "pname": "mockobjects",
+    "version": "0.09",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "module_init_tools": {
+    "name": "module-init-tools-3.2.2",
+    "pname": "module-init-tools",
+    "version": "3.2.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "modutils": {
+    "name": "modutils-2.4.27",
+    "pname": "modutils",
+    "version": "2.4.27",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "mod_python": {
+    "name": "mod_python-3.3.1",
+    "pname": "mod_python",
+    "version": "3.3.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "mono": {
+    "name": "mono-1.1.4",
+    "pname": "mono",
+    "version": "1.1.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "monoDLLFixer": {
+    "name": "mono-dll-fixer",
+    "pname": "mono-dll-fixer",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "monodevelop": {
+    "name": "monodevelop-0.6-pre2315",
+    "pname": "monodevelop",
+    "version": "0.6-pre2315",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "monodoc": {
+    "name": "monodoc-1.0.6",
+    "pname": "monodoc",
+    "version": "1.0.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "monotone": {
+    "name": "monotone-0.38",
+    "pname": "monotone",
+    "version": "0.38",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "mozilla": {
+    "name": "mozilla-1.7.12",
+    "pname": "mozilla",
+    "version": "1.7.12",
+    "system": "x86_64-linux",
+    "meta": {
+      "homepage": "http://www.mozilla.org"
+    }
+  },
+  "mpeg2dec": {
+    "name": "mpeg2dec-20050802",
+    "pname": "mpeg2dec",
+    "version": "20050802",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "mpfr": {
+    "name": "mpfr-2.3.0",
+    "pname": "mpfr",
+    "version": "2.3.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tMulti Precision Floating arithmetic with correct Rounding.\n"
+    }
+  },
+  "mpg321": {
+    "name": "mpg321-0.2.10",
+    "pname": "mpg321",
+    "version": "0.2.10",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Command-line MP3 player.",
+      "homepage": "http://mpg321.sourceforge.net/",
+      "license": "GPLv2"
+    }
+  },
+  "mph_2b_damase": {
+    "name": "MPH-2B-Damase",
+    "pname": "MPH",
+    "version": "2B-Damase",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "mpich2": {
+    "name": "mpich2-1.0.6p1",
+    "pname": "mpich2",
+    "version": "1.0.6p1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "MPICH2 is a free high-performance and portable\n                    implementation of the Message Passing Interface\n\t\t    (MPI) standard, both version 1 and version 2.",
+      "homepage": "http://www.mcs.anl.gov/mpi/mpich2/",
+      "license": "free, see http://www.mcs.anl.gov/research/projects/mpich2/downloads/index.php?s=license"
+    }
+  },
+  "MPlayer": {
+    "name": "MPlayer-1.0rc2",
+    "pname": "MPlayer",
+    "version": "1.0rc2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A movie player that supports many video formats",
+      "homepage": "http://mplayerhq.hu",
+      "license": "GPL"
+    }
+  },
+  "MPlayerPlugin": {
+    "name": "mplayerplug-in-3.50",
+    "pname": "mplayerplug-in",
+    "version": "3.50",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A browser plugin that uses mplayer to play digital media from websites",
+      "homepage": "http://mplayerplug-in.sourceforge.net/"
+    }
+  },
+  "mssys": {
+    "name": "ms-sys-2.1.3",
+    "pname": "ms-sys",
+    "version": "2.1.3",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A program for writing Microsoft compatible boot records",
+      "homepage": "http://ms-sys.sourceforge.net/",
+      "license": "GPL"
+    }
+  },
+  "msilbc": {
+    "name": "msilbc-2.0.0",
+    "pname": "msilbc",
+    "version": "2.0.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "msmtp": {
+    "name": "msmtp-1.4.13",
+    "pname": "msmtp",
+    "version": "1.4.13",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "a MUA",
+      "homepage": "http://msmtp.sourceforge.net/",
+      "license": "GPL"
+    }
+  },
+  "mutt": {
+    "name": "mutt-1.5.15",
+    "pname": "mutt",
+    "version": "1.5.15",
+    "system": "x86_64-linux",
+    "meta": {
+      "homepage": "http://www.mutt.org"
+    }
+  },
+  "mysql4": {
+    "name": "mysql-4.1.18",
+    "pname": "mysql",
+    "version": "4.1.18",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "mysql": {
+    "name": "mysql-5.0.45",
+    "pname": "mysql",
+    "version": "5.0.45",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "mysql_jdbc": {
+    "name": "mysql-connector-java-3.1.12",
+    "pname": "mysql-connector-java",
+    "version": "3.1.12",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "mysqlConnectorODBC": {
+    "name": "mysql-connector-odbc-3.51.12",
+    "pname": "mysql-connector-odbc",
+    "version": "3.51.12",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "nagios": {
+    "name": "nagios-2.10",
+    "pname": "nagios",
+    "version": "2.10",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A host, service and network monitoring program",
+      "homepage": "http://www.nagios.org/",
+      "license": "GPL"
+    }
+  },
+  "nagiosPluginsOfficial": {
+    "name": "nagios-plugins-1.4.10",
+    "pname": "nagios-plugins",
+    "version": "1.4.10",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Official plugins for Nagios",
+      "homepage": "http://www.nagios.org/",
+      "license": "GPL"
+    }
+  },
+  "nano": {
+    "name": "nano-2.0.7",
+    "pname": "nano",
+    "version": "2.0.7",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A small, user-friendly console text editor",
+      "homepage": "http://www.nano-editor.org/"
+    }
+  },
+  "nanoDiet": {
+    "name": "nano-2.0.7-diet",
+    "pname": "nano",
+    "version": "2.0.7-diet",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A small, user-friendly console text editor",
+      "homepage": "http://www.nano-editor.org/",
+      "priority": "10"
+    }
+  },
+  "nasm": {
+    "name": "nasm-0.98.39",
+    "pname": "nasm",
+    "version": "0.98.39",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "nc6": {
+    "name": "nc6-1.0",
+    "pname": "nc6",
+    "version": "1.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n      nc6 - one more netcat, IPv6 support included.\n    ",
+      "homepage": "http://www.deepspace6.net/projects/netcat6.html",
+      "src": null
+    }
+  },
+  "ncat": {
+    "name": "ncat-0.10rc3",
+    "pname": "ncat",
+    "version": "0.10rc3",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tNcat - some effort to join features from different `netcat's. Supports IPv6.\n"
+    }
+  },
+  "ncursesDiet": {
+    "name": "ncurses-5.5",
+    "pname": "ncurses",
+    "version": "5.5",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "ncurses": {
+    "name": "ncurses-5.6",
+    "pname": "ncurses",
+    "version": "5.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "neon": {
+    "name": "neon-0.26.3",
+    "pname": "neon",
+    "version": "0.26.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "nettools": {
+    "name": "net-tools-1.60",
+    "pname": "net-tools",
+    "version": "1.60",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "netcat": {
+    "name": "netcat-gnu-0.7.1",
+    "pname": "netcat-gnu",
+    "version": "0.7.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "netselect": {
+    "name": "netselect-0.3",
+    "pname": "netselect",
+    "version": "0.3",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "An ultrafast intelligent parallelizing binary-search implementation of \"ping\"",
+      "homepage": "http://alumnit.ca/~apenwarr/netselect/",
+      "license": "BSD"
+    }
+  },
+  "nixStatic": {
+    "name": "nix-0.10pre5896",
+    "pname": "nix",
+    "version": "0.10pre5896",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "nix": {
+    "name": "nix-0.11",
+    "pname": "nix",
+    "version": "0.11",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The Nix Deployment System",
+      "homepage": "http://nix.cs.uu.nl/",
+      "license": "LGPL"
+    }
+  },
+  "nixUnstable": {
+    "name": "nix-0.12pre10798",
+    "pname": "nix",
+    "version": "0.12pre10798",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The Nix Deployment System",
+      "homepage": "http://nix.cs.uu.nl/",
+      "license": "LGPL"
+    }
+  },
+  "nixRepositoryManager": {
+    "name": "nix-repository-manager",
+    "pname": "nix-repository-manager",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "makes it easy to keep some packages up to date",
+      "homepage": "http://mawercer.de/repos/nix-repository-manager",
+      "license": "GPL"
+    }
+  },
+  "nmap": {
+    "name": "Nmap",
+    "pname": "Nmap",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "noweb": {
+    "name": "noweb-2.10c",
+    "pname": "noweb",
+    "version": "2.10c",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "nss": {
+    "name": "nss-3.10",
+    "pname": "nss",
+    "version": "3.10",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "nss_ldap": {
+    "name": "nss_ldap-254",
+    "pname": "nss_ldap",
+    "version": "254",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "ntfs3g": {
+    "name": "ntfs-3g-1.1104",
+    "pname": "ntfs",
+    "version": "3g-1.1104",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "FUSE-base ntfs driver with full write support",
+      "homepage": "http://www.ntfs-3g.org"
+    }
+  },
+  "ntfsprogs": {
+    "name": "ntfsprogs-2.0.0",
+    "pname": "ntfsprogs",
+    "version": "2.0.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "ntfs utilities",
+      "homepage": "http://sourceforge.net/projects/linux-ntfs",
+      "license": "GPL"
+    }
+  },
+  "ntp": {
+    "name": "ntp-4.2.4p4",
+    "pname": "ntp",
+    "version": "4.2.4p4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "nukeReferences": {
+    "name": "nuke-references",
+    "pname": "nuke-references",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "nvidiaDrivers": {
+    "name": "nvidiaDrivers-169.12",
+    "pname": "nvidiaDrivers",
+    "version": "169.12",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "nxml": {
+    "name": "nxml-mode-20041004",
+    "pname": "nxml-mode",
+    "version": "20041004",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "ocaml": {
+    "name": "ocaml-3.09.1",
+    "pname": "ocaml",
+    "version": "3.09.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.oclock": {
+    "name": "oclock-1.0.1",
+    "pname": "oclock",
+    "version": "1.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "octave": {
+    "name": "octave-2.9.6",
+    "pname": "octave",
+    "version": "2.9.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "openal": {
+    "name": "openal-0.0.8",
+    "pname": "openal",
+    "version": "0.0.8",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "openalSoft": {
+    "name": "openal-soft-1.1.93",
+    "pname": "openal-soft",
+    "version": "1.1.93",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "openal alternative",
+      "homepage": "http://kcat.strangesoft.net/openal.html",
+      "license": "GPL2"
+    }
+  },
+  "openbabel": {
+    "name": "openbabel-2.1.1",
+    "pname": "openbabel",
+    "version": "2.1.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "opencxx": {
+    "name": "opencxx-2.8",
+    "pname": "opencxx",
+    "version": "2.8",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "openexr_1_4_0": {
+    "name": "openexr-1.4.0",
+    "pname": "openexr",
+    "version": "1.4.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "openexr_1_6_1": {
+    "name": "openexr-1.6.1",
+    "pname": "openexr",
+    "version": "1.6.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "openexr_ctl": {
+    "name": "openexr_ctl-1.0.1",
+    "pname": "openexr_ctl",
+    "version": "1.0.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Color Transformation Language",
+      "homepage": "http://ampasctl.sourceforge.net",
+      "license": "SOME OPEN SOURCE LICENSE"
+    }
+  },
+  "exrdisplay": {
+    "name": "openexr_viewers-1.0.1",
+    "pname": "openexr_viewers",
+    "version": "1.0.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "tool to view OpenEXR images",
+      "homepage": "http://openexr.com",
+      "license": "BSD-like"
+    }
+  },
+  "openfire": {
+    "name": "openfire-3.4.5",
+    "pname": "openfire",
+    "version": "3.4.5",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n    XMPP server in Java.\n",
+      "src": null
+    }
+  },
+  "openldap": {
+    "name": "openldap-2.3.32",
+    "pname": "openldap",
+    "version": "2.3.32",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "openoffice": {
+    "name": "openoffice.org-2.3.0",
+    "pname": "openoffice.org",
+    "version": "2.3.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "OpenOffice.org is a multiplatform and multilingual office suite",
+      "homepage": "http://www.openoffice.org/",
+      "license": "LGPL"
+    }
+  },
+  "openssh": {
+    "name": "openssh-4.7p1",
+    "pname": "openssh",
+    "version": "4.7p1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "openssl": {
+    "name": "openssl-0.9.8g",
+    "pname": "openssl",
+    "version": "0.9.8g",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "opera": {
+    "name": "opera-9.24-20071015.5",
+    "pname": "opera",
+    "version": "9.24-20071015.5",
+    "system": "x86_64-linux",
+    "meta": {
+      "homepage": "http://www.opera.com"
+    }
+  },
+  "gnome.ORBit2": {
+    "name": "ORBit2-2.14.5",
+    "pname": "ORBit2",
+    "version": "2.14.5",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "spoofax": {
+    "name": "org.spoofax.editor_0.3.11.jar",
+    "pname": "org.spoofax.editor_0.3.11.jar",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "ortp": {
+    "name": "ortp-0.13.1",
+    "pname": "ortp",
+    "version": "0.13.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "a Real-Time Transport Protocol (RFC3550) stack under LGPL",
+      "homepage": "http://www.linphone.org/index.php/eng/code_review/ortp"
+    }
+  },
+  "ov511": {
+    "name": "ov511-2.30",
+    "pname": "ov511",
+    "version": "2.30",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "p7zip": {
+    "name": "p7zip-4.57",
+    "pname": "p7zip",
+    "version": "4.57",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A port of the 7-zip archiver",
+      "homepage": "http://p7zip.sourceforge.net/"
+    }
+  },
+  "pam_console": {
+    "name": "pam_console-0.99.5",
+    "pname": "pam_console",
+    "version": "0.99.5",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "pam_devperm": {
+    "name": "pam_devperm-1.6",
+    "pname": "pam_devperm",
+    "version": "1.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "pam_ldap": {
+    "name": "pam_ldap-183",
+    "pname": "pam_ldap",
+    "version": "183",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "pam_login": {
+    "name": "pam_login-3.31",
+    "pname": "pam_login",
+    "version": "3.31",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "pam_unix2": {
+    "name": "pam_unix2-2.1",
+    "pname": "pam_unix2",
+    "version": "2.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "pan": {
+    "name": "pan-0.132",
+    "pname": "pan",
+    "version": "0.132",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A GTK+-based Usenet newsreader good at both text and binaries"
+    }
+  },
+  "gnome.pango": {
+    "name": "pango-1.14.10",
+    "pname": "pango",
+    "version": "1.14.10",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "pangoxsl": {
+    "name": "pangoxsl-1.6.0.3",
+    "pname": "pangoxsl",
+    "version": "1.6.0.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "par2cmdline": {
+    "name": "par2cmdline-0.4",
+    "pname": "par2cmdline",
+    "version": "0.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "parted": {
+    "name": "parted-1.8.7",
+    "pname": "parted",
+    "version": "1.8.7",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "patchelf": {
+    "name": "patchelf-0.3",
+    "pname": "patchelf",
+    "version": "0.3",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A small utility to modify the dynamic linker and RPATH of ELF executables",
+      "homepage": "http://nix.cs.uu.nl/patchelf.html",
+      "license": "GPL"
+    }
+  },
+  "pciutils": {
+    "name": "pciutils-2.2.8",
+    "pname": "pciutils",
+    "version": "2.2.8",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "pcre": {
+    "name": "pcre-7.4",
+    "pname": "pcre",
+    "version": "7.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "pdfjam": {
+    "name": "pdfjam-1.20",
+    "pname": "pdfjam",
+    "version": "1.20",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "sysPerl": {
+    "name": "perl",
+    "pname": "perl",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perl": {
+    "name": "perl-5.10.0",
+    "pname": "perl",
+    "version": "5.10.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perl58": {
+    "name": "perl-5.8.8",
+    "pname": "perl",
+    "version": "5.8.8",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlArchiveZip": {
+    "name": "perl-Archive-Zip-1.16",
+    "pname": "perl-Archive-Zip",
+    "version": "1.16",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlBerkeleyDB": {
+    "name": "perl-BerkeleyDB-0.27",
+    "pname": "perl-BerkeleyDB",
+    "version": "0.27",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlCGISession": {
+    "name": "perl-CGI-Session-3.95",
+    "pname": "perl-CGI-Session",
+    "version": "3.95",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlCompressZlib": {
+    "name": "perl-Compress-Zlib-1.41",
+    "pname": "perl-Compress-Zlib",
+    "version": "1.41",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlCryptPasswordMD5": {
+    "name": "perl-Crypt-PasswdMD5-1.3",
+    "pname": "perl-Crypt-PasswdMD5",
+    "version": "1.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlDateManip": {
+    "name": "perl-DateManip-5.42a",
+    "pname": "perl-DateManip",
+    "version": "5.42a",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlDBFile": {
+    "name": "perl-DB_File-1.816",
+    "pname": "perl-DB_File",
+    "version": "1.816",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlDigestSHA1": {
+    "name": "perl-Digest-SHA1-2.11",
+    "pname": "perl-Digest-SHA1",
+    "version": "2.11",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlEmailAddress": {
+    "name": "perl-Email-Address-1.888",
+    "pname": "perl-Email-Address",
+    "version": "1.888",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlEmailSend": {
+    "name": "perl-Email-Send-2.185",
+    "pname": "perl-Email-Send",
+    "version": "2.185",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlEmailSimple": {
+    "name": "perl-Email-Simple-2.003",
+    "pname": "perl-Email-Simple",
+    "version": "2.003",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlHTMLParser": {
+    "name": "perl-HTML-Parser-3.56",
+    "pname": "perl-HTML-Parser",
+    "version": "3.56",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlHTMLTagset": {
+    "name": "perl-HTML-Tagset-3.10",
+    "pname": "perl-HTML-Tagset",
+    "version": "3.10",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlHTMLTree": {
+    "name": "perl-HTML-Tree-3.18",
+    "pname": "perl-HTML-Tree",
+    "version": "3.18",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlLWP": {
+    "name": "perl-libwww-perl-5.808",
+    "pname": "perl-libwww-perl",
+    "version": "5.808",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlLocaleGettext": {
+    "name": "perl-LocaleGettext-1.04",
+    "pname": "perl-LocaleGettext",
+    "version": "1.04",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlModulePluggable": {
+    "name": "perl-Module-Pluggable-3.5",
+    "pname": "perl-Module-Pluggable",
+    "version": "3.5",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlFontTTF": {
+    "name": "perl-perl-Font-TTF-0.43",
+    "pname": "perl-perl-Font-TTF",
+    "version": "0.43",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlReturnValue": {
+    "name": "perl-Return-Value-1.302",
+    "pname": "perl-Return-Value",
+    "version": "1.302",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlStringMkPasswd": {
+    "name": "perl-String-MkPasswd-0.02",
+    "pname": "perl-String-MkPasswd",
+    "version": "0.02",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlTermReadKey": {
+    "name": "perl-TermReadKey-2.30",
+    "pname": "perl-TermReadKey",
+    "version": "2.30",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlURI": {
+    "name": "perl-URI-1.35",
+    "pname": "perl-URI",
+    "version": "1.35",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlXMLDOM": {
+    "name": "perl-XML-DOM-1.44",
+    "pname": "perl-XML-DOM",
+    "version": "1.44",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlXMLLibXML": {
+    "name": "perl-XML-LibXML-1.58",
+    "pname": "perl-XML-LibXML",
+    "version": "1.58",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlXMLLibXMLCommon": {
+    "name": "perl-XML-LibXML-Common-0.13",
+    "pname": "perl-XML-LibXML-Common",
+    "version": "0.13",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlXMLNamespaceSupport": {
+    "name": "perl-XML-NamespaceSupport-1.08",
+    "pname": "perl-XML-NamespaceSupport",
+    "version": "1.08",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlXMLParser": {
+    "name": "perl-XML-Parser-2.34",
+    "pname": "perl-XML-Parser",
+    "version": "2.34",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlXMLRegExp": {
+    "name": "perl-XML-RegExp-0.03",
+    "pname": "perl-XML-RegExp",
+    "version": "0.03",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlXMLSAX": {
+    "name": "perl-XML-SAX-0.12",
+    "pname": "perl-XML-SAX",
+    "version": "0.12",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlXMLSimple": {
+    "name": "perl-XML-Simple-2.14",
+    "pname": "perl-XML-Simple",
+    "version": "2.14",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlXMLTwig": {
+    "name": "perl-XML-Twig-3.15",
+    "pname": "perl-XML-Twig",
+    "version": "3.15",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "perlXMLWriter": {
+    "name": "perl-XML-Writer-0.602",
+    "pname": "perl-XML-Writer",
+    "version": "0.602",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xmltv": {
+    "name": "perl-xmltv-0.5.45",
+    "pname": "perl-xmltv",
+    "version": "0.5.45",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "pgadmin": {
+    "name": "pgadmin3-1.8.1",
+    "pname": "pgadmin3",
+    "version": "1.8.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "postgresql admin gui tool",
+      "homepage": "http://www.pgadmin.org",
+      "license": "GPL2"
+    }
+  },
+  "pgf": {
+    "name": "pgf-1.10",
+    "pname": "pgf",
+    "version": "1.10",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "phpOld": {
+    "name": "php-5.2.4",
+    "pname": "php",
+    "version": "5.2.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "php": {
+    "name": "php_configurable-5.2.5",
+    "pname": "php_configurable",
+    "version": "5.2.5",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The PHP language runtime engine",
+      "homepage": "http://www.php.net/",
+      "license": "PHP-3"
+    }
+  },
+  "pidgin": {
+    "name": "pidgin-2.4.0",
+    "pname": "pidgin",
+    "version": "2.4.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Pidgin IM - XMPP(Jabber), AIM/ICQ, IRC, SIP etc client.",
+      "homepage": "http://pidgin.im"
+    }
+  },
+  "pidginlatex": {
+    "name": "pidgin-latex",
+    "pname": "pidgin-latex",
+    "version": "",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tPidgin-LaTeX is a pidgin plugin that cuts everything inside $$ .. $$\n\tand feeds to LaTeX. A bit of conversion (automated, of course) - and you\n\tsee every formula that occurs in conversation in pretty graphical form.\n\tThere are some glitches - when a formula fails to compile, you can see \n\tjust previous formula..\n\tEnable it for user by linking to ~/.purple/plugins - from \n\tsw/share/pidgin-latex , not from store of course.\n",
+      "homepage": "http://tapas.affenbande.org/wordpress/?page_id=70"
+    }
+  },
+  "pidginotr": {
+    "name": "pidgin-otr-3.1.0",
+    "pname": "pidgin-otr",
+    "version": "3.1.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "OTR plugin for Pidgin IM.",
+      "homepage": "http://www.cypherpunks.ca/otr"
+    }
+  },
+  "pinfo": {
+    "name": "pinfo-0.6.9",
+    "pname": "pinfo",
+    "version": "0.6.9",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.pixman": {
+    "name": "pixman-0.9.6",
+    "pname": "pixman",
+    "version": "0.9.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "pkgconfig": {
+    "name": "pkgconfig-0.22",
+    "pname": "pkgconfig",
+    "version": "0.22",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "ploticus": {
+    "name": "ploticus-2.33",
+    "pname": "ploticus",
+    "version": "2.33",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "polytable": {
+    "name": "polytable-0.8.2",
+    "pname": "polytable",
+    "version": "0.8.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "poppler": {
+    "name": "poppler-0.6.1",
+    "pname": "poppler",
+    "version": "0.6.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "poppler_data": {
+    "name": "poppler-data-0.1.1",
+    "pname": "poppler-data",
+    "version": "0.1.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "popt110": {
+    "name": "popt-1.10.6",
+    "pname": "popt",
+    "version": "1.10.6",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "popt": {
+    "name": "popt-1.7",
+    "pname": "popt",
+    "version": "1.7",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "postgresql": {
+    "name": "postgresql-8.3.0",
+    "pname": "postgresql",
+    "version": "8.3.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "postgresql_jdbc": {
+    "name": "postgresql-jdbc-8.2",
+    "pname": "postgresql-jdbc",
+    "version": "8.2",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "powertop": {
+    "name": "powertop-1.9",
+    "pname": "powertop",
+    "version": "1.9",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "xlibs.printproto": {
+    "name": "printproto-1.0.3",
+    "pname": "printproto",
+    "version": "1.0.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "procmail": {
+    "name": "procmail-3.22",
+    "pname": "procmail",
+    "version": "3.22",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "procps": {
+    "name": "procps-3.2.7",
+    "pname": "procps",
+    "version": "3.2.7",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "proj": {
+    "name": "proj-4.5.0",
+    "pname": "proj",
+    "version": "4.5.0",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Cartographic Projections Library",
+      "homepage": "http://proj.maptools.org",
+      "license": "MIT"
+    }
+  },
+  "xlibs.proxymngr": {
+    "name": "proxymngr-1.0.1",
+    "pname": "proxymngr",
+    "version": "1.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "psmisc": {
+    "name": "psmisc-22.6",
+    "pname": "psmisc",
+    "version": "22.6",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "A set of small useful utilities that use the proc filesystem (such as fuser, killall and pstree)",
+      "homepage": "http://psmisc.sourceforge.net/"
+    }
+  },
+  "pstree": {
+    "name": "pstree-2.31",
+    "pname": "pstree",
+    "version": "2.31",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "show the running processes as tree",
+      "homepage": "http://fresh.t-systems-sfr.com/unix/src/misc/pstree-2.31.tar.gz",
+      "license": "GPL"
+    }
+  },
+  "pth": {
+    "name": "pth-2.0.7",
+    "pname": "pth",
+    "version": "2.0.7",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The GNU Portable Threads",
+      "homepage": "http://www.gnu.org/software/pth"
+    }
+  },
+  "putty": {
+    "name": "putty-0.60",
+    "pname": "putty",
+    "version": "0.60",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "pwdutils": {
+    "name": "pwdutils-3.1.3",
+    "pname": "pwdutils",
+    "version": "3.1.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "pwgen": {
+    "name": "pwgen-2.05",
+    "pname": "pwgen",
+    "version": "2.05",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "Small, GPL'ed password generator which creates passwords which can be easily memorized by a human."
+    }
+  },
+  "pycairo": {
+    "name": "pycairo-1.4.0",
+    "pname": "pycairo",
+    "version": "1.4.0",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "pycrypto": {
+    "name": "pycrypto-2.0.1",
+    "pname": "pycrypto",
+    "version": "2.0.1",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "pygame": {
+    "name": "pygame-1.7",
+    "pname": "pygame",
+    "version": "1.7",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tPython library for games.\n"
+    }
+  },
+  "pygobject": {
+    "name": "pygobject-2.12.3",
+    "pname": "pygobject",
+    "version": "2.12.3",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "pygtk": {
+    "name": "pygtk-2.10.4",
+    "pname": "pygtk",
+    "version": "2.10.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "pyrex": {
+    "name": "Pyrex-0.9.6",
+    "pname": "Pyrex",
+    "version": "0.9.6",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tPython package compiler or something like that.\t\n",
+      "src": null
+    }
+  },
+  "python": {
+    "name": "python-2.4.4",
+    "pname": "python",
+    "version": "2.4.4",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "pil": {
+    "name": "python-imaging-1.1.6",
+    "pname": "python-imaging",
+    "version": "1.1.6",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\tPython Imaging library.\n"
+    }
+  },
+  "pythonmagick": {
+    "name": "PythonMagick-0.7",
+    "pname": "PythonMagick",
+    "version": "0.7",
+    "system": "x86_64-linux",
+    "meta": {
+      "homepage": "http://www.imagemagick.org/script/api.php"
+    }
+  },
+  "pyxml": {
+    "name": "PyXML-0.8.4",
+    "pname": "PyXML",
+    "version": "0.8.4",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "The PyXML package is a collection of libraries to process\n                    XML with Python.",
+      "homepage": "http://pyxml.sourceforge.net/"
+    }
+  },
+  "qcmm": {
+    "name": "qcmm-2006-01-31",
+    "pname": "qcmm",
+    "version": "2006-01-31",
+    "system": "x86_64-linux",
+    "meta": {}
+  },
+  "qemu": {
+    "name": "qemu-0.9.1",
+    "pname": "qemu",
+    "version": "0.9.1",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": "\n\t\tQEmu processor emulator.\n",
+      "src": null
+    }
+  },
+  "qemuImage": {
+    "name": "QEmu-Linux-Image-0.2",
+    "pname": "QEmu-Linux-Image",
+    "version": "0.2",
+    "system": "x86_64-linux",
+    "meta": {
+      "description": 
+    }
+  }
+}
